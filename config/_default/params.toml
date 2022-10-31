@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Yuyang Wang"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Academic Homepage"
+description = "Yuyang Wang is a Postdoctoral Research Scientist in the Lightwave Research Laboratory at Columbia University."
 
 ## Documentation
 # docsVersion = "0.3"
