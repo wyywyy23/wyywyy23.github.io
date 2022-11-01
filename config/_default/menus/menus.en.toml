@@ -70,6 +70,18 @@
   url = "https://scholar.google.com/citations?user=HrJ7_4oAAAAJ&hl=en"
   weight = 10
 
+[[social]]
+  name = "LinkedIn"
+  pre = "<span style=\"vertical-align: -.125em; fill: currentColor;\"> <i class=\"fab fa-linkedin-in fa-fw\"></i> </span>"
+  url = "https://www.linkedin.com/in/yuyangucsb/"
+  weight = 20
+
+[[social]]
+  name = "GitHub"
+  pre = "<span style=\"vertical-align: -.125em; fill: currentColor;\"> <i class=\"fab fa-github fa-fw\"></i> </span>"
+  url = "https://github.com/wyywyy23/"
+  weight = 30
+
 # [[footer]]
 #   name = "Privacy"
 #   url = "/privacy-policy/"
