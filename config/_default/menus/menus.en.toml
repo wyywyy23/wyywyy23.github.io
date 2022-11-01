@@ -71,6 +71,12 @@
   weight = 10
 
 [[social]]
+  name = "ORCiD"
+  pre = "<span style=\"vertical-align: -.125em; fill: currentColor;\"> <i class=\"fab fa-orcid fa-fw\"></i> </span>"
+  url = "https://orcid.org/0000-0002-4242-8879"
+  weight = 15
+
+[[social]]
   name = "LinkedIn"
   pre = "<span style=\"vertical-align: -.125em; fill: currentColor;\"> <i class=\"fab fa-linkedin-in fa-fw\"></i> </span>"
   url = "https://www.linkedin.com/in/yuyangucsb/"
