@@ -7,3 +7,6 @@
 [submodule "static/css/vendor/bootstrap-icons"]
 	path = static/css/vendor/bootstrap-icons
 	url = https://github.com/twbs/icons.git
+[submodule "static/fonts/vendor/firaGO"]
+	path = static/fonts/vendor/firaGO
+	url = https://github.com/bBoxType/FiraGO.git
