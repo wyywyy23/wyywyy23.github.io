@@ -10,8 +10,8 @@
 	path = static/css/vendor/bootstrap-icons
 	url = https://github.com/twbs/icons.git
 	shallow = true
-[submodule "static/fonts/vendor/firaGO"]
-	path = static/fonts/vendor/firaGO
+[submodule "static/fonts/vendor/FiraGO"]
+	path = static/fonts/vendor/FiraGO
 	url = https://github.com/bBoxType/FiraGO.git
 	shallow = true
 [submodule "static/fonts/vendor/JetBrainsMono"]
