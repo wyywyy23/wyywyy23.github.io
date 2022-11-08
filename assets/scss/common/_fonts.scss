@@ -6,13 +6,14 @@
   font-display: swap;
   src:
     // Google Fonts Jost
-    local("Jost Regular Regular"),   // Full Name
-    local("Jost-Regular"),           // PostScript name
+    local("Jost Regular Regular"), // Full Name
+    local("Jost-Regular"), // PostScript name
     // indestructible Jost*
     local("Jost* Book"),
     local("Jost-Book"),
     url("fonts/vendor/jost/jost-v4-latin-regular.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/jost/jost-v4-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-500 - latin */
@@ -29,7 +30,8 @@
     local("Jost* Medium"),
     local("Jost-Medium"),
     url("fonts/vendor/jost/jost-v4-latin-500.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/jost/jost-v4-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-700 - latin */
@@ -46,7 +48,8 @@
     local("Jost* Bold"),
     local("Jost-Bold"),
     url("fonts/vendor/jost/jost-v4-latin-700.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/jost/jost-v4-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-italic - latin */
@@ -63,7 +66,8 @@
     local("Jost* BookItalic"),
     local("Jost-BookItalic"),
     url("fonts/vendor/jost/jost-v4-latin-italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/jost/jost-v4-latin-italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-500italic - latin */
@@ -80,7 +84,8 @@
     local("Jost* Medium Italic"),
     local("Jost-MediumItalic"),
     url("fonts/vendor/jost/jost-v4-latin-500italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-500italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/jost/jost-v4-latin-500italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-700italic - latin */
@@ -97,5 +102,6 @@
     local("Jost* Bold Italic"),
     local("Jost-BoldItalic"),
     url("fonts/vendor/jost/jost-v4-latin-700italic.woff2") format("woff2"),
-    url("fonts/vendor/jost/jost-v4-latin-700italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url("fonts/vendor/jost/jost-v4-latin-700italic.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
