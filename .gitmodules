@@ -14,3 +14,7 @@
 	path = static/fonts/vendor/JetBrainsMono
 	url = https://github.com/JetBrains/JetBrainsMono.git
 	shallow = true
+[submodule "static/fonts/vendor/FiraGO"]
+	path = static/fonts/vendor/FiraGO
+	url = https://github.com/bBoxType/FiraGO.git
+	shallow = true
