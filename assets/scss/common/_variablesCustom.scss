@@ -23,10 +23,10 @@ $blue-300: #94c8d7;
 $pink-100: #fcfaff;
 $pink-500: #c9663f;
 
-$primary: $purple;
+$primary: $pink-500;
 
-$color-btn-bg: $pink-500;
-$color-btn-border: darken($pink-500, 5%);
+$color-btn-bg: $primary;
+$color-btn-border: darken($primary, 5%);
 $color-btn-text: $white;
 
 // Options
@@ -69,7 +69,7 @@ $body-color: $black;
 //
 // Style anchor elements.
 
-$link-color: $pink-500;
+$link-color: $primary;
 $link-decoration: none;
 
 // Grid containers
