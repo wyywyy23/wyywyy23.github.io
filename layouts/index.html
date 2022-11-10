@@ -6,13 +6,15 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <p class="lead">
-        {{ range .Site.Menus.social -}}
-        <a class="social-link" href="{{ .URL | relURL }}"
-          >{{ .Pre | safeHTML }}</a
-        >
-        {{ end -}}
-      </p>
+      <div id="social-in-landing-page">
+        <p class="lead">
+          {{ range .Site.Menus.social -}}
+          <a class="social-link" href="{{ .URL | relURL }}"
+            >{{ .Pre | safeHTML }}</a
+          >
+          {{ end -}}
+        </p>
+      </div>
     </div>
   </div>
 </section>

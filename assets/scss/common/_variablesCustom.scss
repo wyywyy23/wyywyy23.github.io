@@ -72,6 +72,14 @@ $body-color: $black;
 $link-color: $primary;
 $link-decoration: none;
 
+#social-in-landing-page a {
+  color: $body-color;
+}
+
+#social-in-landing-page a:hover {
+  color: $primary;
+}
+
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
