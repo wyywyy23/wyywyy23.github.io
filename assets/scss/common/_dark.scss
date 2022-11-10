@@ -35,14 +35,6 @@ $navbar-dark-active-color: $link-color-dark;
   color: $focus-color-dark;
 }
 
-[data-dark-mode] #social-in-landing-page a {
-  color: $body-color-dark;
-}
-
-[data-dark-mode] #social-in-landing-page a:hover {
-  color: $blue-300;
-}
-
 [data-dark-mode] body a.text-body {
   color: $body-color-dark !important;
 }
