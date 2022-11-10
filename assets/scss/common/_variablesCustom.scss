@@ -25,8 +25,8 @@ $pink-500: #BD6049;
 
 $primary: $purple;
 
-$color-btn-bg: $primary;
-$color-btn-border: darken($primary, 5%);
+$color-btn-bg: $pink-500;
+$color-btn-border: darken($pink-500, 5%);
 $color-btn-text: $white;
 
 // Options
