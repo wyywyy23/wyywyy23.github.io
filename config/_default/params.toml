@@ -13,7 +13,7 @@ description = "Yuyang Wang is a Postdoctoral Research Scientist in the Lightwave
 images = ["android-chrome-512x512.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+titleHome = "Yuyang Wang - Academic Homepage"
 
 ## Twitter Cards
 twitterSite = "@getdoks"
