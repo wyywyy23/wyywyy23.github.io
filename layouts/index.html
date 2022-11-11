@@ -9,7 +9,11 @@
       <div id="social-in-landing-page">
         <p class="lead">
           {{ range .Site.Menus.social -}}
-          <a class="social-link" href="{{ .URL | relURL }}"
+          <a
+            target="_blank"
+            rel="noopener"
+            class="social-link"
+            href="{{ .URL | relURL }}"
             >{{ .Pre | safeHTML }}</a
           >
           {{ end -}}

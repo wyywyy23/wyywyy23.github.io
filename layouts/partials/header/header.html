@@ -58,7 +58,7 @@
         <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5 pe-md-2">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
-              <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
+              <a target="_blank" rel="noopener" class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
             </li>
           {{ end -}}
         </ul>
@@ -67,8 +67,8 @@
 
     {{ if .Site.Params.options.darkMode -}}
     <button id="mode" class="btn btn-link nav-item order-md-1" type="button" aria-label="Toggle user interface mode">
-      <span class="toggle-dark"><i class="fa-solid fa-moon fa-fw"></i></span>
-      <span class="toggle-light"><i class="fa-solid fa-sun fa-fw"></i></span>
+      <span class="toggle-dark"><i class="fa-regular fa-moon fa-fw"></i></span>
+      <span class="toggle-light"><i class="fa-regular fa-sun fa-fw"></i></span>
     </button>
     {{ end -}}
 
