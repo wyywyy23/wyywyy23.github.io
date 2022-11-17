@@ -592,3 +592,43 @@ $navbar-dark-active-color: $link-color-dark;
   background: $body-overlay-dark;
   border: 1px solid $body-overlay-dark;
 }
+
+[data-dark-mode] body .card.bg-white {
+  background: $body-bg-dark !important;
+}
+
+[data-dark-mode] body .bg-white {
+  background: darken($body-bg-dark, 1.5%) !important;
+}
+
+[data-dark-mode] #suggestions a:focus {
+  background: $gray-800;
+  outline: 0;
+}
+
+[data-dark-mode] #suggestions div:not(:first-child) {
+  border-top: 1px dashed $gray-700;
+}
+
+[data-dark-mode] #suggestions a:hover {
+  background: $gray-800;
+}
+
+[data-dark-mode] .suggestion__title {
+  font-weight: $headings-font-weight;
+  color: $gray-200;
+}
+
+[data-dark-mode] .suggestion__description, .suggestion__no-results {
+  color: $gray-300;
+}
+
+@include media-breakpoint-up(lg) {
+  [data-dark-mode] .suggestion__title {
+    width: 9rem;
+    padding-right: 1rem;
+    border-right: 1px solid $gray-700;
+    display: inline-block;
+    text-align: right;
+  }
+}
