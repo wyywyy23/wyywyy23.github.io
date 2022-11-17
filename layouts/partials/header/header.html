@@ -4,7 +4,7 @@
 
 <div class="header-bar"></div>
 
-<header class="navbar navbar-expand-md navbar-light doks-navbar">
+<header class="navbar navbar-expand-md px-0 navbar-light doks-navbar">
   <nav class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} flex-wrap flex-md-nowrap" aria-label="Main navigation">
     <a class="navbar-brand p-0 me-auto" href="{{ "/" | relURL }}" aria-label="Bootstrap">
       {{ .Site.Params.Title }}
@@ -54,7 +54,7 @@
         </ul>
         <hr class="text-black-50 my-4 d-md-none">
         <h3 class="h6 text-uppercase mb-3 d-md-none">Connect</h3>
-        <ul class="nav flex-column flex-md-row ms-md-3 me-md-auto">
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n3">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
               <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
@@ -66,8 +66,8 @@
 
     {{ if .Site.Params.options.darkMode -}}
     <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
-      <span class="toggle-dark"><i class="fa-solid fa-moon fa-fw"></i></span>
-      <span class="toggle-light"><i class="fa-solid fa-sun fa-fw"></i></span>
+      <span class="toggle-dark"><i class="fa-regular fa-moon fa-fw"></i></span>
+      <span class="toggle-light"><i class="fa-regular fa-sun fa-fw"></i></span>
     </button>
     {{ end -}}
 
@@ -98,12 +98,12 @@
 </header>
 
 {{ if eq .Section "docs" -}}
-<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
+<nav class="doks-subnavbar py-2 px-0 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} d-flex align-items-md-center">
 
     <button class="btn doks-sidebar-toggle d-lg-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle documentation navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+      <span class="doks doks-expand"><i class="fa-solid fa-angles-down fa-fw"></i></span>
+      <span class="doks doks-collapse"><i class="fa-solid fa-angles-up fa-fw"></i></span>
     </button>
 
     <!--
@@ -140,7 +140,7 @@
 {{ end -}}
 
 {{ if eq .Section "tutorial" -}}
-<nav class="doks-subnavbar py-2 sticky-lg-top" aria-label="Secondary navigation">
+<nav class="doks-subnavbar py-2 px-0 sticky-lg-top" aria-label="Secondary navigation">
   <div class="container-{{ if .Site.Params.options.fullWidth }}fluid{{ else }}xxl{{ end }} d-flex align-items-md-center">
 
     <nav class="nav">
@@ -150,8 +150,8 @@
     </nav>
 
     <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle tutorial navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+      <span class="doks doks-expand"><i class="fa-solid fa-angles-down fa-fw"></i></span>
+      <span class="doks doks-collapse"><i class="fa-solid fa-angles-up fa-fw"></i></span>
     </button>
 
   </div>
@@ -177,8 +177,8 @@
     </nav>
 
     <button class="btn doks-sidebar-toggle d-lg-none ms-auto order-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#doks-docs-nav" aria-controls="doks-docs-nav" aria-expanded="false" aria-label="Toggle showcase navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-expand" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Expand</title><polyline points="7 13 12 18 17 13"></polyline><polyline points="7 6 12 11 17 6"></polyline></svg>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="doks doks-collapse" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><title>Collapse</title><polyline points="17 11 12 6 7 11"></polyline><polyline points="17 18 12 13 7 18"></polyline></svg>
+      <span class="doks doks-expand"><i class="fa-solid fa-angles-down fa-fw"></i></span>
+      <span class="doks doks-collapse"><i class="fa-solid fa-angles-up fa-fw"></i></span>
     </button>
 
   </div>
