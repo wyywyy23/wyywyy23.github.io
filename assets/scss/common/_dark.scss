@@ -619,7 +619,8 @@ $navbar-dark-active-color: $link-color-dark;
   color: $gray-200;
 }
 
-[data-dark-mode] .suggestion__description, .suggestion__no-results {
+[data-dark-mode] .suggestion__description,
+.suggestion__no-results {
   color: $gray-300;
 }
 
