@@ -1,33 +1,31 @@
 // Color system
 
-$white:    #fff;
-$gray-100: #f8f9fa;
-$gray-200: #e9ecef;
-$gray-300: #dee2e6;
-$gray-400: #ced4da;
-$gray-500: #adb5bd;
-$gray-600: #6c757d;
-$gray-700: #495057;
-$gray-800: #343a40;
-$gray-900: #212529;
-$black:    #000;
+$white: #fff;
+$gray-100: #eceff4;
+$gray-200: #e5e9f0;
+$gray-300: #d8dee9;
+$gray-400: #cbcfd8;
+$gray-500: #a1a7b3;
+$gray-600: #4c566a;
+$gray-700: #434c5e;
+$gray-800: #3b4252;
+$gray-900: #2e3440;
+$black: #191f2d;
 
-$yellow:   #ffe000;
-$black:    #1d2d35;
-$beige:    #fbf7f0;
+$yellow: #ebcb8b;
+$beige: #faf9f6;
 
-// $red:      #e55235;
-$purple:   #5d2f86;
-$brown:    #aa9c84;
+$purple: #5e81ac;
+$brown: #bf616a;
 
-$blue-300: #8ed6fb;
+$blue-300: #88c0d0;
 $pink-100: #fcfaff;
-$pink-500: #d32e9d;
+$pink-500: #d08770;
 
-$primary: $purple;
+$primary: $pink-500;
 
-$color-btn-bg: $pink-500;
-$color-btn-border: darken($pink-500, 5%);
+$color-btn-bg: $primary;
+$color-btn-border: darken($primary, 5%);
 $color-btn-text: $white;
 
 // Options
@@ -64,7 +62,7 @@ $navbar-light-toggler-icon-bg: none;
 // Settings for the `<body>` element.
 
 $body-bg:                   $white;
-$body-color:                $black;
+$body-color:                $gray-900;
 
 // Links
 //
@@ -172,7 +170,7 @@ $alert-color-level:                 0;
 
 // docsearch
 $dropdown-config: (
-  main-color: $purple,
+  main-color: $primary,
   layout-type: normal,
   layout-width: normal,
   layout-alignment: align,
@@ -190,7 +188,7 @@ $dropdown-config: (
   title-color: $black,
   subtitle-color: $black,
   text-color: $black,
-  highlight-color: $purple,
+  highlight-color: $primary,
   highlight-opacity: 0.1,
   highlight-type: underline
 );

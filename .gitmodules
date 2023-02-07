@@ -1,0 +1,20 @@
+[submodule "static/css/vendor/academicons"]
+	path = static/css/vendor/academicons
+	url = https://github.com/jpswalsh/academicons.git
+	shallow = true
+[submodule "static/css/vendor/fontawesome"]
+	path = static/css/vendor/fontawesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
+	shallow = true
+[submodule "static/css/vendor/bootstrap-icons"]
+	path = static/css/vendor/bootstrap-icons
+	url = https://github.com/twbs/icons.git
+	shallow = true
+[submodule "static/fonts/vendor/JetBrainsMono"]
+	path = static/fonts/vendor/JetBrainsMono
+	url = https://github.com/JetBrains/JetBrainsMono.git
+	shallow = true
+[submodule "static/fonts/vendor/FiraGO"]
+	path = static/fonts/vendor/FiraGO
+	url = https://github.com/bBoxType/FiraGO.git
+	shallow = true
