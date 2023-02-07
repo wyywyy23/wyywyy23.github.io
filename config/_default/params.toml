@@ -85,6 +85,7 @@ editPage = true
   highLight = true
   multilingualMode = false # Not yet functional
   docsVersioning = false # Not yet functional
+  kaTex = true
 
 [menu]
   [menu.section]

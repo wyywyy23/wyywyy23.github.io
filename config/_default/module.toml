@@ -22,3 +22,7 @@
 [[mounts]]
   source = "node_modules/@hyas/images/layouts"
   target = "layouts"
+
+[[mounts]]
+  source = "node_modules/katex"
+  target = "assets/js/vendor/katex"

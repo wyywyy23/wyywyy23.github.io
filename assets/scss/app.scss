@@ -16,6 +16,9 @@
 // @import "@docsearch/css/dist/modal";
 @import "@docsearch/css/dist/style";
 
+/** Import KaTeX */
+@import "katex/dist/katex";
+
 /** Import theme styles */
 @import "common/fonts";
 @import "common/global";
