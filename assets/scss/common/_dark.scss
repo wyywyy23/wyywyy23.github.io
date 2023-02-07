@@ -32,8 +32,8 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body a:hover {
-    color: $focus-color-dark;
-  }
+  color: $focus-color-dark;
+}
 
 [data-dark-mode] body a.text-body {
   color: $body-color-dark !important;
@@ -70,8 +70,8 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .btn-menu i {
-    color: $body-color-dark;
-  }
+  color: $body-color-dark;
+}
 
 [data-dark-mode] body .doks-sidebar-toggle {
   color: $navbar-dark-color;
@@ -89,9 +89,9 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-    background-color: rgba($gray-900, 0.95);
-    border-bottom: 1px solid $border-dark;
-  }
+  background-color: rgba($gray-900, 0.95);
+  border-bottom: 1px solid $border-dark;
+}
 
 [data-dark-mode] body.home .navbar {
   border-bottom: 0;

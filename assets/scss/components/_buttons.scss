@@ -255,3 +255,7 @@ pre {
 .btn-light {
   transition: all 0s ease 0s;
 }
+
+body .btn-primary {  
+    color: $color-btn-text !important;
+  }

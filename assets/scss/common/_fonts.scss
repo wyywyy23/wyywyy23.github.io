@@ -72,351 +72,350 @@
 
 // FiraGO
 @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 200;
-    font-display: swap;
-    src:
-      local("FiraGO-UltraLight"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLight.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLight.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 250;
-    font-display: swap;
-    src:
-      local("FiraGO-ExtraLight"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLight.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLight.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 300;
-    font-display: swap;
-    src:
-      local("FiraGO-Light"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Light.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Light.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 350;
-    font-display: swap;
-    src:
-      local("FiraGO-Book"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Book.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Book.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src:
-      local("FiraGO-Regular"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 500;
-    font-display: swap;
-    src:
-      local("FiraGO-Medium"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Medium.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Medium.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 600;
-    font-display: swap;
-    src:
-      local("FiraGO-SemiBold"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBold.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBold.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src:
-      local("FiraGO-Bold"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src:
-      local("FiraGO-ExtraBold"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBold.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBold.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src:
-      local("FiraGO-Heavy"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Heavy.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Heavy.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 200;
-    font-display: swap;
-    src:
-      local("FiraGO-UltraLightItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLightItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 250;
-    font-display: swap;
-    src:
-      local("FiraGO-ExtraLightItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLightItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 300;
-    font-display: swap;
-    src:
-      local("FiraGO-LightItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-LightItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-LightItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 350;
-    font-display: swap;
-    src:
-      local("FiraGO-BookItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BookItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BookItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-    src:
-      local("FiraGO-RegularItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-RegularItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-RegularItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 500;
-    font-display: swap;
-    src:
-      local("FiraGO-MediumItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-MediumItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-MediumItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 600;
-    font-display: swap;
-    src:
-      local("FiraGO-SemiBoldItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBoldItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBoldItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 700;
-    font-display: swap;
-    src:
-      local("FiraGO-BoldItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BoldItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BoldItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 800;
-    font-display: swap;
-    src:
-      local("FiraGO-ExtraBoldItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBoldItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBoldItalic.woff") format("woff");
-  }
-  
-  @font-face {
-    font-family: FiraGO;
-    font-style: italic;
-    font-weight: 900;
-    font-display: swap;
-    src:
-      local("FiraGO-HeavyItalic"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-HeavyItalic.woff2") format("woff2"),
-      url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-HeavyItalic.woff") format("woff");
-  }
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    local("FiraGO-UltraLight"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLight.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 250;
+  font-display: swap;
+  src:
+    local("FiraGO-ExtraLight"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLight.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLight.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local("FiraGO-Light"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Light.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 350;
+  font-display: swap;
+  src:
+    local("FiraGO-Book"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Book.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Book.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("FiraGO-Regular"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local("FiraGO-Medium"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Medium.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("FiraGO-SemiBold"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBold.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("FiraGO-Bold"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src:
+    local("FiraGO-ExtraBold"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBold.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local("FiraGO-Heavy"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Heavy.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src:
+    local("FiraGO-UltraLightItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLightItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-UltraLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 250;
+  font-display: swap;
+  src:
+    local("FiraGO-ExtraLightItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLightItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraLightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src:
+    local("FiraGO-LightItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-LightItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 350;
+  font-display: swap;
+  src:
+    local("FiraGO-BookItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BookItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BookItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    local("FiraGO-RegularItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-RegularItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src:
+    local("FiraGO-MediumItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-MediumItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src:
+    local("FiraGO-SemiBoldItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-SemiBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src:
+    local("FiraGO-BoldItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 800;
+  font-display: swap;
+  src:
+    local("FiraGO-ExtraBoldItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBoldItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-ExtraBoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: FiraGO;
+  font-style: italic;
+  font-weight: 900;
+  font-display: swap;
+  src:
+    local("FiraGO-HeavyItalic"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-HeavyItalic.woff2") format("woff2"),
+    url("fonts/vendor/FiraGO/Fonts/FiraGO_WEB_1001/Roman/FiraGO-HeavyItalic.woff") format("woff");
+}
 
 //   JetBrains Mono
 @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 100;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Thin.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Thin.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 200;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraLight.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraLight.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 300;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Light.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Light.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 400;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 500;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Medium.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Medium.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 600;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-SemiBold.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-SemiBold.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 700;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Bold.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Bold.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 800;
-    font-style: normal;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraBold.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraBold.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 100;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ThinItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ThinItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 200;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 300;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-LightItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-LightItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 400;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-RegularItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-RegularItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 500;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-MediumItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-MediumItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 600;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-SemiBoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 700;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-BoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-BoldItalic.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: JetBrainsMono;
-    font-display: swap;
-    font-weight: 800;
-    font-style: italic;
-    src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
-  }
-  
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 100;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Thin.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 200;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraLight.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Light.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Regular.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Medium.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-SemiBold.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-Bold.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraBold.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 100;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ThinItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 200;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraLightItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 300;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-LightItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 400;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-RegularItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-RegularItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 500;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-MediumItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-MediumItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 600;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-SemiBoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 700;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-BoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: JetBrainsMono;
+  font-display: swap;
+  font-weight: 800;
+  font-style: italic;
+  src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
+}
