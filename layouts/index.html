@@ -1,10 +1,14 @@
 {{ define "main" }}
 <section class="section container mt-n3 pb-5">
-  <div class="row justify-content-center">
-    <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
+  <div class="row justify-content-center align-items-center">
+    <div class="circular_image">
+      <img src="images/avatar/yuyang.jpg" />
     </div>
+    <!-- <div class="col-lg-12 text-center"> -->
     <div class="col-lg-9 col-xl-8 text-center">
+      <h1 class="mt-0">{{ .Title }}</h1>
+      <!-- </div> -->
+      <!-- <div class="col-lg-9 col-xl-8 text-center"> -->
       <p class="lead">{{ .Params.Lead | safeHTML }}</p>
       <div id="social-in-landing-page">
         <p class="lead">
