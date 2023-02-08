@@ -1,39 +1,39 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Yuyang Wang"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Academic Homepage"
+description = "Yuyang Wang is a Postdoctoral Research Scientist in the Lightwave Research Laboratory at Columbia University."
 
 ## Open Graph
-images = ["doks.png"]
+images = ["android-chrome-512x512.png"]
 ogLocale = "en_US"
-domainTLD = "getdoks.org"
-titleHome = "Doks Theme"
+domainTLD = "wyywyy23.github.io"
+titleHome = "Yuyang Wang - Academic Homepage"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@wyywyy23"
+twitterCreator = "@wyywyy23"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaName = "Yuyang Wang"
+schemaAuthor = "Yuyang Wang"
+schemaAuthorTwitter = "https://twitter.com/wyywyy23"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/yuyangucsb/"
+schemaAuthorGitHub = "https://github.com/wyywyy23"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "android-chrome-512x512.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
-schemaImageWidth = 1280
-schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaImage = "android-chrome-512x512.png"
+schemaImageWidth = 512
+schemaImageHeight = 512
+schemaTwitter = "https://twitter.com/wyywyy23"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/wyywyy23/wyywyy23.github.io"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -58,10 +58,10 @@ singleSize = false
 imageAddClass = "img-fluid lazyload blur-up"
 
 # Footer
-footer = "Powered by <a class=\"text-muted\" href=\"https://www.netlify.com/\">Netlify</a>, <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a>, and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "© 2023 Yuyang Wang. Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2022 Henk Verlinde"
+copyRight = "© 2023 Yuyang Wang."
 
 # Alert
 alert = false
@@ -73,7 +73,7 @@ alertText = "The Jamstack at Scale: Building Sites for Audiences of Millions. <a
 # alertText = "What Doks future features are important to you? <a class=\"alert-link stretched-link\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSe0DItAFv2cNSC0S_L6DQBw9ofB0ogYvZqeoWHHRX-Aal-5zQ/viewform?usp=sf_link\" target=\"_blank\" rel=\"noopener\">Take the 2021 Doks Survey</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/getdoks.org"
+docsRepo = "https://github.com/wyywyy23/wyywyy23.github.io"
 editPage = true
 
 [options]

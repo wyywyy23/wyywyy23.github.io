@@ -262,19 +262,25 @@ pre {
 }
 
 body .btn-primary {
-  @include button-variant($color-btn-bg, $color-btn-border);
-
   color: $color-btn-text;
+  background-color: $color-btn-bg;
+  border-color: $color-btn-bg;
 }
 
 body .btn-primary:hover {
   color: $color-btn-text;
+  background-color: darken($color-btn-bg, 5%);
+  border-color: darken($color-btn-bg, 15%);
 }
 
 body .btn-primary:focus {
   color: $color-btn-text;
+  background-color: darken($color-btn-bg, 5%);
+  border-color: darken($color-btn-bg, 15%);
 }
 
 body .btn-primary:active:hover {
   color: $color-btn-text;
+  background-color: darken($color-btn-bg, 5%);
+  border-color: darken($color-btn-bg, 15%);
 }

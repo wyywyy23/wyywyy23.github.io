@@ -1,0 +1,17 @@
+/** Custom styles */
+
+#social-in-landing-page a {
+    color: $body-color;
+  }
+  
+  #social-in-landing-page a:hover {
+    color: $link-color;
+  }
+  
+  [data-dark-mode] #social-in-landing-page a {
+    color: $body-color-dark;
+  }
+  
+  [data-dark-mode] #social-in-landing-page a:hover {
+    color: $link-color-dark;
+  }
