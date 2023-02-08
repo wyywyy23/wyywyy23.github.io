@@ -14,6 +14,7 @@ $dots-dark: darken($body-color-dark, 50%);
 
 $link-color-dark: $blue-300;
 $button-color-dark: $link-color-dark;
+$button-border-dark: lighten($link-color-dark, 5%);
 $focus-color-dark: lighten($link-color-dark, 5%);
 
 $navbar-dark-color:                 $body-color-dark;
@@ -40,13 +41,13 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .btn-primary {
-  @include button-variant($button-color-dark, $button-color-dark);
+  @include button-variant($button-color-dark, $button-border-dark);
 
   color: $body-bg-dark !important;
 }
 
 [data-dark-mode] body .btn-outline-primary {
-  @include button-outline-variant($button-color-dark, $button-color-dark);
+  @include button-outline-variant($button-color-dark, $button-border-dark);
 
   color: $link-color-dark;
 }
@@ -210,6 +211,70 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .btn-toggle-nav a.active {
   color: $link-color-dark;
+}
+
+[data-dark-mode] .btn-copy {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+  position: absolute;
+  right: 0.25rem;
+  top: 0.25rem;
+  z-index: 10;
+  font-family: $font-family-sans-serif;
+  font-size: $font-size-sm;
+  padding: 0.25rem 0.5rem;
+  color: $body-bg-dark;
+  background-color: $button-color-dark;
+  border-color: $button-border-dark;
+}
+
+[data-dark-mode] .btn-copy:hover {
+  color: $body-bg-dark;
+  background-color: lighten($button-color-dark, 5%);
+  border-color: lighten($button-border-dark, 15%);
+}
+
+[data-dark-mode] .btn-copy:focus {
+  color: $body-bg-dark;
+  background-color: lighten($button-color-dark, 5%);
+  border-color: lighten($button-border-dark, 15%);
+  box-shadow: none;
+}
+
+[data-dark-mode] .btn-copy:active,
+[data-dark-mode] .btn-copy.active {
+  color: $body-bg-dark;
+  background-color: lighten($button-color-dark, 5%);
+  border-color: lighten($button-border-dark, 15%);
+}
+
+[data-dark-mode] .btn-copy:active:focus,
+[data-dark-mode] .btn-copy.active:focus,
+[data-dark-mode] .btn-copy:active:hover,
+[data-dark-mode] .btn-copy.active:hover {
+  color: $body-bg-dark;
+  background-color: lighten($button-color-dark, 5%);
+  border-color: lighten($button-border-dark, 15%);
+  box-shadow: none;
+}
+
+[data-dark-mode] .btn-copy::after {
+  content: "Copy";
+  display: block;
+  color: $body-bg-dark;
+}
+
+[data-dark-mode] .btn-copy:hover::after {
+  content: "Copy";
+  display: block;
+  color: $body-bg-dark;
+}
+
+[data-dark-mode] .btn-copy:focus::after,
+[data-dark-mode] .btn-copy:active::after {
+  content: "Copied";
+  display: block;
+  color: $body-bg-dark;
 }
 
 [data-dark-mode] body .navbar-light .navbar-text a {

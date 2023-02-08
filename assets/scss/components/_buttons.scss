@@ -80,14 +80,14 @@ pre {
 
 .btn-copy:hover {
   color: $color-btn-text;
-  background-color: lighten($color-btn-bg, 5%);
-  border-color: lighten($color-btn-border, 15%);
+  background-color: darken($color-btn-bg, 5%);
+  border-color: darken($color-btn-border, 15%);
 }
 
 .btn-copy:focus {
   color: $color-btn-text;
   background-color: $color-btn-bg;
-  border-color: lighten($color-btn-border, 15%);
+  border-color: darken($color-btn-border, 15%);
   box-shadow: none;
 }
 
@@ -95,11 +95,16 @@ pre {
 .btn-copy.active {
   color: $color-btn-text;
   background-color: $color-btn-bg;
-  border-color: lighten($color-btn-border, 15%);
+  border-color: darken($color-btn-border, 15%);
 }
 
 .btn-copy:active:focus,
-.btn-copy.active:focus {
+.btn-copy.active:focus,
+.btn-copy:active:hover,
+.btn-copy.active:hover {
+  color: $color-btn-text;
+  background-color: $color-btn-bg;
+  border-color: darken($color-btn-border, 15%);
   box-shadow: none;
 }
 
@@ -256,6 +261,20 @@ pre {
   transition: all 0s ease 0s;
 }
 
-body .btn-primary {  
-    color: $color-btn-text !important;
-  }
+body .btn-primary {
+  @include button-variant($color-btn-bg, $color-btn-border);
+
+  color: $color-btn-text;
+}
+
+body .btn-primary:hover {
+  color: $color-btn-text;
+}
+
+body .btn-primary:focus {
+  color: $color-btn-text;
+}
+
+body .btn-primary:active:hover {
+  color: $color-btn-text;
+}
