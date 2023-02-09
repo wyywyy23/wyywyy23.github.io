@@ -23,28 +23,27 @@
   overflow: hidden;
   border: solid 5px $gray-100;
   background-color: $gray-100;
-  box-shadow:  0 0 10px 5px  rgba(0,0,0,0.3);
-      -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.3);
-      -webkit-box-shadow: 0 0 10px  5px rgba(0,0,0,0.3);
-      -o-box-shadow: 0 0 10px  5px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px 5px  rgba(25, 31, 45, 0.2);
+  -moz-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.2);
+  -webkit-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.2);
+  -o-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.2);
   margin: 10px 0;
-  
-
-  /* commented for demo
-    float: left;
-    margin-left: 125px;
-    margin-top: 20px;
-    */
-
-  /* for demo */
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .circular_image img {
-    width: 100%;
-    height: auto;
-    position: relative;
-    top: 50%;
-    transform: translate(0%, -50%);
+  width: 141.5%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+[data-dark-mode] .circular_image {
+  border: solid 5px $gray-700;
+  background-color: $gray-700;
+  box-shadow: 0 0 10px 5px  rgba(25, 31, 45, 0.8);
+  -moz-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.8);
+  -webkit-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.8);
+  -o-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.8);
 }
