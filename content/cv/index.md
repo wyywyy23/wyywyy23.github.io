@@ -8,7 +8,9 @@ images: []
 ---
 
 <object width="100%" height="500" type="application/pdf" data="/YW_CV.pdf">
-    <iframe src="https://docs.google.com/viewer?url=/YW_CV.pdf&embedded=true" style="width:100%; height:500px;" frameborder="0"></iframe>
+    <embed src="/YW_CV.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/YW_CV.pdf">Download PDF</a>.</p>
+    </embed>
 </object>
 
 You can download a PDF copy of my CV [here](/YW_CV.pdf).
