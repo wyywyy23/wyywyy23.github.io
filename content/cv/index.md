@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 
-<object width="100%" height="500" type="application/pdf" data="/YW_CV.pdf">
+<object width="100%" padding-top="129%" type="application/pdf" data="/YW_CV.pdf">
     <embed src="/YW_CV.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/YW_CV.pdf">Download PDF</a>.</p>
     </embed>
