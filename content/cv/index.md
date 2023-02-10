@@ -7,7 +7,7 @@ draft: false
 images: []
 ---
 
-<iframe width="100%" height="700" padding-top="129%" src="/YW_CV.pdf">
+<iframe width="100%" height="500" padding-top="129%" src="/YW_CV.pdf">
 </iframe>
 
 You can download a PDF copy of my CV <a href="/YW_CV.pdf" target="_blank">here</a>.

@@ -14,10 +14,15 @@
         <p class="lead">
           {{ range .Site.Menus.social -}}
           <a
-            target="_blank"
-            rel="noopener"
-            class="social-link"
+            class="nav-item"
             href="{{ .URL | relURL }}"
+            {{
+            with
+            .Params.target}}
+            target="{{ . }}"
+            {{
+            end
+            }}
             >{{ .Pre | safeHTML }}</a
           >
           {{ end -}}
