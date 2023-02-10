@@ -7,10 +7,7 @@ draft: false
 images: []
 ---
 
-<object width="100%" padding-top="129%" type="application/pdf" data="/YW_CV.pdf">
-    <embed src="/YW_CV.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="/YW_CV.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+<iframe width="100%" height="700" padding-top="129%" src="/YW_CV.pdf">
+</iframe>
 
-You can download a PDF copy of my CV [here](/YW_CV.pdf).
+You can download a PDF copy of my CV <a href="/YW_CV.pdf" target="_blank">here</a>.

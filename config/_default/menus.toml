@@ -62,11 +62,6 @@
   identifier = "community"
 
 [[main]]
-  name = "CV"
-  url = "/cv/"
-  weight = 50
-
-[[main]]
   name = "GitHub repository"
   weight = 10
   url = "https://github.com/h-enk/doks"
@@ -159,6 +154,12 @@
   weight = 30
   [social.params]
     target = "_blank"
+
+[[social]]
+  name = "CV"
+  pre = '<i class="ai ai-cv ai-fw"></i>'
+  url = "/cv/"
+  weight = 40
 
 # [[footer]]
 #   name = "Privacy"
