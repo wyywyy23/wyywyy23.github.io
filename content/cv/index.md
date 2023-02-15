@@ -7,6 +7,6 @@ draft: false
 images: []
 ---
 
-<iframe class="cv-box" src="/YW_CV.pdf"></iframe>
+<iframe class="cv-box" src="/files/YW_CV.pdf"></iframe>
 
-You can download a PDF copy of my CV <a href="/YW_CV.pdf" target="_blank">here</a>.
+You can download a PDF copy of my CV <a href="/files/YW_CV.pdf" target="_blank">here</a>.
