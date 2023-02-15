@@ -78,6 +78,7 @@ editPage = true
 
 # Embed PDF
 adobeClientId = "be618191765442f6a55213d23aca9286"
+adobeClientIdLocal = "f9d76183958747e59cd1303f1bff65f9"
 
 [options]
   lazySizes = true

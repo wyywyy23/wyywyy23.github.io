@@ -156,7 +156,7 @@
     target = "_blank"
 
 [[social]]
-  name = "CV"
+  name = "Curriculum Vitae"
   pre = '<i class="ai ai-cv ai-fw"></i>'
   url = "/cv/"
   weight = 40

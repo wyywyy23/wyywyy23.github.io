@@ -50,8 +50,8 @@
 
 .cv-box {
   width: 100%;
-  position: fixed;
-  padding-bottom: 130%;
+  position: relative;
+  padding-bottom: 110%;
   border: solid 5px $gray-100;
   background-color: $gray-100;
   box-shadow: 0 0 10px 5px  rgba(25, 31, 45, 0.2);
@@ -59,6 +59,14 @@
   -webkit-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.2);
   -o-box-shadow: 0 0 10px  5px rgba(25, 31, 45, 0.2);
   margin: 10px 0;
+}
+
+.cv-box-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 [data-dark-mode] .cv-box {
