@@ -7,9 +7,7 @@
 {{ $filename := .Get "filename" | default $pathBase }}
 {{ $embedMode := .Get "embedMode" | default "FULL_WINDOW" }}
 
-<div class="cv-box">
-<div class="cv-box-inner">
-<div id="{{ $divId }}" style="{{ $style }}"></div>
+<div class="cv-box" id="{{ $divId }}" style="{{ $style }}"></div>
 <script src="https://documentcloud.adobe.com/view-sdk/viewer.js"></script>
 <script type="text/javascript">
     document.addEventListener("adobe_dc_view_sdk.ready", function () {
@@ -19,6 +17,4 @@
             metaData: { fileName: "{{ $filename }}" }
         }, { embedMode: "{{ $embedMode }}" });
     });
-</div>
-</div>
 </script>

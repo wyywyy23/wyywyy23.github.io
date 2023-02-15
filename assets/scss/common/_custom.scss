@@ -61,14 +61,6 @@
   margin: 10px 0;
 }
 
-.cv-box-inner {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;  
-}
-
 [data-dark-mode] .cv-box {
   border: solid 5px $gray-700;
   background-color: $gray-700;
