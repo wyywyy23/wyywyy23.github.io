@@ -76,6 +76,9 @@ alertText = "The Jamstack at Scale: Building Sites for Audiences of Millions. <a
 docsRepo = "https://github.com/wyywyy23/wyywyy23.github.io"
 editPage = true
 
+# Embed PDF
+adobeClientId = "be618191765442f6a55213d23aca9286"
+
 [options]
   lazySizes = true
   clipBoard = true

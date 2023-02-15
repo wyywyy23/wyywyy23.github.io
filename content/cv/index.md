@@ -7,6 +7,6 @@ draft: false
 images: []
 ---
 
-<iframe class="cv-box" src="/files/YW_CV.pdf"></iframe>
+{{% embed-pdf url="/files/YW_CV.pdf" filename="YW_CV.pdf" %}}
 
 You can download a PDF copy of my CV <a href="/files/YW_CV.pdf" target="_blank">here</a>.
