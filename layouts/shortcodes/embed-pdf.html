@@ -5,7 +5,7 @@
 {{ $url := .Get "url" }}
 {{ $pathBase := path.Base $url }}
 {{ $filename := .Get "filename" | default $pathBase }}
-{{ $embedMode := .Get "embedMode" | default "FULL_WINDOW" }}
+{{ $embedMode := .Get "embedMode" | default "SIZED_CONTAINER" }}
 
 <div class="cv-box">
 <div class="cv-box-inner">
