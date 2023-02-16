@@ -1,11 +1,11 @@
 {{ $divId := .Get "divId" | default "adobe-dc-view" }}
 {{ $style := .Get "style" | default "width: 100%; position: relative;" | safeCSS }}
-{{ $clientID := .Site.Params.adobeClientId }}
+{{ $clientID := .Site.Params.adobeClientIdLocal }}
 {{ $locale := .Get "locale" | default "en-US" }}
 {{ $url := .Get "url" }}
 {{ $pathBase := path.Base $url }}
 {{ $filename := .Get "filename" | default $pathBase }}
-{{ $embedMode := .Get "embedMode" | default "SIZED_CONTAINER" }}
+{{ $embedMode := .Get "embedMode" | default "FULL_WINDOW" }}
 
 <div class="cv-box">
 <div class="cv-box-inner">
@@ -19,7 +19,7 @@
             metaData: { fileName: "{{ $filename }}" } },
             { embedMode: "{{ $embedMode }}",
             showAnnotationTools: false,
-            defaultViewMode: "FIT_WIDTH",
+            defaultViewMode: "FIT_PAGE",
             enableLinearization: true,
             enableFormFilling: false,
             enableSearchAPIs: true});

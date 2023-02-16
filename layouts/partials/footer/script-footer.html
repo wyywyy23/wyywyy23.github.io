@@ -8,6 +8,9 @@
 
 {{ $app := resources.Get "js/app.js" -}}
 
+{{ $katex := resources.Get "js/vendor/katex/dist/katex.js" -}}
+{{ $katexAutoRender := resources.Get "js/vendor/katex/dist/contrib/auto-render.js" -}}
+
 {{ $slice := slice $app -}}
 
 {{ if .Site.Params.options.lazySizes -}}
@@ -40,6 +43,12 @@
 {{ $slice = $slice | append $alert -}}
 {{ end -}}
 
+{{ if .Site.Params.options.kaTex -}}
+  {{ $katexConfig := resources.Get "js/katex.js" -}}
+  {{ $katexConfig := $katexConfig | js.Build -}}
+  {{ $slice = $slice | append $katexConfig -}}
+{{ end -}}
+
 {{ $plausible := resources.Get "js/plausible.js" | js.Build -}}
 {{ $slice = $slice | append $plausible -}}
 
@@ -52,6 +61,10 @@
 {{ if .Site.Params.options.highLight -}}
 <script src="{{ $highlight.RelPermalink }}" defer></script>
 {{ end -}}
+{{ if .Site.Params.options.kaTex -}}
+    <script src="{{ $katex.RelPermalink }}" defer></script>
+    <script src="{{ $katexAutoRender.RelPermalink }}" onload="renderMathInElement(document.body);" defer></script>
+{{ end -}}
 {{ if eq .Section "docs" -}}
 <script src="{{ $docSearch.RelPermalink }}" defer></script>
 {{ end -}}
@@ -61,12 +74,18 @@
 {{ $docSearch := $docSearch | minify | fingerprint "sha512" -}}
 {{ $bs := $bs | minify | fingerprint "sha512" -}}
 {{ $highlight := $highlight | minify | fingerprint "sha512" -}}
+{{ $katex := $katex | minify | fingerprint "sha512" -}}
+{{ $katexAutoRender := $katexAutoRender | minify | fingerprint "sha512" -}}
 {{ if .Site.Params.options.bootStrapJs -}}
 <script src="{{ $bs.RelPermalink }}" integrity="{{ $bs.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
 {{ if .Site.Params.options.highLight -}}
 <script src="{{ $highlight.RelPermalink }}" integrity="{{ $highlight.Data.Integrity }}" crossorigin="anonymous"
     defer></script>
+{{ end -}}
+{{ if .Site.Params.options.kaTex -}}
+    <script src="{{ $katex.RelPermalink }}" integrity="{{ $katex.Data.Integrity }}" crossorigin="anonymous" defer></script>
+    <script src="{{ $katexAutoRender.RelPermalink }}" integrity="{{ $katexAutoRender.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
 {{ if eq .Section "docs" -}}
 <script src="{{ $docSearch.RelPermalink }}" integrity="{{ $docSearch.Data.Integrity }}" crossorigin="anonymous"
