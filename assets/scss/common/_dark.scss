@@ -646,3 +646,7 @@ $navbar-dark-active-color:          $link-color-dark;
   background-color: $body-overlay-dark;
   border-color: $body-overlay-dark;
 }
+
+[data-dark-mode] ::selection {
+    background: rgba($purple, 0.2);
+  }
