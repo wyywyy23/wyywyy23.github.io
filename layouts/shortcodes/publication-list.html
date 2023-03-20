@@ -1,3 +1,65 @@
-{{ $filename := .Get "filename" | default "publications/publications.bib" }}
+<!-- Variables -->
+{{ $filename := .Get "filename" | default "/publications/publications.bib" }}
 
+<!-- Load the BibTEX-js library -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+
+<!-- Load the bib file -->
+<bibtex src="{{ $filename }}"></bibtex>
+
+<!-- Display publication list -->
+<div class="bibtex_structure">
+	<div class="sections bibtextypekey">
+		<div class="section book">
+			<h1><strong>B</strong>ooks</h1>
+			<div class="sort year" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<div class="section article">
+			<h1><strong>J</strong>ournal <strong>A</strong>rticles</h1>
+			<div class="sort year" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<div class="section inproceedings">
+			<h1><strong>C</strong>onference and <strong>W</strong>orkshop <strong>P</strong>apers</h1>
+			<div class="sort year" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+			<h1><strong>O</strong>ther <strong>P</strong>ublications</h1>
+			<div class="sort year" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="bibtex_display">
+	<div class="bibtex_template">
+		<ul><li><p>
+			<span class="if author">
+				<span class="author"><span class="first_initial"></span> <span class="last"></span></span>,
+			</span>
+			<span class="if title">
+				<a class="url"><strong>"<span class="title"></span></strong>,"</a>
+			</span>
+			<span class="if journal"><em><span class="journal"></span></em>,</span>
+			<span class="if booktitle"><em><span class="booktitle"></span></em>,</span>
+			<span class="if editor"><span class="editor"></span> (editors),</span>
+			<span class="if publisher"><em><span class="publisher"></span></em>,</span>
+			<span class="if institution"><span class="institution"></span>,</span>
+			<span class="if address"><span class="address"></span>,</span>
+			<span class="if volume">vol. <span class="volume"></span>,</span>
+			<span class="if journal number">(<span class="number"></span>),</span>
+			<span class="if pages"> pp. <span class="pages"></span>,</span>
+			<span class="if month"><span class="month"></span>,</span>
+			<span class="if year"><span class="year"></span>.</span>
+			</br><span class="if doi">
+				&emsp;DOI: <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"><span class="doi"></span></a>
+			</span>
+		<p></li></ul>
+	</div>
+</div>
