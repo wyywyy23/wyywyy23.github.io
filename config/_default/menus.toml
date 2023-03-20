@@ -41,8 +41,8 @@
 #   url = "/docs/lorem/"
 
 [[main]]
-  name = "Showcase"
-  url = "/showcase/"
+  name = "Publications"
+  url = "/publications/"
   weight = 10
 
 [[main]]
