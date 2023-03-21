@@ -12,6 +12,9 @@
   .bib-collapse {
     display: none;
   }
+  pre {
+	font-size: 10pt;
+  }
 </style>
 
 <!-- Load the bib file -->
@@ -62,25 +65,27 @@
             <div class="if author">
                 <span class="author"><span class="first"></span> <span class="last"></span></span>
             </div>
-			<span class="if journal"><em><span class="journal"></span></em></span>
-			<span class="if volume"><strong><span class="volume"></span></strong></span>
-			<span class="if number">(<span class="number"></span>),</span>
-            <span class="if booktitle">In <em><span class="booktitle"></span>,</em></span>
-			<span class="if publisher"><em><span class="publisher"></span>,</em></span>
-			<span class="if institution"><span class="institution"></span>,</span>
-			<span class="if pages"><span class="pages"></span>,</span>
-            <span class="if school"><span class="school"></span>,</span>
-			<span class="if month"><span class="month"></span>,</span>
-			<span class="if year"><span class="year"></span>.</span>
+            <div>
+			    <span class="if journal"><em><span class="journal"></span></em></span>
+			    <span class="if volume"><strong><span class="volume"></span></strong></span>
+			    <span class="if number">(<span class="number"></span>),</span>
+                <span class="if booktitle">In <em><span class="booktitle"></span>,</em></span>
+			    <span class="if publisher"><em><span class="publisher"></span>,</em></span>
+			    <span class="if institution"><span class="institution"></span>,</span>
+			    <span class="if pages"><span class="pages"></span>,</span>
+                <span class="if school"><span class="school"></span>,</span>
+			    <span class="if month"><span class="month"></span>,</span>
+			    <span class="if year"><span class="year"></span>.</span>
+            </div>
 			<span class="if doi">
-                <span style="white-space: nowrap"> <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"><i class="ai ai-doi"></i><span class="doi"></span></a>&nbsp;</span>
+                <span style="white-space: nowrap"> <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi"><i class="ai ai-doi"></i>&nbsp;<span class="doi"></span></a>&nbsp;</span>
 			</span>
             <span class="if file">
-                <span><a class="bibtexVar" href="/publications/+FILE+" extra="file"><i class="fa-solid fa-file-pdf"></i></a>&nbsp;</span>
+                <span><a class="bibtexVar" href="/publications/+FILE+" extra="file"><i class="fa-solid fa-file-pdf fa-fw"></i></a>&nbsp;</span>
 			</span>
             <a class="bibtexVar doks-sidebar-toggle collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#bib+BIBTEXKEY+" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                <span class="doks-expand"><i class="fa-solid fa-quote-left"></i></span>
-                <span class="doks-collapse"><i class="fa-solid fa-quote-right"></i></span>
+                <span class="doks-expand"><i class="fa-solid fa-quote-left fa-fw"></i></span>
+                <span class="doks-collapse"><i class="fa-solid fa-quote-right fa-fw"></i></span>
             </a>
             <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
                   <pre><code class="bibtexraw noread"></code></pre>
