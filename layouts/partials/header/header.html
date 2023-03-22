@@ -61,11 +61,11 @@
               <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}"{{ with .Params.target}} target="{{ . }}"{{ end }}>{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
             </li>
           {{ end -}}
-          <hr class="text-black-50 my-4 d-md-none">
-          <div id="docsearch"></div>
         </ul>
       </div>
     </div>
+    <div id="docsearch"></div>
+
 
     {{ if .Site.Params.options.darkMode -}}
     <button id="mode" class="btn btn-link order-md-1" type="button" aria-label="Toggle user interface mode">
