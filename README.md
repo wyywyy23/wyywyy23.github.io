@@ -6,3 +6,18 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 [![Hyas CI](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/node.js-ci.yml/badge.svg)](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/node.js-ci.yml)
 [![GitHub Pages](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/deploy-github.yml/badge.svg)](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/deploy-github.yml)
 [![pages-build-deployment](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/pages/pages-build-deployment)
+
+## Todos
+
+- [x] Publication page
+- [x] CV page
+- [x] Social links
+- [x] Search bar
+- [ ] Set up docsearch
+- [ ] Timeline on the homepage
+- [ ] Return to the top button
+- [ ] Breadcrumb navigation
+- [ ] News page (blog style)
+- [ ] Research projects page (card style)
+- [ ] Technical blog (doc style)
+- [ ] Clean up template codes
