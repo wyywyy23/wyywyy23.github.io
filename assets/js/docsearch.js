@@ -8,8 +8,8 @@ if (searchPlaceholder !== null) {
 
 docsearch({
   container: '#docsearch',
-  appId: 'KMWY81ZWS3',
-  indexName: 'getdoks',
-  apiKey: '56b742bf9ec666576cea28d77030d54b',
+  appId: 'PQRC11ZCA2',
+  indexName: 'wyywyy23io',
+  apiKey: 'f63d3009221b4cbabe514ba0badbe38a',
   debug: false,
 });
