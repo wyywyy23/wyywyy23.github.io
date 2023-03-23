@@ -29,7 +29,7 @@
 /** Button */
 
 .DocSearch-Button::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='20' height='20' stroke='currentColor' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='20' height='20' stroke='%23d08770' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
 }
 
 .DocSearch-Button:active::before,
@@ -39,7 +39,7 @@
 }
 
 [data-dark-mode] .DocSearch-Button::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='20' height='20' stroke='%23e5e9f0' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='20' height='20' stroke='%2388c0d0' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
 }
 
 [data-dark-mode] .DocSearch-Button:active::before,
@@ -48,12 +48,17 @@
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='20' height='20' stroke='%2388c0d0' stroke-width='2' fill='none' stroke-linecap='round' stroke-linejoin='round' class='css-i6dzq1'%3E%3Ccircle cx='11' cy='11' r='8'%3E%3C/circle%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'%3E%3C/line%3E%3C/svg%3E");
 }
 
+.DocSearch-Button::after {
+    content: "Search";
+    margin: 0 0 0.25rem 0.75rem;
+  }
+
 .DocSearch-Button {
   align-items: center;
   background: darken($body-bg, 5%);
   border: 0;
   border-radius: 1rem;
-  color: var(--docsearch-text-color);
+  color: var(--docsearch-muted-color);
   cursor: pointer;
   display: flex;
   font-weight: 400;
@@ -79,17 +84,13 @@
 
 [data-dark-mode] .DocSearch-Button {
   background: lighten($body-bg-dark, 5%);
+  color: var(--docsearch-muted-color)
 }
 
 [data-dark-mode] .DocSearch-Button:hover {
   background: lighten($body-bg-dark, 5%);
   box-shadow: none;
   color: var(--docsearch-primary-color);
-}
-
-.DocSearch-Button::after {
-  content: "Search";
-  margin: 0 0 0.25rem 0.75rem;
 }
 
 .DocSearch-Button-Container {
