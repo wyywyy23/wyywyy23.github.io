@@ -1,7 +1,7 @@
 ---
 title: "Yuyang Wang"
-description: "Postdoctoral Research Scientist in the Lightwave Research Laboratory at Columbia University."
-lead: "Postdoctoral Research Scientist in the Lightwave Research Laboratory at Columbia University."
+description: "Homepage of the website"
+lead: '<div id="social-in-landing-page"><div><strong>Postdoctoral Research Scientist</strong></div><div><em><a href="https://lightwave.ee.columbia.edu/">Lightwave Research Laboratory&nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></em></div> Columbia University</div>'
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false
@@ -17,4 +17,4 @@ Therefore, the number density of the neutrinos at the radius $R$ is -->
 \end{equation*}
 $$ -->
 
-## :construction::construction: Under Construction :construction::construction:
+## :construction: Under Construction :construction:

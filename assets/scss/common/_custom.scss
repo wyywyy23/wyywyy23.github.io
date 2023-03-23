@@ -1,19 +1,26 @@
 /** Custom styles */
+#social-in-landing-page {
+  font-size: larger;
+}
 
 #social-in-landing-page a {
   color: $body-color;
+  text-decoration: none;
 }
 
 #social-in-landing-page a:hover {
   color: $link-color;
+  text-decoration: none;
 }
 
 [data-dark-mode] #social-in-landing-page a {
   color: $body-color-dark;
+  text-decoration: none;
 }
 
 [data-dark-mode] #social-in-landing-page a:hover {
   color: $link-color-dark;
+  text-decoration: none;
 }
 
 .circular_image {
