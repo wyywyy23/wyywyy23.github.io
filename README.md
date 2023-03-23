@@ -1,6 +1,6 @@
 # My personal academic website
 
-Built with [doks](https://getdoks.org/), a static site generator for technical documentation.
+Built with [Doks](https://getdoks.org/), a static site generator for technical documentation.
 
 [![CodeQL](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/codeql-analysis.yml)
 [![Hyas CI](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/node.js-ci.yml/badge.svg)](https://github.com/wyywyy23/wyywyy23.github.io/actions/workflows/node.js-ci.yml)
