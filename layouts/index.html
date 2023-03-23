@@ -147,7 +147,7 @@
                 <h2 class="h3 mt-3 text-center">Latest News</h2>
                 <div class="card-list">
                     {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section"
-                    "blog") -}}
+                    "news") -}}
                     <div class="card">
                         <div class="card-body">
                             <h3>

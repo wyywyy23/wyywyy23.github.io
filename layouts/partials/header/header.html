@@ -29,7 +29,7 @@
             {{- $active = or $active (eq .Name $current.Title) -}}
             {{- $active = or $active (and (eq .Name "Docs") (eq $current.Section "docs")) -}}
             {{- $active = or $active (and (eq .Name "Showcase") (eq $current.Section "showcase" "types" "functionalities")) -}}
-            {{- $active = or $active (and (eq .Name "Blog") (eq $current.Section "blog" "contributors")) -}}
+            {{- $active = or $active (and (eq .Name "News") (eq $current.Section "news" "contributors")) -}}
             {{ if .HasChildren }}
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle ps-0 py-1" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">

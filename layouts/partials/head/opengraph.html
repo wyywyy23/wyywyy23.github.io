@@ -4,7 +4,7 @@
 <meta property="og:description"
     content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}">
 {{ if $.Scratch.Get "paginator" -}}
-{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "blog" ) -}}
+{{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Section" "news" ) -}}
 <meta property="og:url" content="{{ .Paginator.URL | absURL }}">
 {{ else -}}
 <meta property="og:url" content="{{ .Permalink }}">

@@ -1,127 +1,12 @@
-[[docs]]
-  name = "Overview"
-  weight = 10
-  identifier = "overview"
-  url = "/docs/overview/"
-
-[[docs]]
-  name = "Tutorial"
-  weight = 20
-  identifier = "tutorial"
-  url = "/docs/tutorial/"
-
-[[docs]]
-  name = "How-to Guides"
-  weight = 30
-  identifier = "how-to"
-  url = "/docs/how-to/"
-
-[[docs]]
-  name = "Reference"
-  weight = 40
-  identifier = "reference"
-  url = "/docs/reference/"
-
-[[docs]]
-  name = "Contributing"
-  weight = 50
-  identifier = "contributing"
-  url = "/docs/contributing/"
-
-[[docs]]
-  name = "Help"
-  weight = 60
-  identifier = "help"
-  url = "/docs/help/"
-
-# [[docs]]
-#   name = "Lorem"
-#   weight = 70
-#   identifier = "lorem"
-#   url = "/docs/lorem/"
-
 [[main]]
   name = "Publications"
   url = "/publications/"
   weight = 10
 
-# [[main]]
-#   name = "Docs"
-#   url = "/docs/overview/introduction/"
-#   weight = 20
-
-# [[main]]
-#   name = "Blog"
-#   url = "/blog/"
-#   weight = 30
-
-# [[main]]
-#   name = "Community"
-#   url = "#"
-#   weight = 40
-#   identifier = "community"
-
-# [[main]]
-#   name = "GitHub repository"
-#   weight = 10
-#   url = "https://github.com/h-enk/doks"
-#   post = ' <i class="fa-solid fa-up-right-from-square"></i>'
-#   parent = "community"
-#   [main.params]
-#     target = "_blank"
-
-# [[main]]
-#   name = "Contribute"
-#   weight = 15
-#   url = "/docs/contributing/how-to-contribute/"
-#   parent = "community"
-
-# [[main]]
-#   name = "Discussions"
-#   weight = 20
-#   url = "https://github.com/h-enk/doks/discussions"
-#   post = ' <i class="fa-solid fa-up-right-from-square"></i>'
-#   parent = "community"
-#   [main.params]
-#     target = "_blank"
-
-# [[main]]
-#   name = "Open Collective"
-#   weight = 30
-#   url = "https://opencollective.com/doks"
-#   post = ' <i class="fa-solid fa-up-right-from-square"></i>'
-#   parent = "community"
-#   [main.params]
-#     target = "_blank"
-
-# [[main]]
-#   name = "Hyas website"
-#   weight = 40
-#   url = "https://gethyas.com/"
-#   post = ' <i class="fa-solid fa-up-right-from-square"></i>'
-#   parent = "community"
-#   [main.params]
-#     target = "_blank"
-
-# [[main]]
-#   name = "Get Started"
-#   weight = 30
-#   identifier = "get-started"
-#   url = "/docs/overview/introduction/"
-#
-# [[main]]
-#   name = "Quick Start"
-#   weight = 40
-#   identifier = "quick-start"
-#   url = "/docs/overview/quick-start/"
-#   parent = "get-started"
-#
-# [[main]]
-#   name = "Tutorial"
-#   weight = 50
-#   identifier = "tutorial"
-#   url = "https://getdoks.org/docs/tutorial/introduction/"
-#   parent = "get-started"
+[[main]]
+  name = "News"
+  url = "/news/"
+  weight = 20
 
 [[social]]
   name = "Google Scholar"
@@ -160,34 +45,3 @@
   pre = '<i class="ai ai-cv ai-fw"></i>'
   url = "/cv/"
   weight = 40
-
-# [[footer]]
-#   name = "Privacy"
-#   url = "/privacy-policy/"
-#   weight = 20
-
-# [[footer]]
-#   name = "Code of Conduct"
-#   url = "/docs/contributing/code-of-conduct/"
-#   weight = 30
-
-# [[footer]]
-#   name = "Open Collective"
-#   url = "https://opencollective.com/doks"
-#   weight = 40
-
-[[secondary]]
-  name = "Get Support"
-  url = "/docs/help/faq/#can-i-get-support"
-  weight = 10
-
-[[showcase]]
-  name = "Browse"
-  weight = 10
-  identifier = "browse"
-  url = "/showcase/"
-
-[[tertiary]]
-  name = "Submit to Showcase"
-  url = "https://github.com/h-enk/doks/discussions?discussions_q=category%3A%22Show+and+tell%22"
-  weight = 10

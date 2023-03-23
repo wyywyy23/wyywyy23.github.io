@@ -1,5 +1,6 @@
 .home .card,
 .blog .card,
+.news .card,
 .newsletter .card,
 .contributors.list .card {
   margin-top: 2rem;
@@ -19,6 +20,7 @@
 
 .home .card:hover,
 .blog .card:hover,
+.news .card:hover,
 .newsletter .card:hover,
 .contributors.list .card:hover,
 .showcase.list .card:hover,
@@ -29,6 +31,7 @@
 
 .home .card-body,
 .blog .card-body,
+.news .card-body,
 .newsletter .card-body,
 .contributors.list .card-body {
   padding: 0 2rem 1rem;
