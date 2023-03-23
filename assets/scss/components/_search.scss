@@ -50,33 +50,39 @@
 
 .DocSearch-Button {
   align-items: center;
-  background: transparent;
+  background: darken($body-bg, 5%);
   border: 0;
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   color: var(--docsearch-text-color);
   cursor: pointer;
   display: flex;
   font-weight: 400;
   justify-content: space-between;
-  margin: 0 0 0 -0.25rem;
-  padding: 0.75rem 0.25rem 0.25rem;
+  margin: 0 0 0 1.25rem;
+  padding: 0.25rem 1.25rem 0 0.75rem;
   user-select: none;
 }
 
-.DocSearch-Button {
-    padding: 0.25rem 0.25rem 0rem 1.75rem;
-  }
-
 @include media-breakpoint-up(md) {
   .DocSearch-Button {
-    padding: 0.5rem 0.25rem 0rem 1.75rem;
+    margin: 0 0 -0.25rem 1.25rem;
   }
 }
 
 .DocSearch-Button:active,
 .DocSearch-Button:focus,
 .DocSearch-Button:hover {
-  background: none;
+  background: darken($body-bg, 5%);
+  box-shadow: none;
+  color: var(--docsearch-primary-color);
+}
+
+[data-dark-mode] .DocSearch-Button {
+  background: lighten($body-bg-dark, 5%);
+}
+
+[data-dark-mode] .DocSearch-Button:hover {
+  background: lighten($body-bg-dark, 5%);
   box-shadow: none;
   color: var(--docsearch-primary-color);
 }
