@@ -13,11 +13,11 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [x] CV page
 - [x] Social links
 - [x] Search bar
+- [x] News page (blog style)
 - [ ] Set up docsearch
 - [ ] Timeline on the homepage
 - [ ] Return to the top button
 - [ ] Breadcrumb navigation
-- [ ] News page (blog style)
 - [ ] Research projects page (card style)
 - [ ] Technical blog (doc style)
 - [ ] Clean up template codes
