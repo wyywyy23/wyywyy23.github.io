@@ -63,9 +63,13 @@
   user-select: none;
 }
 
+.DocSearch-Button {
+    padding: 0.25rem 0.25rem 0rem 1.75rem;
+  }
+
 @include media-breakpoint-up(md) {
   .DocSearch-Button {
-    padding: 1rem 0.25rem 0.25rem;
+    padding: 0.5rem 0.25rem 0rem 1.75rem;
   }
 }
 
@@ -78,7 +82,7 @@
 }
 
 .DocSearch-Button::after {
-  content: "Search docs";
+  content: "Search";
   margin: 0 0 0.25rem 0.75rem;
 }
 

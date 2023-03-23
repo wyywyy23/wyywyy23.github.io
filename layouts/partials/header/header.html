@@ -55,7 +55,7 @@
         </ul>
         <hr class="text-black-50 my-4 d-md-none">
         <h3 class="h6 text-uppercase mb-3 d-md-none">More</h3>
-        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n6">
+        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
               <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}"{{ with .Params.target}} target="{{ . }}"{{ end }}>{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
@@ -64,7 +64,12 @@
         </ul>
       </div>
     </div>
-    <div id="docsearch"></div>
+    <div class="d-inline-flex placeholder-glow order-4">
+      <div id="search-placeholder" aria-hidden="true">
+        <a href="#" tabindex="-1" class="btn btn-light disabled placeholder"></a>
+      </div>
+      <div id="docsearch"></div>
+    </div>
 
 
     {{ if .Site.Params.options.darkMode -}}
