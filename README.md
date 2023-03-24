@@ -14,7 +14,8 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [x] Social links
 - [x] Search bar
 - [x] News page (blog style)
-- [ ] Set up docsearch
+- [x] Set up docsearch
+- [ ] Bibliography filter
 - [ ] Timeline on the homepage
 - [ ] Return to the top button
 - [ ] Breadcrumb navigation
