@@ -651,3 +651,11 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] ::selection {
   background: rgba($purple, 0.2);
 }
+
+[data-dark-mode] #button-to-top {
+  background-color: $link-color-dark;
+}
+
+[data-dark-mode] #button-to-top:hover {
+  background-color: lighten($link-color-dark, 5%);
+}
