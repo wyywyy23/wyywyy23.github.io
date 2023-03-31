@@ -24,4 +24,3 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [ ] Research projects page (card style)
 - [ ] Technical blog (doc style)
 - [ ] Clean up template codes
-- [ ] Redirect to 404 page
