@@ -15,9 +15,10 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [x] Search bar
 - [x] News page (blog style)
 - [x] Set up docsearch
+- [x] Link to specific bib item on publication page
+- [x] Browser tab color matching the theme
 - [ ] Bibliography filter
 - [ ] Timeline on the homepage
-- [ ] Link to specific bib item on publication page
 - [ ] Return to the top button
 - [ ] Breadcrumb navigation
 - [ ] Research projects page (card style)
