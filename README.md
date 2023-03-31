@@ -17,10 +17,11 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [x] Set up docsearch
 - [x] Link to specific bib item on publication page
 - [x] Browser tab color matching the theme
+- [x] Return to the top button
 - [ ] Bibliography filter
 - [ ] Timeline on the homepage
-- [ ] Return to the top button
 - [ ] Breadcrumb navigation
 - [ ] Research projects page (card style)
 - [ ] Technical blog (doc style)
 - [ ] Clean up template codes
+- [ ] Redirect to 404 page
