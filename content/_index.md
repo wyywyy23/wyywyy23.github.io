@@ -1,7 +1,7 @@
 ---
 title: "Yuyang Wang"
 description: "Homepage of the website"
-lead: '<div id="social-in-landing-page"><div><strong>Postdoctoral Research Scientist</strong></div><div><em><a href="https://lightwave.ee.columbia.edu/">Lightwave Research Laboratory&nbsp;<i class="fa-solid fa-arrow-up-right-from-square fa-xs"></i></a></em></div> Columbia University</div>'
+lead: '<div id="social-in-landing-page"><div><strong>Postdoctoral Research Scientist</strong></div><div><a href="https://lightwave.ee.columbia.edu/" target="_blank">Lightwave Research Laboratory</a></div> Columbia University</div>'
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false

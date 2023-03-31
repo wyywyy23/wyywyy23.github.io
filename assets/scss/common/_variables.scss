@@ -202,3 +202,7 @@ body .bg-light {
 body .card.bg-light {
   background: darken($body-bg, 5%) !important;
 }
+
+body .text-muted {
+    color: $gray-500 !important;
+  }
