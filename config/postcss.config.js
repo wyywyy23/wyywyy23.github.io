@@ -32,6 +32,7 @@ module.exports = {
           './assets/scss/components/_syntax.scss',
           './node_modules/@docsearch/css/dist/style.css',
           './assets/scss/components/_search.scss',
+          './assets/scss/components/_timeline.scss',
           // './assets/scss/common/_ads.scss',
           './assets/scss/common/_dark.scss',
           './node_modules/bootstrap/scss/_dropdown.scss',
