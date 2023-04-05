@@ -109,8 +109,8 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] body .navbar,
 [data-dark-mode] body .doks-subnavbar {
-  background-color: rgba($gray-900, 0.95);
-  border-bottom: 1px solid $border-dark;
+  background-color: rgba($body-bg-dark, 0.95);
+  border-bottom: 0;
 }
 
 [data-dark-mode] body.home .navbar {
@@ -118,7 +118,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .offcanvas-header {
-  border-bottom: 1px solid $gray-800;
+  border-bottom: 1px solid $border-dark;
 }
 
 [data-dark-mode] body .offcanvas .nav-link {
@@ -133,6 +133,11 @@ $navbar-dark-active-color:          $link-color-dark;
 [data-dark-mode] body .offcanvas .nav-link.active {
   color: $link-color-dark;
 }
+
+// [data-dark-mode] body .navbar-light {
+//     background-color: rgba($body-bg-dark, 0.9);
+//     backdrop-filter: saturate(150%) blur(5px);
+// }
 
 [data-dark-mode] body .navbar-light .navbar-brand {
   color: $navbar-dark-color !important;

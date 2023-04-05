@@ -17,7 +17,7 @@
 .navbar {
   z-index: 1000;
   background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 0;
 
   /*
   margin-top: 4px;
@@ -86,7 +86,7 @@ button#doks-versions {
 
 .doks-subnavbar {
   background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
+  border-bottom: 0;
   height: 56px;
 }
 
@@ -333,6 +333,11 @@ button#doks-versions {
 .doks-sidebar-toggle:not(.collapsed) .doks-collapse {
   display: inline-block;
 }
+
+// .navbar-light {
+//     background-color: rgba($body-bg, 0.8);
+//     backdrop-filter: saturate(150%) blur(5px);
+// }
 
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover,

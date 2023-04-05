@@ -2,9 +2,7 @@
   {{ partial "header/alert.html" . }}
 {{ end -}}
 
-<div class="header-bar"></div>
-
-<header class="navbar navbar-expand-md navbar-light doks-navbar">
+<header class="navbar navbar-expand-md navbar-light doks-navbar sticky-top header-bar">
   <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
     <a class="navbar-brand p-0 me-auto" href="{{ "/" | relURL }}" aria-label="Bootstrap">
       {{ .Site.Params.Title }}
