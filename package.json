@@ -41,7 +41,7 @@
     "@babel/cli": "^7.21",
     "@babel/core": "^7.22",
     "@babel/preset-env": "^7.22",
-    "@docsearch/js": "^3.3",
+    "@docsearch/js": "^3.4",
     "@fullhuman/postcss-purgecss": "^5.0",
     "@hyas/images": "^0.3.2",
     "auto-changelog": "^2.4",
