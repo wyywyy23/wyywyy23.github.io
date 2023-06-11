@@ -19,4 +19,4 @@ $$ -->
 
 <!-- {{% timeline %}} -->
 
-<h2> 🚧🚧Under construction🚧🚧 </h2>
+🚧🚧Under construction🚧🚧

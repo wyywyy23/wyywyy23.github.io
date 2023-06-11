@@ -125,7 +125,7 @@ html {
   position: relative;
 }
 
-.curve {
+.curve-odd {
   position: absolute;
   top: 0;
   left: 0;
@@ -134,17 +134,58 @@ html {
   line-height: 0;
 }
 
-.curve svg {
+.curve-odd svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 50px;
+  height: 100px;
 }
 
-.curve .shape-fill-odd {
+.curve-odd .shape-fill-odd {
   fill: $body-bg;
 }
 
-.curve .shape-fill-even {
+.curve-odd .shape-fill-even {
   fill: darken($body-bg, 5%);
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .curve-odd svg {
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
+}
+
+.curve-even {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve-even svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.curve-even .shape-fill-odd {
+  fill: $body-bg;
+}
+
+.curve-even .shape-fill-even {
+  fill: darken($body-bg, 5%);
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .curve-even svg {
+    width: calc(100% + 1.3px);
+    height: 50px;
+  }
 }

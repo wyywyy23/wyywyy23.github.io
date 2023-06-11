@@ -669,10 +669,18 @@ $navbar-dark-active-color:          $link-color-dark;
   background-color: lighten($link-color-dark, 5%);
 }
 
-[data-dark-mode] .curve .shape-fill-odd {
+[data-dark-mode] .curve-odd .shape-fill-odd {
   fill: $body-bg-dark;
 }
-  
-[data-dark-mode] .curve .shape-fill-even {
+
+[data-dark-mode] .curve-odd .shape-fill-even {
+  fill: darken($body-bg-dark, 3%);
+}
+
+[data-dark-mode] .curve-even .shape-fill-odd {
+  fill: $body-bg-dark;
+}
+
+[data-dark-mode] .curve-even .shape-fill-even {
   fill: darken($body-bg-dark, 3%);
 }
