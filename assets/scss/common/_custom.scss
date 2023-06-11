@@ -141,6 +141,10 @@ html {
   height: 50px;
 }
 
-.curve .shape-fill {
-  fill: white;
+.curve .shape-fill-odd {
+  fill: $body-bg;
+}
+
+.curve .shape-fill-even {
+  fill: darken($body-bg, 5%);
 }

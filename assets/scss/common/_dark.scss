@@ -3,7 +3,7 @@
 // Source: https://material.io/design/color/dark-theme.html
 
 $body-bg-dark: $gray-900;
-$body-overlay-dark: darken($body-bg-dark, 2.5%);
+$body-overlay-dark: darken($body-bg-dark, 5%);
 
 /*
 $border-dark: darken($body-bg-dark, 2.5%);
@@ -498,7 +498,7 @@ $navbar-dark-active-color:          $link-color-dark;
 }
 
 [data-dark-mode] body .bg-light {
-  background: darken($body-bg-dark, 1.5%) !important;
+  background: darken($body-bg-dark, 3%) !important;
 }
 
 [data-dark-mode] body .bg-dots {
@@ -667,4 +667,12 @@ $navbar-dark-active-color:          $link-color-dark;
 
 [data-dark-mode] #button-to-top:hover {
   background-color: lighten($link-color-dark, 5%);
+}
+
+[data-dark-mode] .curve .shape-fill-odd {
+  fill: $body-bg-dark;
+}
+  
+[data-dark-mode] .curve .shape-fill-even {
+  fill: darken($body-bg-dark, 3%);
 }

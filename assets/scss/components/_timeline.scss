@@ -32,7 +32,7 @@
     border-radius: 16px;
     content: "";
     border: 4px solid $primary;
-    background: $body-bg;
+    background: darken($body-bg, 2.5%);
   }
 
   &:last-child {
@@ -50,7 +50,7 @@
 
   &::after {
     border: 4px solid $link-color-dark;
-    background: $body-bg-dark;
+    background: darken($body-bg-dark, 1.5%);
   }
 
   &:last-child {
