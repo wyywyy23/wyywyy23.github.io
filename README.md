@@ -19,11 +19,12 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [x] Browser tab color matching the theme
 - [x] Return to the top button
 - [x] Timeline on the homepage
+- [x] Header bar always visible
+- [x] Curve divider
 - [ ] Bibliography filter
 - [ ] Breadcrumb navigation
 - [ ] Research projects page (card style)
 - [ ] Technical blog (doc style)
 - [ ] Clean up template codes
-- [ ] Header bar always visible
 - [ ] Link to homepage sections: education, recent pub, project cards, news, etc.
 - [ ] Publication in timeline style?
