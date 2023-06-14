@@ -23,6 +23,6 @@ $$ -->
 
 Yuyang Wang is a Postdoctoral Research Scientist in the [Lightwave Research Laboratory](https://lightwave.ee.columbia.edu) at Columbia University, New York, NY, USA, supervised by [Prof. Keren Bergman](https://lightwave.ee.columbia.edu/bergman). His research interests include the modeling, design, and optimization of ultra-broadband, energy-efficient, and reconfigurable optical interconnects and systems for data-centric applications. Prior to joining Columbia, he earned his Ph.D. degree in Electrical and Computer Engineering from the University of California, Santa Barbara, CA, USA, in 2021.
 
-🕵️‍♂️ I am seeking tenure-track faculty positions starting in 2024.
+🕵️‍♂️ I am seeking tenure-track faculty positions starting in 2024. Feel free to contact me at yw3831 [at] columbia [dot] edu.
 
 <!-- He received his Ph.D. and M.S. degrees in Electrical and Computer Engineering from the University of California, Santa Barbara, CA, USA, in 2021 and 2018, respectively. He received his B.Eng. degree in Electronic Engineering from Tsinghua University, Beijing, China, in 2015. He was a Visiting Intern at the Hong Kong University of Science and Technology, Hong Kong SAR, China, in 2019, and a Design Engineering Intern at Cadence Design Systems, San Jose, CA, USA, in 2018. -->
