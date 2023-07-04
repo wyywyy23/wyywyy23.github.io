@@ -1,12 +1,17 @@
 [[main]]
-  name = "Publications"
-  url = "/publications/"
+  name = "About"
+  url = "#section-about"
   weight = 10
 
 [[main]]
-  name = "News"
-  url = "/news/"
+  name = "Publications"
+  url = "/publications/"
   weight = 20
+
+[[main]]
+  name = "News"
+  url = "#section-news"
+  weight = 30
 
 [[social]]
   name = "Google Scholar"
