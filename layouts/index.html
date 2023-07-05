@@ -137,7 +137,7 @@
     {{ partial "main/curve-odd.html" . -}}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5 pt-5">
+            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
                 <a id="section-about"><h2 class="h3 mt-3">About Me</h2></a>
                 {{- .Content -}}
             </div>
@@ -149,10 +149,10 @@
     {{ partial "main/curve-even.html" . -}}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5 pt-5">
+            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
                 <div class="d-flex justify-content-between align-items-center">
                     <a id="section-research"><h2 class="h3 mt-3 mb-0 ms-0">Research</h2></a>
-                    <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/research/" | relURL }}" role="button"><i class="fa-solid fa-microchip fa-fw"></i>&nbsp;More</a>
+                    <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/research/" | relURL }}" role="button"><i class="fa-solid fa-microchip fa-fw"></i>&nbsp;Read more</a>
                 </div>
             </div>
         </div>
@@ -163,10 +163,10 @@
     {{ partial "main/curve-odd.html" . -}}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5 pt-5">
+            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
                 <div class="d-flex justify-content-between align-items-center">
                     <a id="section-news"><h2 class="h3 mt-3 mb-0 ms-0">News</h2></a>
-                    <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/news/" | relURL }}" role="button"><i class="fa-solid fa-newspaper fa-fw"></i>&nbsp;More</a>
+                    <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/news/" | relURL }}" role="button"><i class="fa-solid fa-newspaper fa-fw"></i>&nbsp;Read more</a>
                 </div>
                 <div class="card-list">
                     {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section"
@@ -193,10 +193,10 @@
     {{ partial "main/curve-even.html" . -}}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5 pt-5">
+            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
                 <div class="d-flex justify-content-between align-items-center">
                     <a id="section-publication"><h2 class="h3 mt-3 mb-3 ms-0">Publications</h2></a>
-                    <a class="btn btn-primary mt-3 mb-3 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;More</a>
+                    <a class="btn btn-primary mt-3 mb-3 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;Read more</a>
                 </div>
                 {{ partial "main/pub-short-list.html" . -}}
             </div>
@@ -208,7 +208,7 @@
     {{ partial "main/curve-odd.html" . -}}
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 mt-5 pt-5">
+            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
                 <div class="d-flex justify-content-between align-items-center">
                     <a id="section-misc"><h2 class="h3 mt-3 mb-0 ms-0">Miscellaneous</h2></a>
                 </div>
