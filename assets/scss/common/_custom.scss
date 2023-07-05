@@ -189,3 +189,9 @@ html {
     height: 50px;
   }
 }
+
+/** Docsearch Logo Color **/
+.DocSearch-Logo .cls-1,
+.DocSearch-Logo .cls-2 {
+  fill: var(--docsearch-logo-color);
+}

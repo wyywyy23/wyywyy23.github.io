@@ -20,7 +20,7 @@
       </div>
       <div class="offcanvas-body px-4">
         <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
-        <ul class="nav flex-column flex-md-row ms-md-n3">
+        <ul class="nav flex-column flex-md-row flex-nowrap ms-md-n3">
           {{- $current := . -}}
           {{ range .Site.Menus.main -}}
             {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
@@ -54,7 +54,7 @@
         </ul>
         <hr class="text-black-50 my-4 d-md-none">
         <h3 class="h6 text-uppercase mb-3 d-md-none">More</h3>
-        <ul class="nav flex-column flex-md-row ms-md-auto me-md-n5">
+        <ul class="nav flex-column flex-md-row flex-nowrap ms-auto me-n5">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
               <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}"{{ with .Params.target}} target="{{ . }}"{{ end }}>{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
