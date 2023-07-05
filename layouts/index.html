@@ -194,9 +194,10 @@
         <div class="row justify-content-center">
             <div class="col-md-12 col-lg-10 col-xl-8 mt-5 pt-5">
                 <div class="d-flex justify-content-between align-items-center">
-                    <a id="section-publication"><h2 class="h3 mt-3 mb-0 ms-0">Recent Publications</h2></a>
-                    <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;More</a>
+                    <a id="section-publication"><h2 class="h3 mt-3 mb-3 ms-0">Recent Publications</h2></a>
+                    <a class="btn btn-primary mt-3 mb-3 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;More</a>
                 </div>
+                {{ partial "main/pub-short-list.html" . -}}
             </div>
         </div>
     </div>

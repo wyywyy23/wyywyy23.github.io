@@ -1,8 +1,21 @@
-<!-- Variables -->
-{{ $filename := .Get "filename" | default "/publications/publications.bib" }}
-
 <!-- Load the BibTEX-js library -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+
+<script>
+    var displayed = 0;
+    function displayOnly(num, element){
+        if (displayed > -1 && num <= displayed) {
+            element.style.display = "none";
+        }
+        displayed++;
+    }
+    function displayAll(bibtex){
+        var bibtexEntries = document.querySelectorAll(".bibtexentry");
+        for (var i = 0; i < bibtexEntries.length; ++i) {
+            bibtexEntries[i].style.display = "block";
+        }
+    }				 
+</script>
 
 <!-- Custom style -->
 <style>
@@ -12,68 +25,20 @@
   .bib-collapse {
     display: none;
   }
-  pre {
-	font-size: 10pt;
-  }
-  .sections {
-    margin-top: 100px;
-    margin-bottom: 100px;
-  }
-  .section {
-    margin-top: -150px;
-    margin-bottom: -150px;
-  }
 </style>
 
 <!-- Load the bib file -->
-<bibtex src="{{ $filename }}"></bibtex>
+<bibtex src="/publications/publications.bib"></bibtex>
 
 <!-- Display publication list -->
 <div class="bibtex_structure">
-	<div class="sections bibtextypekey">
-		<div class="section book|incollection">
-			<h3>Books and Book Chapters</h3>
-			<div class="sort date" extra="DESC date">
-				<div class="templates"></div>
-			</div>
-		</div>
-		<div class="section article">
-			<h3>Journal Articles</h3>
-			<div class="sort date" extra="DESC date">
-				<div class="templates"></div>
-			</div>
-		</div>
-		<div class="section inproceedings">
-			<h3>Conference Proceedings</h3>
-			<div class="sort date" extra="DESC date">
-				<div class="templates"></div>
-			</div>
-		</div>
-        <div class="section phdthesis|mastersthesis|bachelorsthesis">
-			<h3>Dissertation</h3>
-			<div class="sort date" extra="DESC date">
-				<div class="templates"></div>
-			</div>
-		</div>
-		<div class="section misc|techreport">
-			<h3>Other Publications</h3>
-			<div class="sort date" extra="DESC date">
-				<div class="templates"></div>
-			</div>
-		</div>
-	</div>
+    <div class="sort date" extra="DESC date">
+        <div class="templates"></div>
+    </div>
 </div>
 
-<!-- <div class="bibtex_structure">
-    <div class="sort year" extra="DESC number">
-          <div class="group year" extra="DESC string">
-              <div class="templates"></div>
-        </div>
-  </div>
-</div> -->
-
 <div id="bibtex_display">
-	<div class="bibtex_template">
+	<div class="bibtex_template" style="display: none;" callback="displayOnly(3, bibtexentry);">
 		<p>
 			<div class="if title">
 				<div class="bibtexVar" id="+BIBTEXKEY+" extra="BIBTEXKEY"><a class="bibtexVar" href="#+BIBTEXKEY+" extra="BIBTEXKEY"><strong><span class="title"></span></strong></a></div>
