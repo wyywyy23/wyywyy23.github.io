@@ -21,10 +21,13 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [x] Timeline on the homepage
 - [x] Header bar always visible
 - [x] Curve divider
+- [x] Header link jump to homepage sections
+- [x] Recent publication on homepage showing most recent 3
+- [ ] CV in timeline style with HTML not embedded PDF
+- [ ] Link to gallery in misc section
 - [ ] Bibliography filter
 - [ ] Breadcrumb navigation
 - [ ] Research projects page (card style)
 - [ ] Technical blog (doc style)
 - [ ] Clean up template codes
-- [ ] Link to homepage sections: education, recent pub, project cards, news, etc.
 - [ ] Publication in timeline style?
