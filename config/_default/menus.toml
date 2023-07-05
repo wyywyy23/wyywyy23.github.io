@@ -22,7 +22,7 @@
   name = "Google Scholar"
   pre = '<i class="fa-solid fa-graduation-cap fa-fw"></i>'
   url = "https://scholar.google.com/citations?user=HrJ7_4oAAAAJ&hl=en"
-  weight = 10
+  weight = 20
   [social.params]
     target = "_blank"
 
@@ -38,7 +38,7 @@
   name = "LinkedIn"
   pre = '<i class="fa-brands fa-linkedin-in fa-fw"></i>'
   url = "https://www.linkedin.com/in/yuyangucsb/"
-  weight = 20
+  weight = 30
   [social.params]
     target = "_blank"
 
@@ -46,7 +46,7 @@
   name = "GitHub"
   pre = '<i class="fa-brands fa-github fa-fw"></i>'
   url = "https://github.com/wyywyy23/"
-  weight = 30
+  weight = 40
   [social.params]
     target = "_blank"
 
@@ -54,4 +54,4 @@
   name = "Curriculum Vitae"
   pre = '<i class="ai ai-cv ai-fw"></i>'
   url = "/cv/"
-  weight = 40
+  weight = 10

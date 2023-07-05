@@ -8,14 +8,14 @@
         <div class="col-lg-auto text-center">
             <h1 class="mt-0">{{ .Title }}</h1>
             <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-            <div id="social-in-landing-page">
+            <!-- <div id="social-in-landing-page">
                 <p class="lead">
                     {{ range .Site.Menus.social -}}
                     <a class="nav-item" href="{{ .URL | relURL }}" {{ with .Params.target}} target="{{ . }}" {{ end
                         }}>{{ .Pre | safeHTML }}</a>
                     {{ end -}}
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -198,6 +198,19 @@
                     <a class="btn btn-primary mt-3 mb-3 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;More</a>
                 </div>
                 {{ partial "main/pub-short-list.html" . -}}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-md container-fluid bg-light pos-relative">
+    {{ partial "main/curve-odd.html" . -}}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 col-lg-10 col-xl-8 mt-5 pt-5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <a id="section-misc"><h2 class="h3 mt-3 mb-0 ms-0">Miscellaneous</h2></a>
+                </div>
             </div>
         </div>
     </div>
