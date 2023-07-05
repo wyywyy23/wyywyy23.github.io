@@ -60,6 +60,7 @@ rel  = "sitemap"
 [permalinks]
   blog = "/blog/:title/"
   news = "/news/:title/"
+  research = "/research/:title/"
   types = "/showcase/types/:title/"
   functionalities = "/showcase/functionalities/:title/"
 
