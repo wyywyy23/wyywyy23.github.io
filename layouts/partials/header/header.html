@@ -16,10 +16,10 @@
       <div class="header-bar d-md-none"></div>
       <div class="offcanvas-header d-md-none">
         <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relURL }}">{{ .Site.Params.Title }}</a></h2>
-        <button type="button" class="btn-close text-reset me-2" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
+        <button type="button" class="btn-close me-2" data-bs-theme="dark" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
       </div>
       <div class="offcanvas-body px-4">
-        <h3 class="h6 text-uppercase mb-3 d-md-none">Main</h3>
+        <h3 class="h6 text-uppercase text-dark mb-3 d-md-none">Main</h3>
         <ul class="nav flex-column flex-md-row flex-nowrap ms-md-n3">
           {{- $current := . -}}
           {{ range .Site.Menus.main -}}
@@ -53,7 +53,7 @@
           {{ end -}}
         </ul>
         <hr class="text-black-50 my-4 d-md-none">
-        <h3 class="h6 text-uppercase mb-3 d-md-none">More</h3>
+        <h3 class="h6 text-uppercase text-dark mb-3 d-md-none">More</h3>
         <ul class="nav flex-column flex-md-row flex-nowrap ms-auto me-n5">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
