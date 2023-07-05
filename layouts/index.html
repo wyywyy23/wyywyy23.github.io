@@ -8,14 +8,14 @@
         <div class="col-lg-auto text-center">
             <h1 class="mt-0">{{ .Title }}</h1>
             <p class="lead">{{ .Params.Lead | safeHTML }}</p>
-            <div id="social-in-landing-page">
+            <!-- <div id="social-in-landing-page">
                 <p class="lead">
                     {{ range .Site.Menus.social -}}
                     <a class="nav-item" href="{{ .URL | relURL }}" {{ with .Params.target}} target="{{ . }}" {{ end
                         }}>{{ .Pre | safeHTML }}</a>
                     {{ end -}}
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
