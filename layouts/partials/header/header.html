@@ -2,25 +2,25 @@
   {{ partial "header/alert.html" . }}
 {{ end -}}
 
-<header class="navbar navbar-expand-md navbar-light doks-navbar sticky-top header-bar">
-  <nav class="container-xxl flex-wrap flex-md-nowrap" aria-label="Main navigation">
+<header class="navbar navbar-expand-lg navbar-light doks-navbar sticky-top header-bar">
+  <nav class="container-xxl align-items-center" aria-label="Main navigation">
     <a class="navbar-brand p-0 me-auto" href="{{ "/" | relURL }}" aria-label="Bootstrap">
       {{ .Site.Params.Title }}
     </a>
 
-    <button class="btn btn-menu d-block d-md-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
+    <button class="btn btn-menu d-block d-lg-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
         <span><i class="fa-solid fa-bars fa-fw"></i></span>
     </button>
 
-    <div class="offcanvas offcanvas-end border-0 py-md-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
-      <div class="header-bar d-md-none"></div>
-      <div class="offcanvas-header d-md-none">
+    <div class="offcanvas offcanvas-end border-0 py-lg-1" tabindex="-1" id="offcanvasDoks" data-bs-backdrop="true" aria-labelledby="offcanvasDoksLabel">
+      <div class="header-bar d-lg-none"></div>
+      <div class="offcanvas-header d-lg-none">
         <h2 class="h5 offcanvas-title ps-2" id="offcanvasDoksLabel"><a class="text-dark" href="{{ "/" | relURL }}">{{ .Site.Params.Title }}</a></h2>
         <button type="button" class="btn-close me-2" data-bs-theme="dark" data-bs-dismiss="offcanvas" aria-label="Close main menu"></button>
       </div>
       <div class="offcanvas-body px-4">
-        <h3 class="h6 text-uppercase text-dark mb-3 d-md-none">Main</h3>
-        <ul class="nav flex-column flex-md-row flex-nowrap ms-md-n3">
+        <h3 class="h6 text-uppercase text-dark mb-3 d-lg-none">Main</h3>
+        <ul class="nav flex-column flex-lg-row flex-nowrap ms-lg-n3">
           {{- $current := . -}}
           {{ range .Site.Menus.main -}}
             {{- $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) -}}
@@ -52,18 +52,18 @@
             {{ end }}
           {{ end -}}
         </ul>
-        <hr class="text-black-50 my-4 d-md-none">
-        <h3 class="h6 text-uppercase text-dark mb-3 d-md-none">More</h3>
-        <ul class="nav flex-column flex-md-row flex-nowrap ms-auto me-n5">
+        <hr class="text-black-50 my-4 d-lg-none">
+        <h3 class="h6 text-uppercase text-dark mb-3 d-lg-none">More</h3>
+        <ul class="nav flex-column flex-lg-row flex-nowrap ms-auto me-n5">
           {{ range .Site.Menus.social -}}
             <li class="nav-item">
-              <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}"{{ with .Params.target}} target="{{ . }}"{{ end }}>{{ .Pre | safeHTML }}<small class="ms-2 d-md-none">{{ .Name | safeHTML }}</small></a>
+              <a class="nav-link ps-0 py-1" href="{{ .URL | relURL }}"{{ with .Params.target}} target="{{ . }}"{{ end }}>{{ .Pre | safeHTML }}<small class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small></a>
             </li>
           {{ end -}}
         </ul>
       </div>
     </div>
-    <div class="d-inline-flex placeholder-glow order-6">
+    <div class="d-inline-flex placeholder-glow ms-auto mt-md-n1 order-6">
       <div id="search-placeholder" aria-hidden="true">
         <a href="#" tabindex="-1" class="btn btn-light disabled placeholder"></a>
       </div>
