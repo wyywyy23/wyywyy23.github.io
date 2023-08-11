@@ -7,6 +7,6 @@ draft: false
 images: []
 ---
 
-{{% embed-pdf url="/files/YW_CV.pdf" filename="YW_CV.pdf" %}}
+{{% embed-pdf url="/files/cv_yw.pdf" filename="cv_yw.pdf" %}}
 
-You can download a PDF copy of my CV <a href="/files/YW_CV.pdf" target="_blank">here</a>.
+You can download a PDF copy of my CV <a href="/files/cv_yw.pdf" target="_blank">here</a>.
