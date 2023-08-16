@@ -195,3 +195,8 @@ html {
 .DocSearch-Logo .cls-2 {
   fill: var(--docsearch-logo-color);
 }
+
+.remove-all-margin-padding {
+  margin: 0 !important;
+  padding: 0 !important;
+}
