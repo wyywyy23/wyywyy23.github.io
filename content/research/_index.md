@@ -1,5 +1,5 @@
 ---
-title: "Research Projects"
+title: "Research"
 emoji: ":tada:"
 description: ""
 lead: "The quick brown fox jumps over the lazy dog."
