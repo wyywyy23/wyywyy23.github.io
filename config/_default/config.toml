@@ -55,6 +55,7 @@ rel  = "sitemap"
 [taxonomies]
   contributor = "contributors"
   type = "types"
+  topic = "topics"
   functionality = "functionalities"
 
 [permalinks]
@@ -62,6 +63,7 @@ rel  = "sitemap"
   news = "/news/:title/"
   research = "/research/:title/"
   types = "/showcase/types/:title/"
+  topics = "/research/topics/:title/"
   functionalities = "/showcase/functionalities/:title/"
 
 [minify]

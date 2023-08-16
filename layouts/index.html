@@ -154,6 +154,25 @@
                     <a id="section-research"><h2 class="h3 mt-3 mb-0 ms-0">Research Projects</h2></a>
                     <!-- <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/research/" | relURL }}" role="button"><i class="fa-solid fa-microchip fa-fw"></i>&nbsp;More</a> -->
                 </div>
+                <div class="row row-cols-1 row-cols-xl-2 g-4">
+                    {{ range where .Site.RegularPages.ByWeight "Params.pinned" true }}
+                    <div class="col">
+                        <div class="card">
+                            {{- .Scratch.Set "fillImageCard" "1270x620 Center" -}}
+                            {{ partial "content/card-image.html" . }}
+                            <div class="card-body">
+                                <h3>
+                                    <a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}{{
+                                        with .Params.emoji -}}&nbsp;{{ . |
+                                        emojify }}{{ end -}}</a>
+                                </h3>
+                                <p class="card-text mb-2">{{ .Params.lead | safeHTML | truncate 40 }}</p>
+                                {{ if .Params.topics -}}<p class="card-text mt-2"><small>{{ range $index, $topics := .Params.topics }}{{ if gt $index 0 }} {{ end }}<a class="btn btn-primary btn-sm rounded-pill stretched-link position-relative" href="{{ "/research/topics/" | relURL }}{{ . | urlize }}/">{{ . | humanize }}</a>{{ end -}}</small></p>{{ end -}}
+                            </div>
+                        </div>
+                    </div>
+                    {{ end -}}
+                </div>
                 <div class="d-flex justify-content-end align-items-center">
                     <!-- <a id="section-research"><h2 class="h3 mt-3 mb-0 ms-0">Research Projects</h2></a> -->
                     <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/research/" | relURL }}" role="button"><i class="fa-solid fa-microchip fa-fw"></i>&nbsp;Learn More</a>
