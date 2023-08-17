@@ -15,6 +15,7 @@
 
 .showcase.list .card,
 .types.list .card,
+.topics.list .card,
 .functionalities.list .card {
   transition: transform 0.3s;
 }
@@ -27,6 +28,7 @@
 .contributors.list .card:hover,
 .showcase.list .card:hover,
 .types.list .card:hover,
+.topics.list .card:hover,
 .functionalities.list .card:hover {
   transform: scale(1.025);
 }
@@ -64,5 +66,9 @@
 }
 
 .types-single {
+  margin-right: 0.75rem;
+}
+
+.topics-single {
   margin-right: 0.75rem;
 }

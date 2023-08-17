@@ -6,8 +6,9 @@
         <h1>{{ .Title }}{{ with .Params.emoji -}}&nbsp;{{ . | emojify }}{{ end -}}</h1>
         {{ partial "main/blog-meta.html" . }}
       </div>
-      <p class="lead">{{ .Params.lead | safeHTML }}</p>
+      <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
       {{ .Content }}
+      {{ if .Params.topics -}}<p class="card-text mt-2"><small>{{ range $index, $topics := .Params.topics }}{{ if gt $index 0 }} {{ end }}<a class="btn btn-primary btn-sm rounded-pill stretched-link position-relative" href="{{ "/research/topics/" | relURL }}{{ . | urlize }}/">{{ . | humanize }}</a>{{ end -}}</small></p>{{ end -}}
     </article>
   </div>
 </div>

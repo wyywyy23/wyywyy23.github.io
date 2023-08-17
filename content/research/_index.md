@@ -1,8 +1,8 @@
 ---
-title: "Research Projects"
+title: "Research"
 emoji: ":tada:"
 description: ""
-lead: ""
+lead: "The quick brown fox jumps over the lazy dog."
 date: 2023-03-23T14:34:23-04:00
 lastmod: 2023-03-23T14:34:23-04:00
 draft: false
