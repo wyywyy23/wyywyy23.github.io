@@ -1,5 +1,5 @@
 export type IconFamily = "classic" | "sharp" | "duotone";
-export type IconPrefix = "fas" | "far" | "fal" | "fat" | "fad" | "fab" | "fak" | "fass" ;
+export type IconPrefix = "fas" | "far" | "fal" | "fat" | "fad" | "fab" | "fak" | "fass" | "fasr" | "fasl" ;
 export type CssStyleClass = "fa-solid" | "fa-regular" | "fa-light" | "fa-thin" | "fa-duotone" | "fa-brands" ;
 export type IconStyle = "solid" | "regular" | "light" | "thin" | "duotone" | "brands" ;
 export type IconPathData = string | string[]
@@ -79,6 +79,7 @@ export type IconName = 'monero' |
   'square-hacker-news' | 
   'hacker-news-square' | 
   'edge' | 
+  'threads' | 
   'napster' | 
   'square-snapchat' | 
   'snapchat-square' | 
@@ -135,6 +136,7 @@ export type IconName = 'monero' |
   'steam' | 
   'cc-apple-pay' | 
   'scribd' | 
+  'debian' | 
   'openid' | 
   'instalod' | 
   'expeditedssl' | 
@@ -215,6 +217,7 @@ export type IconName = 'monero' |
   'phoenix-framework' | 
   'shopify' | 
   'neos' | 
+  'square-threads' | 
   'hackerrank' | 
   'researchgate' | 
   'swift' | 
@@ -329,6 +332,7 @@ export type IconName = 'monero' |
   'think-peaks' | 
   'bilibili' | 
   'erlang' | 
+  'x-twitter' | 
   'cotton-bureau' | 
   'dashcube' | 
   '42-group' | 
@@ -494,6 +498,7 @@ export type IconName = 'monero' |
   'tumblr' | 
   'vaadin' | 
   'quora' | 
+  'square-x-twitter' | 
   'reacteurope' | 
   'medium' | 
   'medium-m' | 

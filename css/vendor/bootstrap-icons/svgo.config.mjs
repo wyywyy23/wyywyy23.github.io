@@ -1,8 +1,6 @@
-'use strict'
+import path from 'node:path'
 
-const path = require('path')
-
-module.exports = {
+export default {
   multipass: true,
   js2svg: {
     pretty: true,
@@ -24,7 +22,6 @@ module.exports = {
     // The next plugins are included in svgo but are not part of preset-default,
     // so we need to enable them separately
     'cleanupListOfValues',
-    'sortAttrs',
     {
       name: 'removeAttrs',
       params: {

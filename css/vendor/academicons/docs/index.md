@@ -181,6 +181,11 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-isni ai-4x"></i>
+      isni
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-jstor ai-4x"></i>
       jstor
     </div>
@@ -346,6 +351,16 @@ layout: home
     </div>
 
     <div class="col-2 center ai-case">
+      <i class="ai ai-viaf ai-4x"></i>
+      viaf
+    </div>
+
+    <div class="col-2 center ai-case">
+      <i class="ai ai-wiley ai-4x"></i>
+      wiley
+    </div>
+
+    <div class="col-2 center ai-case">
       <i class="ai ai-zenodo ai-4x"></i>
       zenodo
     </div>
@@ -362,7 +377,7 @@ layout: home
 
 Academicons is a specialist icon font for academics. It contains icons for websites and organisations related to academia that are often missing from mainstream font packages. It can be used by itself, but its primary purpose is to be used as a supplementary package alongside a larger icon set.
 
-**All product names, logos, and brandsare are the property of their respective owners. Use of these names, logos, and brands does not imply endorsement.**
+**All product names, logos, and brands are the property of their respective owners. Use of these names, logos, and brands does not imply endorsement.**
 
 # How do I use it?
 
