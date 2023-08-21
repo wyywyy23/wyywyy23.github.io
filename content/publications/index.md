@@ -7,4 +7,4 @@ draft: false
 images: []
 ---
 
-{{% publication-list filename="/publications/publications.bib" %}}
+{{% publication-list filename="/bibliography/publications.bib" %}}
