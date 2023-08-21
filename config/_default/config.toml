@@ -1,4 +1,4 @@
-baseurl = "wyywyy23-github-io.pages.dev"
+baseurl = "https://wyywyy23-github-io.pages.dev"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
