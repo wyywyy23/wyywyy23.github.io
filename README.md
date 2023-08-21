@@ -35,3 +35,4 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [ ] Clean up template codes
 - [ ] Publication in timeline style?
 - [ ] Migrate to Cloudflare Pages
+- [ ] Update docsearch and Adobe api if successful
