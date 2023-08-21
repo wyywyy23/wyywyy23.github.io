@@ -34,3 +34,4 @@ Built with [Doks](https://getdoks.org/), a static site generator for technical d
 - [ ] Technical blog (doc style)
 - [ ] Clean up template codes
 - [ ] Publication in timeline style?
+- [ ] Migrate to Cloudflare Pages
