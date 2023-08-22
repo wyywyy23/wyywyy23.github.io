@@ -4,8 +4,11 @@
 
 <header class="navbar navbar-expand-lg navbar-light doks-navbar sticky-top header-bar">
   <nav class="container-xxl align-items-center" aria-label="Main navigation">
-    <a class="navbar-brand p-0 me-auto" href="{{ "/" | relURL }}" aria-label="Bootstrap">
+    <a class="navbar-brand p-0 ms-0 me-0" href="{{ "/" | relURL }}" aria-label="Bootstrap">
       {{ .Site.Params.Title }}
+    </a>
+    <a class="navbar-brand p-0 ms-0 me-auto d-none d-md-block" href="{{ "/" | relURL }}" aria-label="Bootstrap">
+        {{ .Site.Params.TitleNative }}
     </a>
 
     <button class="btn btn-menu d-block d-lg-none order-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDoks" aria-controls="offcanvasDoks" aria-label="Open main menu">
