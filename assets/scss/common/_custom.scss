@@ -196,7 +196,17 @@ html {
   fill: var(--docsearch-logo-color);
 }
 
+/** Remove all margin and padding **/
 .remove-all-margin-padding {
   margin: 0 !important;
   padding: 0 !important;
+}
+
+/** LXGW Wenkai Fonts **/
+.lxgw-wenkai {
+  font-family: "LXGW WenKai", sans-serif;
+}
+
+.lxgw-wenkai-screen {
+  font-family: "LXGW WenKai Screen", sans-serif;
 }
