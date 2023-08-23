@@ -419,3 +419,28 @@
   font-style: italic;
   src: url("fonts/vendor/JetBrainsMono/fonts/ttf/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype"), url("fonts/vendor/JetBrainsMono/fonts/webfonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2");
 }
+
+// Yanshi fonts
+@font-face {
+  font-family: Slidechunfeng;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/Slidechunfeng-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Slidexiaxing;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/Slidexiaxing-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Slideqiuhong;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/Slideqiuhong-Regular.ttf") format("truetype");
+}
