@@ -41,33 +41,37 @@
 	<div class="bibtex_template" style="display: none;" callback="displayOnly(5, bibtexentry);">
 		<p>
 			<div class="if title">
-				<div class="bibtexVar" id="+BIBTEXKEY+" extra="BIBTEXKEY"><a class="bibtexVar" href="#+BIBTEXKEY+" extra="BIBTEXKEY"><strong><span class="title"></span></strong></a></div>
+				<div class="offset-anchor-sm"><div class="bibtexVar" id="+BIBTEXKEY+" extra="BIBTEXKEY"></div></div><a class="bibtexVar" href="#+BIBTEXKEY+" extra="BIBTEXKEY"><strong><span class="title"></span></strong></a>
             </div>
             <div class="if author">
-                <span class="author"><span class="first"></span>&nbsp;<span class="last"></span></span>
+                <small><span class="author"><span class="first"></span>&nbsp;<span class="last"></span></span></small>
             </div>
             <div>
-			    <span class="if journal"><em><span class="journal"></span></em></span>
-			    <span class="if volume"><strong><span class="volume"></span></strong></span>
-			    <span class="if number">(<span class="number"></span>),</span>
-                <span class="if booktitle">In <em><span class="booktitle"></span>,</em></span>
-			    <span class="if publisher"><em><span class="publisher"></span>,</em></span>
-			    <span class="if institution"><span class="institution"></span>,</span>
-			    <span class="if pages"><span class="pages"></span>,</span>
-                <span class="if school"><span class="school"></span>,</span>
-			    <span class="if month"><span class="month"></span>,</span>
-			    <span class="if year"><span class="year"></span>.</span>
+                <small>
+			        <span class="if journal"><em><span class="journal"></span></em></span>
+			        <span class="if volume"><strong><span class="volume"></span></strong></span>
+			        <span class="if number">(<span class="number"></span>),</span>
+                    <span class="if booktitle">In <em><span class="booktitle"></span>,</em></span>
+			        <span class="if publisher"><em><span class="publisher"></span>,</em></span>
+			        <span class="if institution"><span class="institution"></span>,</span>
+			        <span class="if pages"><span class="pages"></span>,</span>
+                    <span class="if school"><span class="school"></span>,</span>
+			        <span class="if month"><span class="month"></span>,</span>
+			        <span class="if year"><span class="year"></span>.</span>
+                </small>
             </div>
 			<span class="if doi">
-                <span style="white-space: nowrap"> <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi" target="_blank"><i class="ai ai-doi"></i>&nbsp;<span class="doi"></span></a>&nbsp;</span>
+                <small><span style="white-space: nowrap"> <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi" target="_blank"><i class="ai ai-doi"></i>&nbsp;<span class="doi"></span></a>&nbsp;</span></small>
 			</span>
             <span class="if file">
-                <span><a class="bibtexVar" href="/publications/+FILE+" extra="file" target="_blank"><i class="fa-solid fa-file-pdf fa-fw"></i></a>&nbsp;</span>
+                <small><span><a class="bibtexVar" href="/publications/+FILE+" extra="file" target="_blank"><i class="fa-solid fa-file-pdf fa-fw"></i></a>&nbsp;</span></small>
 			</span>
-            <a class="bibtexVar doks-sidebar-toggle collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#bib+BIBTEXKEY+" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
-                <span class="doks-expand"><i class="fa-solid fa-quote-left fa-fw"></i></span>
-                <span class="doks-collapse"><i class="fa-solid fa-quote-right fa-fw"></i></span>
-            </a>
+            <small>
+                <a class="bibtexVar doks-sidebar-toggle collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#bib+BIBTEXKEY+" href="#bib+BIBTEXKEY+" aria-expanded="false" aria-controls="bib+BIBTEXKEY+" extra="BIBTEXKEY">
+                    <span class="doks-expand"><i class="fa-solid fa-quote-left fa-fw"></i></span>
+                    <span class="doks-collapse"><i class="fa-solid fa-quote-right fa-fw"></i></span>
+                </a>
+            </small>
             <div class="bibtexVar collapse" id="bib+BIBTEXKEY+" extra="BIBTEXKEY">
                   <pre><code class="bibtexraw noread"></code></pre>
             </div>

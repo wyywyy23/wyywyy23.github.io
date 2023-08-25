@@ -226,3 +226,18 @@ html {
   font-family: Slideqiuhong, sans-serif;
   font-weight: 400;
 }
+
+/** Offset anchor **/
+.offset-anchor {
+  display: block;
+  position: relative;
+  top: -125px;
+  visibility: hidden;
+}
+
+.offset-anchor-sm {
+  display: block;
+  position: relative;
+  top: -75px;
+  visibility: hidden;
+}

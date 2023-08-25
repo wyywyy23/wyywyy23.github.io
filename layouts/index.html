@@ -141,7 +141,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
-                <a id="section-about"><h2 class="h3 mt-3">About Me</h2></a>
+                <h2 class="h3 mt-3">About Me</h2><a class="offset-anchor" id="section-about"></a>
                 {{- .Content -}}
             </div>
         </div>
@@ -153,10 +153,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
-                <div class="d-flex justify-content-between align-items-center">
-                    <a id="section-research"><h2 class="h3 mt-3 mb-0 ms-0">Research Highlights</h2></a>
-                    <!-- <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/research/" | relURL }}" role="button"><i class="fa-solid fa-microchip fa-fw"></i>&nbsp;More</a> -->
-                </div>
+                <h2 class="h3 mt-3">Research Highlights</h2><a class="offset-anchor" id="section-research"></a>
                 <div class="row row-cols-1 row-cols-xl-2 gx-4">
                     {{ range where .Site.RegularPages.ByWeight "Params.pinned" true }}
                     <div class="col mb-n4">
@@ -177,7 +174,6 @@
                     {{ end -}}
                 </div>
                 <div class="d-flex justify-content-end align-items-center">
-                    <!-- <a id="section-research"><h2 class="h3 mt-3 mb-0 ms-0">Research Projects</h2></a> -->
                     <a class="btn btn-primary mt-4 mb-0 ms-auto" href="{{ "/research/" | relURL }}" role="button"><i class="fa-solid fa-microchip fa-fw"></i>&nbsp;Learn More</a>
                 </div>
             </div>
@@ -190,10 +186,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
-                <div class="d-flex justify-content-between align-items-center">
-                    <a id="section-news"><h2 class="h3 mt-3 mb-0 ms-0">Latest News</h2></a>
-                    <!-- <a class="btn btn-primary mt-3 mb-0 ms-auto" href="{{ "/news/" | relURL }}" role="button"><i class="fa-solid fa-newspaper fa-fw"></i>&nbsp;More</a> -->
-                </div>
+                <h2 class="h3 mt-3">Latest News</h2><a class="offset-anchor" id="section-news"></a>
                 <div class="card-list">
                     {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section"
                     "news") -}}
@@ -211,7 +204,6 @@
                     {{ end -}}
                 </div>
                 <div class="d-flex justify-content-end align-items-center">
-                    <!-- <a id="section-news"><h2 class="h3 mt-3 mb-0 ms-0">Latest News</h2></a> -->
                     <a class="btn btn-primary mt-2 mb-0 ms-auto" href="{{ "/news/" | relURL }}" role="button"><i class="fa-solid fa-newspaper fa-fw"></i>&nbsp;News Archive</a>
                 </div>
             </div>
@@ -224,13 +216,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
-                <div class="d-flex justify-content-between align-items-center">
-                    <a id="section-publication"><h2 class="h3 mt-3 mb-3 ms-0">Recent Publications</h2></a>
-                    <!-- <a class="btn btn-primary mt-3 mb-3 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;More</a> -->
-                </div>
+                <h2 class="h3 mt-3">Recent Publications</h2><a class="offset-anchor" id="section-publication"></a>
                 {{ partial "main/pub-short-list.html" . -}}
                 <div class="d-flex justify-content-between align-items-center">
-                    <!-- <a id="section-publication"><h2 class="h3 mt-3 mb-3 ms-0">Recent Publications</h2></a> -->
+                    <!-- <a class="offset-anchor" id="section-publication"><h2 class="h3 mt-3 mb-3 ms-0">Recent Publications</h2></a> -->
                     <a class="btn btn-primary mt-3 mb-3 ms-auto" href="{{ "/publications/" | relURL }}" role="button"><i class="fa-solid fa-file-contract fa-fw"></i>&nbsp;All Publications</a>
                 </div>
             </div>
@@ -244,7 +233,7 @@
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
                 <div class="d-flex justify-content-between align-items-center">
-                    <a id="section-misc"><h2 class="h3 mt-3 mb-3 ms-0">Miscellaneous</h2></a>
+                    <a class="offset-anchor" id="section-misc"><h2 class="h3 mt-3 mb-3 ms-0">Miscellaneous</h2></a>
                 </div>
                 <p>I am an amateur travel photographer when I travel. <a href="https://wyywyy23.github.io/gallery" target="_blank" rel="noopener">Here</a> are some of my favorite works from the past.</p>
             </div>
