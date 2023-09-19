@@ -8,7 +8,7 @@
       </div>
       <!-- <p class="lead">{{ .Params.lead | safeHTML }}</p> -->
       {{ .Content }}
-      {{ if .Params.topics -}}<p class="card-text mt-2"><small>{{ range $index, $topics := .Params.topics }}{{ if gt $index 0 }} {{ end }}<a class="btn btn-primary btn-sm rounded-pill stretched-link position-relative" href="{{ "/research/topics/" | relURL }}{{ . | urlize }}/">{{ . | humanize }}</a>{{ end -}}</small></p>{{ end -}}
+      {{ if .Params.topics -}}<p class="card-text mt-2">{{ range $index, $topics := .Params.topics }}{{ if gt $index 0 }} {{ end }}<a class="btn btn-primary btn-sm rounded-pill stretched-link position-relative" href="{{ "/research/topics/" | relURL }}{{ . | urlize }}/">{{ . | humanize }}</a>{{ end -}}</p>{{ end -}}
     </article>
   </div>
 </div>
