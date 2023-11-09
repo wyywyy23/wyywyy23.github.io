@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wyywyy23.github.io/sitemap.xml
+Sitemap: https://wangyy.phd/sitemap.xml
