@@ -8,7 +8,7 @@ lastmod: 2023-03-23T14:33:30-04:00
 draft: false
 weight: 10
 pinned: true
-images: []
+images: [pic.png]
 topics: ["silicon photonics", "link architecture"]
 contributors: ["Yuyang Wang"]
 ---
