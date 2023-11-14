@@ -10,6 +10,6 @@ docsearch({
   container: '#docsearch',
   appId: 'PQRC11ZCA2',
   indexName: 'wyywyy23io',
-  apiKey: 'f63d3009221b4cbabe514ba0badbe38a',
+  apiKey: '077ecd89b65785a99e98ef3b9f925486',
   debug: false,
 });
