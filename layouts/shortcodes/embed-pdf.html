@@ -1,6 +1,6 @@
 {{ $divId := .Get "divId" | default "adobe-dc-view" }}
 {{ $style := .Get "style" | default "width: 100%; position: relative;" | safeCSS }}
-{{ $clientID := .Site.Params.adobeClientId }}
+{{ $clientID := .Site.Params.adobeClientIdCustom }}
 {{ $locale := .Get "locale" | default "en-US" }}
 {{ $url := .Get "url" }}
 {{ $pathBase := path.Base $url }}
