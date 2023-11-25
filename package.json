@@ -37,6 +37,9 @@
     "version": "auto-changelog -p && git add CHANGELOG.md",
     "copy:katex-fonts": "shx cp node_modules/katex/dist/fonts/* ./static/fonts/"
   },
+  "dependencies": {
+    "@hyas/doks-core": "^1.1.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.23",
     "@babel/core": "^7.23",

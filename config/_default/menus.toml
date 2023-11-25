@@ -3,15 +3,15 @@
   url = "#section-about"
   weight = 10
 
-[[main]]
-  name = "Research"
-  url = "#section-research"
-  weight = 20
+# [[main]]
+#   name = "Research"
+#   url = "#section-research"
+#   weight = 20
 
-[[main]]
-  name = "News"
-  url = "#section-news"
-  weight = 30
+# [[main]]
+#   name = "News"
+#   url = "#section-news"
+#   weight = 30
 
 [[main]]
   name = "Publications"
