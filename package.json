@@ -1,7 +1,10 @@
 {
-  "name": "getdoks",
-  "version": "0.5.0",
+  "name": "wangyy.phd",
+  "version": "1.0.0",
   "private": true,
+  "description": "My academic website",
+  "author": "Yuyang Wang",
+  "license": "MIT",
   "engines": {
     "node": ">=16.16.0"
   },
@@ -9,17 +12,9 @@
     "defaults"
   ],
   "scripts": {
-    "init": "shx rm -rf .git && git init -b main",
     "create": "exec-bin node_modules/.bin/hugo/hugo new",
-    "prestart": "npm run clean",
-    "start": "exec-bin node_modules/.bin/hugo/hugo server --disableFastRender",
-    "start:lan": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --baseURL=http://192.168.1.10 --port=1313",
-    "prebuild": "npm run clean",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --gc --minify",
-    "build:lan": "exec-bin node_modules/.bin/hugo/hugo --gc --minify --baseURL=http://192.168.1.10:8080",
-    "build:preview": "npm run build -D -F",
-    "clean": "shx rm -rf public resources",
-    "clean:install": "shx rm -rf package-lock.json node_modules ",
+    "dev": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache",
+    "dev:drafts": "exec-bin node_modules/.bin/hugo/hugo server --bind=0.0.0.0 --disableFastRender --baseURL=http://localhost --noHTTPCache --buildDrafts",
     "lint": "npm run -s lint:scripts && npm run -s lint:styles && npm run -s lint:markdown",
     "lint-fix": "npm run -s lint:scripts-fix && npm run -s lint:styles-fix && npm run -s lint:markdown-fix",
     "lint:scripts": "eslint assets/js config functions",
@@ -28,17 +23,21 @@
     "lint:styles-fix": "stylelint --fix \"assets/scss/**/*.{css,sass,scss,sss,less}\"",
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "lint:markdown-fix": "markdownlint-cli2-fix \"*.md\" \"content/**/*.md\"",
-    "server": "exec-bin node_modules/.bin/hugo/hugo server",
     "test": "npm run -s lint-fix",
-    "env": "env",
-    "precheck": "npm version",
-    "check": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
-    "version": "auto-changelog -p && git add CHANGELOG.md",
-    "copy:katex-fonts": "shx cp node_modules/katex/dist/fonts/* ./static/fonts/"
+    "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
+    "preview": "http-server --gzip --brotli --ext=html --cors",
+    "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
+    "clean:build": "shx rm -rf public resources .hugo_build.lock",
+    "clean:install": "shx rm -rf node_modules package-lock.json yarn.lock pnpm-lock.yaml",
+    "clean:lint": "shx rm -rf .eslintcache .stylelintcache",
+    "copy:katex-fonts": "shx cp node_modules/katex/dist/fonts/* ./static/fonts/",
+    "preinfo": "npm version",
+    "info": "npm list",
+    "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
+    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
   },
   "dependencies": {
-    "@hyas/doks-core": "^1.1.2"
+    "@hyas/doks-core": "^1.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.23",

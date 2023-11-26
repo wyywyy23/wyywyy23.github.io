@@ -1,0 +1,23 @@
+# Multilingual
+defaultContentLanguage = "en"
+disableLanguages = ["de", "nl"]
+defaultContentLanguageInSubdir = false
+
+[outputs]
+  home = ["HTML", "RSS", "searchIndex"]
+  section = ["HTML", "RSS", "SITEMAP"]
+
+[outputFormats.searchIndex]
+  mediaType = "application/json"
+  baseName = "search-index"
+  isPlainText = true
+  notAlternative = true
+
+# Add output format for section sitemap.xml
+[outputFormats.SITEMAP]
+mediaType = "application/xml"
+baseName = "sitemap"
+isHTML = false
+isPlainText = true
+noUgly = true
+rel  = "sitemap"
