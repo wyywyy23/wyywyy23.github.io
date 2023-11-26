@@ -63,7 +63,7 @@ defaultImage = "green-sea-turtle-hatchling.jpg" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "© 2023 Yuyang Wang. Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>"
+footer = "© 2023 Yuyang Wang. Powered by <a class=\"text-muted\" href=\"https://gohugo.io/\">Hugo</a> and <a class=\"text-muted\" href=\"https://getdoks.org/\">Doks</a>."
 
 # Feed
 copyRight = "© 2023 Yuyang Wang."

@@ -19,13 +19,13 @@
 
 <footer class="footer text-muted">
   <div class="container-xxl">
-    <div class="row">
-      <div class="col-lg-8 order-last order-lg-first">
+    <div class="row justify-content-center">
+      <div class="col-xl-12 col-lg-12 col-md-12 order-last order-lg-first">
         <ul class="list-inline">
           <li class="list-inline-item">{{ .Site.Params.footer | safeHTML }}</li>
         </ul>
       </div>
-      <div class="col-lg-8 order-first order-lg-last text-lg-end">
+      <div class="col-xl-12 col-lg-12 col-md-12 order-first order-lg-last text-lg-end">
         <ul class="list-inline">
           {{ range .Site.Menus.footer -}}
             <li class="list-inline-item"><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
