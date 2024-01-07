@@ -11,4 +11,4 @@ images: []
 contributors: ["Yuyang Wang"]
 ---
 
-Hello, world!
+Hello, world! Yay!

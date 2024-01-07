@@ -17,14 +17,8 @@ $$
 \end{equation*}
 $$ -->
 
-<!-- {{% timeline %}} -->
-
-<!-- ### About Me -->
-
 I am a Postdoctoral Research Scientist in the [Lightwave Research Laboratory](https://lightwave.ee.columbia.edu) at the Columbia University in the City of New York, supervised by [Prof. Keren Bergman](https://lightwave.ee.columbia.edu/bergman). I obtained my Ph.D. degree in Electrical and Computer Engineering from the University of California, Santa Barbara, in 2021, co-advised by [Prof. Kwang-Ting Cheng](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng) and [Prof. John E. Bowers](https://engineering.ucsb.edu/people/john-bowers). I earned my B.Eng. degree in Electronic Engineering from Tsinghua University, Beijing, China, in 2015.
 
 My research centers on enabling the design of system connectivity that is ultra high-bandwidth, energy-efficient, and adaptable in today’s data-driven world. Tackling the significant communication bottlenecks found in modern distributed computing infrastructures, exacerbated by data-intensive AI and machine learning workloads, I am committed to designing—as well as democratizing the design process for—scalable architectures that maximize the capabilities of integrated silicon photonics, bridging communication and computation. With a deeper integration of photonics within computing sockets, I envision a paradigm shift in computing architectures that promises unparalleled interconnection bandwidth density, versatility, and functionalities.
 
 🕵️‍♂️ I am seeking tenure-track faculty positions starting in Fall 2024. Feel free to contact me at yw3831 [at] columbia [dot] edu.
-
-<!-- He received his Ph.D. and M.S. degrees in Electrical and Computer Engineering from the University of California, Santa Barbara, CA, USA, in 2021 and 2018, respectively. He received his B.Eng. degree in Electronic Engineering from Tsinghua University, Beijing, China, in 2015. He was a Visiting Intern at the Hong Kong University of Science and Technology, Hong Kong SAR, China, in 2019, and a Design Engineering Intern at Cadence Design Systems, San Jose, CA, USA, in 2018. -->

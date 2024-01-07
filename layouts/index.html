@@ -148,8 +148,38 @@
     </div>
 </section>
 
-<!-- <section class="section section-md container-fluid pos-relative remove-all-margin-padding">
+<section class="section section-md container-fluid pos-relative remove-all-margin-padding">
     {{ partial "main/curve-even.html" . -}}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
+                <h2 class="h3 mt-3">Latest News</h2><a class="offset-anchor" id="section-news"></a>
+                <div class="card-list">
+                    {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section"
+                    "news") -}}
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>
+                                <a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}{{
+                                    with .Params.emoji -}}&nbsp;{{ . |
+                                    emojify }}{{ end -}}</a>
+                            </h3>
+                            <p>{{ .Params.lead | safeHTML }}</p>
+                            {{ partial "main/blog-meta.html" . -}}
+                        </div>
+                    </div>
+                    {{ end -}}
+                </div>
+                <div class="d-flex justify-content-end align-items-center">
+                    <a class="btn btn-primary mt-2 mb-0 ms-auto" href="{{ "/news/" | relURL }}" role="button"><i class="fa-solid fa-newspaper fa-fw"></i>&nbsp;News Archive</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section section-md container-fluid bg-light pos-relative remove-all-margin-padding">
+    {{ partial "main/curve-odd.html" . -}}
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
@@ -179,37 +209,7 @@
             </div>
         </div>
     </div>
-</section> -->
-
-<!-- <section class="section section-md container-fluid bg-light pos-relative remove-all-margin-padding">
-    {{ partial "main/curve-odd.html" . -}}
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-12 col-lg-12 col-md-12 mt-5 pt-5">
-                <h2 class="h3 mt-3">Latest News</h2><a class="offset-anchor" id="section-news"></a>
-                <div class="card-list">
-                    {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Section"
-                    "news") -}}
-                    <div class="card">
-                        <div class="card-body">
-                            <h3>
-                                <a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}{{
-                                    with .Params.emoji -}}&nbsp;{{ . |
-                                    emojify }}{{ end -}}</a>
-                            </h3>
-                            <p>{{ .Params.lead | safeHTML }}</p>
-                            {{ partial "main/blog-meta.html" . -}}
-                        </div>
-                    </div>
-                    {{ end -}}
-                </div>
-                <div class="d-flex justify-content-end align-items-center">
-                    <a class="btn btn-primary mt-2 mb-0 ms-auto" href="{{ "/news/" | relURL }}" role="button"><i class="fa-solid fa-newspaper fa-fw"></i>&nbsp;News Archive</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
+</section>
 
 <section class="section section-md container-fluid pos-relative remove-all-margin-padding">
     {{ partial "main/curve-even.html" . -}}
