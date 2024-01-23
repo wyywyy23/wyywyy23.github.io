@@ -76,3 +76,9 @@ rel  = "sitemap"
     keepVarNames = true
     noNullishOperator = false
     precision = 0
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
