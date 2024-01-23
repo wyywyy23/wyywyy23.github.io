@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .timeline {
+      display: flex;
+      width: 100%;
+    }
+
+    .timeline-item {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+      background-color: rgba(0, 0, 0, 0.5);
+      transition: background-color 0.3s, width 0.3s;
+    }
+
+    .timeline-item:hover {
+      background-color: rgba(0, 0, 0, 1);
+      width: calc(33.33% + 10px);
+    }
+
+    .timeline-item img {
+      width: 100%;
+      height: auto;
+      transition: filter 0.3s;
+    }
+
+    .timeline-item:hover img {
+      filter: brightness(100%);
+    }
+  </style>
+</head>
+<body>
+  <div class="timeline">
+    <div class="timeline-item">
+      <img src="image1.jpg" alt="Image 1">
+    </div>
+    <div class="timeline-item">
+      <img src="image2.jpg" alt="Image 2">
+    </div>
+    <div class="timeline-item">
+      <img src="image3.jpg" alt="Image 3">
+    </div>
+  </div>
+</body>
+</html>

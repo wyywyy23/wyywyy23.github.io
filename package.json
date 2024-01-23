@@ -34,7 +34,7 @@
     "preinfo": "npm version",
     "info": "npm list",
     "postinfo": "exec-bin node_modules/.bin/hugo/hugo version",
-    "postinstall": "shx rm -rf node_modules/.bin/hugo && shx mkdir node_modules/.bin/hugo && shx cp node_modules/gethyas/node_modules/.bin/hugo/* node_modules/.bin/hugo"
+    "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo"
   },
   "dependencies": {
     "@hyas/doks-core": "^1.2.0"
@@ -66,7 +66,7 @@
     "postcss": "^8.4",
     "postcss-cli": "^11.0",
     "purgecss-whitelister": "^2.4",
-    "shx": "^0.3",
+    "shx": "^0.3.4",
     "stylelint": "^14.9",
     "stylelint-config-standard-scss": "^6.1"
   },
