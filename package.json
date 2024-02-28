@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.23",
-    "@babel/core": "^7.23",
+    "@babel/core": "^7.24",
     "@babel/preset-env": "^7.23",
     "@docsearch/js": "^3.5",
     "@fullhuman/postcss-purgecss": "^5.0",
