@@ -40,7 +40,7 @@
     "@hyas/doks-core": "^1.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23",
+    "@babel/cli": "^7.24",
     "@babel/core": "^7.23",
     "@babel/preset-env": "^7.24",
     "@docsearch/js": "^3.5",
