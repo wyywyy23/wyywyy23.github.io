@@ -250,3 +250,7 @@ adobeClientIdCustom = "34a6d89192fb41c19154c65dc6cc94bb"
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
     product = [] # Product sections
+
+# Add-ons
+[add_ons]
+  docSearch = true # false (default) or true

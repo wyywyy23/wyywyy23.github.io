@@ -1,4 +1,5 @@
 {{ $docSearch := resources.Get "js/docsearch.js" | js.Build -}}
+{{ if site.Params.add_ons.docSearch -}} {{ partial "footer/esbuild" (dict "src" "js/docsearch.js" "load" "async" "transpile" false) -}} {{ end -}}
 
 {{ $bs := resources.Get "js/bootstrap.js" -}}
 {{ $bs := $bs | js.Build -}}
