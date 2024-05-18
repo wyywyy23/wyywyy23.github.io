@@ -24,7 +24,7 @@
     "lint:markdown": "markdownlint-cli2 \"*.md\" \"content/**/*.md\"",
     "lint:markdown-fix": "markdownlint-cli2 --fix \"*.md\" \"content/**/*.md\"",
     "test": "npm run -s lint-fix",
-    "build": "exec-bin node_modules/.bin/hugo/hugo --minify",
+    "build": "exec-bin node_modules/.bin/hugo/hugo",
     "preview": "http-server --gzip --brotli --ext=html --cors",
     "clean": "npm run clean:build && npm run clean:lint && npm run clean:install",
     "clean:build": "shx rm -rf public resources .hugo_build.lock",
