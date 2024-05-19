@@ -14,7 +14,10 @@
 // @import "@docsearch/css/dist/_variables";
 // @import "@docsearch/css/dist/button";
 // @import "@docsearch/css/dist/modal";
-@import "@docsearch/css/dist/style.scss";
+// @import "@docsearch/css/dist/style.scss";
+
+@import "common/variables-docsearch";
+@import "@docsearch/css/dist/modal";
 
 /** Import KaTeX */
 @import "katex/dist/katex";
