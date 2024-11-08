@@ -37,7 +37,7 @@ jobs:
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
         env: #!!
-          BUNDLE_GITHUB__COM: x-access-token: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
+          BUNDLE_GITHUB__COM: x-access-token:${{ secrets.GH_REPO_PAT }} #!!
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
