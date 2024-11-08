@@ -1,5 +1,7 @@
-PATH
-  remote: #jekyll-theme-hydejack
+GIT
+  remote: https://github.com/hydecorp/hydejack-pro
+  revision: 5b6c691b5f931a02275470cde86336fd60dbd489
+  tag: pro/v9.2.1
   specs:
     jekyll-theme-hydejack (9.2.1)
       jekyll (>= 3.8, < 5.0)
