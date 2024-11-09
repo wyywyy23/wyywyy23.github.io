@@ -28,12 +28,12 @@ wyy:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     # twitter: <username>
+    google: https://scholar.google.com/citations?user=HrJ7_4oAAAAJ&hl=en
     github: wyywyy23
     linkedin: yuyangucsb
     email: me@wangyy.phd
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
-    # google:          <number>
     # vk:              <username>
     # youtube:         <string_string_string>
     # vimeo:           <username>
