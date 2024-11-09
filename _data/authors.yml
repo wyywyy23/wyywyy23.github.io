@@ -1,7 +1,7 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1:
+wyy:
   name: Yuyang Wang
   email: me@wangyy.phd
 
@@ -16,20 +16,21 @@ author1:
 
   # This photo will be used in the about section
   picture:
-    path: https://via.placeholder.com/128x128
+    path: /assets/img/yuyang.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x: https://via.placeholder.com/128x128
-      2x: https://via.placeholder.com/256x256
+    # srcset:
+    #   1x: https://via.placeholder.com/128x128
+    #   2x: https://via.placeholder.com/256x256
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
-    twitter: <username>
-    github: <username>
-    # email:           <mail@domain.tld>
+    # twitter: <username>
+    github: wyywyy23
+    linkedin: yuyangucsb
+    email: me@wangyy.phd
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -58,7 +59,6 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
