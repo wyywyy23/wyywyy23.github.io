@@ -122,6 +122,10 @@ font_heading: Fira Sans, Helvetica, Arial, sans-serif
 # Defaults to the [System Monospace Font Stack](https://qwtel.com/posts/software/the-monospaced-system-ui-css-font-stack/).
 font_code: JetBrains Mono, Menlo, Monaco, Consolas, monospace;
 
+# favicon
+favicon: /assets/icons/favicon.ico
+apple_touch_icon: /assets/icons/apple-touch-icon.png
+
 defaults:
   # You can use this to provide a default accent color and background for
   # all pages under a given path:
