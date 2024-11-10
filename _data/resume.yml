@@ -2,9 +2,9 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://via.placeholder.com/240x240"
+  name: "Yuyang Wang"
+  label: "Postdoctoral Research Scientist"
+  picture: "/assets/img/avatar/yuyang_wang@480w.jpg"
   email: ""
   phone: "(912) 555-4321"
   website: "https://piedpiper.com"
@@ -92,10 +92,16 @@ languages:
   - language: "English"
     fluency: "Native speaker"
 interests:
-  - name: "Wildlife"
+  - name: "Photography — check out my <a href='https://wyywyy23.github.io/gallery' target='_blank' rel='noopener'>gallery</a>"
+    website: "https://wyywyy23.github.io/gallery"
     keywords:
-      - "Ferrets"
-      - "Unicorns"
+      - "Travel"
+      - "Landscape"
+      - "Wildlife"
+      - "Astronomical"
+  - name: "Soccer"
+    keywords:
+      - "Goalkeeping"
 references:
   - name: "Erlich Bachman"
     reference: >

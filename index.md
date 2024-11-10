@@ -3,7 +3,7 @@ layout: welcome
 title: About Me
 sitemap: false
 cover: true
-projects_page: projects.md
+projects_page: research.md
 posts_page: /blog/
 featured: true
 ---
@@ -12,6 +12,10 @@ featured: true
 
 <!--projects-->
 
-## Recent Blog Posts
+## Recent Publications
+
+{% include pub-list-short.html %}
+
+## Latest News
 
 <!--posts-->
