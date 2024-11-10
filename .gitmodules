@@ -1,0 +1,6 @@
+[submodule "assets/css/vendor/fontawesome"]
+	path = assets/css/vendor/fontawesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "assets/css/vendor/academicons"]
+	path = assets/css/vendor/academicons
+	url = https://github.com/jpswalsh/academicons.git

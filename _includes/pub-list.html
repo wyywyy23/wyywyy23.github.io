@@ -1,0 +1,100 @@
+<!-- Variables -->
+{{ $filename := .Get "filename" | default "/assets/publications/publications.bib" }}
+
+<!-- Load the BibTEX-js library -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
+
+<!-- Custom style -->
+<style>
+    [class="Yuyang Wang"] {
+        font-weight: 900;
+    }
+    [class="Y. Wang"] {
+        font-weight: 900;
+    }
+    [class="title"]{
+        font-size: 10pt;
+        font-weight: 900;
+    }
+    [class="author"], [class="journal"], [class="volume"], [class="number"], [class="booktitle"], [class="publisher"], [class="institution"], [class="pages"], [class="school"], [class="month"], [class="year"], [class="doi"], [class="file"] {
+        font-size: 9pt;
+    }
+    [class="ninept"] {
+        font-size: 9pt;
+    }
+</style>
+
+<!-- Load the bib file -->
+<bibtex src="/assets/publications/publications.bib"></bibtex>
+
+<!-- Display publication list -->
+<div class="bibtex_structure">
+	<div class="sections bibtextypekey">
+		<div class="section book|incollection">
+			<h3>Books and Book Chapters</h3>
+            <hr>
+			<div class="sort date" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<div class="section article">
+			<h3>Journal Articles</h3>
+            <hr>
+			<div class="sort date" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<div class="section inproceedings">
+			<h3>Conference Proceedings</h3>
+            <hr>
+			<div class="sort date" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+        <div class="section phdthesis|mastersthesis|bachelorsthesis">
+			<h3>Dissertation</h3>
+            <hr>
+			<div class="sort date" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+		<div class="section misc|techreport">
+			<h3>Other Publications</h3>
+            <hr>
+			<div class="sort date" extra="DESC date">
+				<div class="templates"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="bibtex_display">
+	<div class="bibtex_template">
+		<p>
+			<div class="if title">
+				<div class="offset-anchor-sm"><div class="bibtexVar" id="+BIBTEXKEY+" extra="BIBTEXKEY"></div></div><a class="bibtexVar" href="#+BIBTEXKEY+" extra="BIBTEXKEY"><strong><span class="title"></span></strong></a>
+            </div>
+            <div class="if author">
+                <span class="author"><span class="first"></span>&nbsp;<span class="last"></span></span>
+            </div>
+            <div>
+			        <span class="if journal"><em><span class="journal"></span></em></span>
+			        <span class="if volume"><strong><span class="volume"></span></strong></span>
+			        <span class="if number"><span class="ninept">(</span><span class="number"></span><span class="ninept">),</span></span>
+                    <span class="if booktitle"><em><span class="booktitle"></span><span class="ninept">,</span></em></span>
+			        <span class="if publisher"><em><span class="publisher"></span><span class="ninept">,</span></em></span>
+			        <span class="if institution"><span class="institution"></span><span class="ninept">,</span></span>
+			        <span class="if pages"><span class="pages"></span><span class="ninept">,</span></span>
+                    <span class="if school"><span class="school"></span><span class="ninept">,</span></span>
+			        <span class="if month"><span class="month"></span><span class="ninept">,</span></span>
+			        <span class="if year"><span class="year"></span><span class="ninept">.</span></span>
+            </div>
+			<span class="if doi">
+                <span><a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi" target="_blank"><i class="ai ai-doi ai-xs"></i>&nbsp;<span class="doi"></span></a>&nbsp;</span>
+			</span>
+            <span class="if file">
+                <span><a class="bibtexVar" href="/assets/publications/+FILE+" extra="file" target="_blank"><i class="fa-solid fa-file-pdf fa-fw fa-xs"></i></a></span>
+			</span>
+		</p>
+	</div>
+</div>

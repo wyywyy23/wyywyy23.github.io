@@ -29,6 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          submodules: recursive
           fetch-depth: 0 # Fetch whole history for jekyll-last-modified-at plugin
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
