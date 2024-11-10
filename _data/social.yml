@@ -2,28 +2,28 @@
 email:
   name: Email
   icon: icon-mail
-  prepend: 'mailto:'
+  prepend: "mailto:"
 amazon:
   name: Amazon
   icon: icon-amazon
 google:
-  name: Google
+  name: Google Scholar
   icon: icon-google
 google-plus:
   name: Google+
   icon: icon-google-plus
-  prepend: 'https://plus.google.com/'
+  prepend: "https://plus.google.com/"
 google-drive:
   name: Google Drive
   icon: icon-google-drive
 facebook:
   name: Facebook
   icon: icon-facebook
-  prepend: 'https://facebook.com/'
+  prepend: "https://facebook.com/"
 instagram:
   name: Instagram
   icon: icon-instagram
-  prepend: 'https://instagram.com/'
+  prepend: "https://instagram.com/"
 whatsapp:
   name: WhatsApp
   icon: icon-whatsapp
@@ -37,19 +37,19 @@ telegram:
 twitter:
   name: X / Twitter
   icon: icon-twitter
-  prepend: 'https://x.com/'
+  prepend: "https://x.com/"
 twitter-old:
   name: Twitter
   icon: icon-twitter-old
-  prepend: 'https://twitter.com/'
+  prepend: "https://twitter.com/"
 x:
   name: X
   icon: icon-twitter
-  prepend: 'https://x.com/'
+  prepend: "https://x.com/"
 vine:
   name: Vine
   icon: icon-vine
-  prepend: 'https://vine.com/'
+  prepend: "https://vine.com/"
 vk:
   name: VK
   icon: icon-vk
