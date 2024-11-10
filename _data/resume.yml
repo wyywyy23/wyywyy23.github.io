@@ -102,6 +102,10 @@ interests:
   - name: "Soccer"
     keywords:
       - "Goalkeeping"
+  - name: "Musical Instruments"
+    keywords:
+      - "Classical Piano"
+      - "<a href='https://en.wikipedia.org/wiki/Guan_(instrument)' target='_blank' rel='noopener'>Guanzi</a>"
 references:
   - name: "Erlich Bachman"
     reference: >
