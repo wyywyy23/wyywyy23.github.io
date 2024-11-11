@@ -35,14 +35,14 @@
         font-weight: 900;
     }
     [class="title"]{
-        font-size: 10pt;
+        font-size: calc(100% - 1pt);
         font-weight: 900;
     }
     [class="author"], [class="journal"], [class="volume"], [class="number"], [class="booktitle"], [class="publisher"], [class="institution"], [class="pages"], [class="school"], [class="month"], [class="year"], [class="doi"], [class="file"] {
-        font-size: 9pt;
+        font-size: calc(100% - 2pt);
     }
-    [class="ninept"] {
-        font-size: 9pt;
+    [class="minus2pt"] {
+        font-size: calc(100% - 2pt);
     }
 </style>
 
@@ -102,14 +102,14 @@
             <div>
 			    <span class="if journal"><em><span class="journal"></span></em></span>
 			    <span class="if volume"><strong><span class="volume"></span></strong></span>
-			    <span class="if number"><span class="ninept">(</span><span class="number"></span><span class="ninept">),</span></span>
-                <span class="if booktitle"><em><span class="booktitle"></span><span class="ninept">,</span></em></span>
-			    <span class="if publisher"><em><span class="publisher"></span><span class="ninept">,</span></em></span>
-			    <span class="if institution"><span class="institution"></span><span class="ninept">,</span></span>
-			    <span class="if pages"><span class="pages"></span><span class="ninept">,</span></span>
-                <span class="if school"><span class="school"></span><span class="ninept">,</span></span>
-			    <span class="if month"><span class="month"></span><span class="ninept">,</span></span>
-			    <span class="if year"><span class="year"></span><span class="ninept">.</span></span>
+			    <span class="if number"><span class="minus2pt">(</span><span class="number"></span><span class="minus2pt">),</span></span>
+                <span class="if booktitle"><em><span class="booktitle"></span><span class="minus2pt">,</span></em></span>
+			    <span class="if publisher"><em><span class="publisher"></span><span class="minus2pt">,</span></em></span>
+			    <span class="if institution"><span class="institution"></span><span class="minus2pt">,</span></span>
+			    <span class="if pages"><span class="pages"></span><span class="minus2pt">,</span></span>
+                <span class="if school"><span class="school"></span><span class="minus2pt">,</span></span>
+			    <span class="if month"><span class="month"></span><span class="minus2pt">,</span></span>
+			    <span class="if year"><span class="year"></span><span class="minus2pt">.</span></span>
             </div>
 			<span class="if doi">
                 <span><a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi" target="_blank"><i class="ai ai-doi ai-xs"></i>&nbsp;<span class="doi"></span></a>&nbsp;</span>
