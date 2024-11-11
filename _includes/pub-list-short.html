@@ -1,6 +1,30 @@
 <!-- Load the BibTEX-js library -->
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.js"></script>
 
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            $('span.first:contains("Yuyang")').each(function () {
+                if ($(this).next('span.last:contains("Wang")').length) {
+                    $(this).add($(this).next('span.last')).wrapAll('<a href="/about/"></a>');
+                }
+            });
+        }, 500);
+    });
+</script>
+
+<script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+        setTimeout(function() {
+            $('span.first:contains("Y.")').each(function () {
+                if ($(this).next('span.last:contains("Wang")').length) {
+                    $(this).add($(this).next('span.last')).wrapAll('<a href="/about/"></a>');
+                }
+            });
+        }, 500);
+    });
+</script>
+
 <script>
     var displayed = 0;
     function displayOnly(num, element){
@@ -57,7 +81,7 @@
 				<div class="offset-anchor-sm"><div class="bibtexVar" id="+BIBTEXKEY+" extra="BIBTEXKEY"></div></div><a class="bibtexVar" href="#+BIBTEXKEY+" extra="BIBTEXKEY"><strong><span class="title"></span></strong></a>
             </div>
             <div class="if author">
-                <span class="author"><span class="first"></span>&nbsp;<span class="last"></span></span>
+                <span class="author"></span>
             </div>
             <div>
                 <span class="if journal"><em><span class="journal"></span></em></span>
