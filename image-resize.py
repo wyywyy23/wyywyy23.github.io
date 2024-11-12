@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-from PIL import Image, ImageOps
 import os
 import sys
+
+from PIL import Image, ImageOps
 
 
 def resize_image(input_image_path, output_image_path, w):
