@@ -5,7 +5,7 @@ sitemap: false
 cover: true
 projects_page: projects.md
 posts_page: /blog/
-featured: true
+featured: false
 ---
 
 ## Research Highlights
