@@ -264,3 +264,10 @@ mastodon:
 cv:
   name: Curriculum Vitae
   icon: "ai ai-cv"
+resume:
+  name: Résumé
+  icon: "fa-regular fa-address-card"
+google-scholar:
+  name: Google Scholar
+  icon: "ai ai-google-scholar"
+  prepend: "https://scholar.google.com/citations?user="

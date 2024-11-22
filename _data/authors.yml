@@ -26,10 +26,11 @@ wyy:
   # You can also provide an absolute URL (starting with https://) instead of usernames
   social:
     # twitter: <username>
-    google: https://scholar.google.com/citations?user=HrJ7_4oAAAAJ&hl=en
+    resume: /resume/
+    cv: /assets/files/cv_yw.pdf
+    google-scholar: HrJ7_4oAAAAJ
     github: wyywyy23
     linkedin: yuyangucsb
-    cv: /assets/files/cv_yw.pdf
     # email: me@wangyy.phd
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
