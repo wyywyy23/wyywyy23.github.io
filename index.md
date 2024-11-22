@@ -15,9 +15,6 @@ I am a Postdoctoral Research Scientist in the [Lightwave Research Laboratory](ht
 
 I obtained my Ph.D. degree in Electrical and Computer Engineering from the University of California, Santa Barbara, in 2021, co-advised by [Prof. Kwang-Ting Cheng](https://seng.hkust.edu.hk/about/people/faculty/tim-kwang-ting-cheng) and [Prof. John E. Bowers](https://engineering.ucsb.edu/people/john-bowers). I earned my B.Eng. degree in Electronic Engineering from Tsinghua University, Beijing, China, in 2015.
 
-Name in Native Language: <span class="qiuhong">王昱阳</span>
-{:.note title="🖋 Note"}
-
 ## Research Highlights
 
 <!--projects-->

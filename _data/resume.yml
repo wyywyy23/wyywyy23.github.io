@@ -88,6 +88,8 @@ languages:
     fluency: "Professionally Proficient"
   - language: "Madarin Chinese"
     fluency: "Native"
+  - language: "Name in Native Language"
+    fluency: "<span class='qiuhong'>王昱阳</span>"
 interests:
   - name: "Photography — check out my <a href='https://wyywyy23.github.io/gallery' target='_blank' rel='noopener'>gallery</a>"
     website: "https://wyywyy23.github.io/gallery"
