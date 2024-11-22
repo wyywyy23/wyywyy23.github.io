@@ -266,8 +266,8 @@ cv:
   icon: "ai ai-cv"
 resume:
   name: Résumé
-  icon: "fa-regular fa-address-card"
+  icon: "fa-regular fa-address-card fa-sm"
 google-scholar:
   name: Google Scholar
-  icon: "ai ai-google-scholar"
+  icon: "fa-solid fa-user-graduate fa-sm"
   prepend: "https://scholar.google.com/citations?user="
