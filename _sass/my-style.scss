@@ -12,3 +12,18 @@
     margin: 1rem 0;
   }
 }
+
+@font-face {
+  font-family: Slideqiuhong;
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+  src:
+    url("/assets/fonts/Slideqiuhong-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Slideqiuhong-Regular.ttf") format("truetype");
+}
+
+.qiuhong {
+  font-family: Slideqiuhong, sans-serif;
+  font-weight: 400;
+}
