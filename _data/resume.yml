@@ -3,94 +3,91 @@
 # See also: <https://jsonresume.org/>.
 basics:
   name: "Yuyang Wang"
-  label: "Postdoctoral Research Scientist"
+  label: "Postdoctoral Researcher, Columbia University"
   picture: "/assets/img/avatar/yuyang_wang@480w.jpg"
-  email: "me@wangyy.phd"
-  # phone: "(912) 555-4321"
+  email: "yw3831 [at] columbia [dot] edu"
+  # phone: "(781) 428-0408"
   # website: "https://wangyy.phd"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    Yuyang Wang is a Postdoctoral Research Scientist at Columbia University working on large-scale integrated photonics for future communication and computing systems.<br>
+    👇 Download my full CV below.
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "530 W 120th St, New York"
+    postalCode: "NY 10027"
+    # city: "New York"
     countryCode: "US"
-    region: "California"
+    # region: "New York"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "Google"
+      username: "HrJ7_4oAAAAJ"
+      url: "https://scholar.google.com/citations?user=HrJ7_4oAAAAJ&hl=en"
+    - network: "GitHub"
+      username: "wyywyy23"
+      url: "https://github.com/wyywyy23"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "yuyangucsb"
+      url: "https://www.linkedin.com/in/yuyangucsb/"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
-    website: "https://piedpiper.com"
-    startDate: "2013-12-01"
+  - company: "Columbia University"
+    position: "Postdoctoral Research Scientist"
+    website: "https://lightwave.ee.columbia.edu/"
+    startDate: "2021-09-01"
     endDate: ""
-    summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
-    highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+    # summary: >
+    #   Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
+    #   consistently fielded high Weisman Scores™ that are not merely competitive,
+    #   but approach the theoretical limit of lossless compression.
+    # highlights:
+    #   - "Photonics design and integration, DARPA PIPES program, led the Phase 2 development and the successful transition to Phase 3"
+    #   - "Contributed to the writing and visualization of the proposal that led to the award of $35M JUMP 2.0 grant for the CUbiC Center"
+    #   - "Co-led the CUbiC Scholar Leadership Council and the Systems and Testbeds subgroup; organized monthly workshops with industry liaisons"
+  - company: "Hong Kong University of Science and Technology"
+    position: "Postgraduate Visiting Intern"
+    website: "https://vsdl.hkust.edu.hk/"
+    startDate: "2019-08-01"
+    endDate: "2019-12-01"
+  - company: "Cadence Design Systems, Inc."
+    position: "Design Engineering Intern"
+    website: "https://www.cadence.com/en_US/home/solutions/photonics.html"
+    startDate: "2018-06-01"
+    endDate: "2018-09-01"
+  - company: "Rice University"
+    position: "Student Intern"
+    website: "https://www.linzhong.org/"
+    startDate: "2014-07-01"
+    endDate: "2014-09-01"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
+  - institution: "University of California, Santa Barbara"
+    area: "Electrical and Computer Engineering"
+    studyType: "Ph.D."
+    startDate: "2018-03-01"
+    endDate: "2021-09-01"
+  - institution: "University of California, Santa Barbara"
+    area: "Electrical and Computer Engineering"
+    studyType: "M.S."
+    startDate: "2015-09-01"
+    endDate: "2018-03-01"
+  - institution: "Tsinghua University, Beijing, China"
+    area: "Electrical Engineering"
+    studyType: "B.Eng."
+    startDate: "2011-09-01"
+    endDate: "2015-07-01"
+# awards:
+#   - title: "Digital Compression Pioneer Award"
+#     date: "2014-11-01"
+#     awarder: "Techcrunch"
+#     summary: "There is no spoon."
 publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
-skills:
-  - name: "Web Development"
-    level: "Master"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+  - name: "Check out the publications page"
+    publisher: ""
+    releaseDate: ""
+    website: "/publications"
+    summary: ""
 languages:
   - language: "English"
-    fluency: "Native speaker"
+    fluency: "Professionally Proficient"
+  - language: "Madarin Chinese"
+    fluency: "Native"
 interests:
   - name: "Photography — check out my <a href='https://wyywyy23.github.io/gallery' target='_blank' rel='noopener'>gallery</a>"
     website: "https://wyywyy23.github.io/gallery"
@@ -98,7 +95,7 @@ interests:
       - "Travel"
       - "Landscape"
       - "Wildlife"
-      - "Astronomical"
+      - "Night Sky"
   - name: "Soccer"
     keywords:
       - "Goalkeeping"
@@ -106,8 +103,8 @@ interests:
     keywords:
       - "Classical Piano"
       - "<a href='https://en.wikipedia.org/wiki/Guan_(instrument)' target='_blank' rel='noopener'>Guanzi</a>"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+# references:
+#   - name: "Erlich Bachman"
+#     reference: >
+#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#       Company proved that he will be a valuable addition to any company.
