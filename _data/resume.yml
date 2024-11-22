@@ -6,8 +6,8 @@ basics:
   label: "Postdoctoral Research Scientist"
   picture: "/assets/img/avatar/yuyang_wang@480w.jpg"
   email: "me@wangyy.phd"
-  phone: "(912) 555-4321"
-  website: "https://wangyy.phd"
+  # phone: "(912) 555-4321"
+  # website: "https://wangyy.phd"
   summary: >
     Richard hails from Tulsa.
     He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
