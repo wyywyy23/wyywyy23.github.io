@@ -111,7 +111,7 @@ ondrive:
   icon: icon-ondrive
 github:
   name: GitHub
-  icon: icon-github
+  icon: "fa-brands fa-github fa-xs"
   prepend: "https://github.com/"
 npm:
   name: npm
@@ -166,7 +166,7 @@ wikipedia:
   icon: icon-wikipedia
 linkedin:
   name: LinkedIn
-  icon: icon-linkedin2
+  icon: "fa-brands fa-linkedin-in fa-xs"
   prepend: "https://www.linkedin.com/in/"
 lastfm:
   name: Last.fm
@@ -266,8 +266,8 @@ cv:
   icon: "ai ai-cv"
 resume:
   name: Résumé
-  icon: "fa-regular fa-address-card fa-sm"
+  icon: "fa-regular fa-address-card fa-xs"
 google-scholar:
   name: Google Scholar
-  icon: "fa-solid fa-user-graduate fa-sm"
+  icon: "fa-solid fa-user-graduate fa-xs"
   prepend: "https://scholar.google.com/citations?user="
