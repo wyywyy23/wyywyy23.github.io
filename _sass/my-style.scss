@@ -27,3 +27,40 @@
   font-family: Slideqiuhong, sans-serif;
   font-weight: 400;
 }
+
+#button-to-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(208, 135, 112);
+  color: rgb(245, 245, 245);
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 7px;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  transition:
+    background-color 0.3s,
+    opacity 0.5s,
+    visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+  
+#button-to-top:hover {
+  background-color: darken(rgb(208, 135, 112), 10%);
+  text-decoration: none;
+}
+  
+#button-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+html {
+  scroll-behavior: smooth;
+}
