@@ -1,0 +1,14 @@
+<a id="button-to-top" href="#"><i class="fa-solid fa-hand-point-up"></i></a>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  var btn = $('#button-to-top');
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 300) {
+      btn.addClass('show');
+    } else {
+      btn.removeClass('show');
+    }
+  });
+</script>
