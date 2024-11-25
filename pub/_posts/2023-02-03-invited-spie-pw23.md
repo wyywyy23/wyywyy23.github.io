@@ -11,7 +11,7 @@ image:
 excerpt_separator: <!--more-->
 ---
 
-# Invited Paper at SPIE Photonics West 2023
+# Invited Paper at Photonics West 2023
 
 Read the full paper or watch the recording of the presentation at 2023 SPIE Photonics West [here](http://dx.doi.org/10.1117/12.2649506).
 {:.note title="📄 Read More"}
