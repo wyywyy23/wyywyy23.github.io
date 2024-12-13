@@ -1,18 +1,4 @@
-.dl-table {
-  a {
-    @supports ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      text-underline-offset: .8rem;
-    }
-    @supports not ((text-decoration-thickness: initial) and (text-underline-offset: initial)) {
-      padding-bottom: .45rem;
-    }
-  }
-
-  .btn, .gumroad-button  {
-    margin: 1rem 0;
-  }
-}
-
+// Font for Chinese characters
 @font-face {
   font-family: Slideqiuhong;
   font-display: swap;
@@ -28,6 +14,7 @@
   font-weight: 400;
 }
 
+// Button to top
 #button-to-top {
   display: flex;
   justify-content: center;
@@ -61,6 +48,9 @@
   visibility: visible;
 }
 
-// html {
-//   scroll-behavior: smooth;
-// }
+// Sidebar background blur
+.sidebar-bg {
+  /* Add the blur effect */
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
