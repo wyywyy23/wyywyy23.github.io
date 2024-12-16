@@ -18,18 +18,12 @@
     });
 </script>
 
-<!-- <script>
+<script>
     function updateAccentImage() {
-        if(document.body.classList.contains('dark-mode')){
-            var accentImageDark = '{{ site.accent_image_dark }}';
-            document.querySelector('.sidebar-bg').style.backgroundImage = 'url(' + accentImageDark + ')';
-        } else if(document.body.classList.contains('light-mode')){
-            var accentImageLight = '{{ site.accent_image }}';
-            document.querySelector('.sidebar-bg').style.backgroundImage = 'url(' + accentImageLight + ')';
-        }
+        $('.sidebar-bg').hide().fadeIn(500);
     }
     // Listen for custom event
     window.addEventListener('hydejack-dark-mode-toggle', function() {
         updateAccentImage();
     });
-</script> -->
+</script>
