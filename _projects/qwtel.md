@@ -15,7 +15,6 @@ image:
 links:
   - title: Link
     url: https://qwtel.com/
-# accent_image: /assets/img/bg/lantau@3840w.jpeg
 sitemap: false
 ---
 

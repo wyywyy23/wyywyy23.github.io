@@ -92,7 +92,8 @@ theme: jekyll-theme-hydejack
 # ----------------------------------------------------------------------------------------
 
 # Sidebar image and theme color of the site.
-accent_image: /assets/img/bg/west_campus@3840w.jpg
+# accent_image: /assets/img/bg/saikung@3840w.jpg
+# accent_image_dark: /assets/img/bg/west_campus@3840w.jpg
 accent_color: rgb(208, 135, 112)
 
 # This is used for the `theme-color` meta tag,

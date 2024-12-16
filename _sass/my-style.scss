@@ -48,9 +48,16 @@
   visibility: visible;
 }
 
-// Sidebar background blur
+// Sidebar background image
 .sidebar-bg {
-  /* Add the blur effect */
+  background-image: url("/assets/img/bg/saikung@3840w.jpg") !important;
+  filter: /*blur(8px)*/ hue-rotate(355deg) contrast(1.1) saturate(0.9) brightness(0.9);
+  -webkit-filter: /*blur(8px)*/ hue-rotate(355deg) contrast(1.1) saturate(0.9) brightness(0.9);
+}
+
+// Sidebar background image for dark-mode
+.dark-mode .sidebar-bg {
+  background-image: url("/assets/img/bg/west_campus@3840w.jpg") !important;
   filter: /*blur(8px)*/ hue-rotate(355deg) contrast(1.1) saturate(0.9) brightness(0.9);
   -webkit-filter: /*blur(8px)*/ hue-rotate(355deg) contrast(1.1) saturate(0.9) brightness(0.9);
 }
