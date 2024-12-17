@@ -29,7 +29,7 @@ crossorigin>
       "background-size": "cover",
     });
     $(".sidebar-bg").css("background-image", "url(" + accentImage + ")");
-    $(".sidebar-bg").hide().fadeIn(500);
+    $(".sidebar-bg").hide().delay(500).fadeIn(1000);
   }
   window.addEventListener("hydejack-dark-mode-toggle", function () {
     updateAccentImage();
