@@ -1,5 +1,7 @@
 <a id="button-to-top" href="#"><i class="fa-solid fa-hand-point-up"></i></a>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 <script>
   var btn = $("#button-to-top");
   $(window).scroll(function () {
@@ -13,5 +15,78 @@
   btn.on("click", function (e) {
     e.preventDefault();
     $("html, body").animate({ scrollTop: 0 }, "300");
+  });
+</script>
+
+<script>
+  function updateAccentImage() {
+    var isDarkMode = document.body.classList.contains("dark-mode");
+    var accentImage = isDarkMode
+      ? "/assets/img/bg/west_campus@3840w.jpg"
+      : "/assets/img/bg/saikung@3840w.jpg";
+    var sidebarImage = isDarkMode
+      ? "/assets/img/bg/saikung@3840w.jpg"
+      : "/assets/img/bg/west_campus@3840w.jpg";
+    $(".sidebar").css({
+      "background-image": "url(" + sidebarImage + ")",
+      "background-position": "center",
+      "background-size": "cover",
+    });
+    $(".sidebar-bg").css("background-image", "url(" + accentImage + ")");
+    $(".sidebar-bg").hide().delay(500).fadeIn(1000);
+  }
+  window.addEventListener("hydejack-dark-mode-toggle", function () {
+    updateAccentImage();
+  });
+</script>
+
+<script>
+  function initializeAccentImage() {
+    window._sunrise = 6;
+    window._sunset = 18;
+    document.body.classList.add("light-mode");
+    if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches
+    ) {
+      $(".sidebar-bg").css(
+        "background-image",
+        "url(/assets/img/bg/west_campus@3840w.jpg)"
+      );
+      document.body.classList.remove("light-mode");
+      document.body.classList.add("dark-mode");
+    } else if (
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: light)").matches
+    ) {
+      $(".sidebar-bg").css(
+        "background-image",
+        "url(/assets/img/bg/saikung@3840w.jpg)"
+      );
+    } else {
+      o = new Date().getHours();
+      if (o < window._sunrise || o >= window._sunset) {
+        $(".sidebar-bg").css(
+          "background-image",
+          "url(/assets/img/bg/west_campus@3840w.jpg)"
+        );
+        document.body.classList.remove("light-mode");
+        document.body.classList.add("dark-mode");
+      } else {
+        $(".sidebar-bg").css(
+          "background-image",
+          "url(/assets/img/bg/saikung@3840w.jpg)"
+        );
+      }
+    }
+    $(".sidebar").css({
+      "background-color": "rgb(0, 0, 0)",
+    });
+    $(".sidebar-bg").hide().fadeIn(1000);
+  }
+  document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      initializeAccentImage();
+    }, 500);
   });
 </script>

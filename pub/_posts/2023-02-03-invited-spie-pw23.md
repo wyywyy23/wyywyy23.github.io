@@ -8,7 +8,7 @@ image:
     480w: /assets/img/blog/spie23@480w.png
     960w: /assets/img/blog/spie23@960w.png
     1920w: /assets/img/blog/spie23.png
-accent_image: /assets/img/blog/spie23.png
+# accent_image: /assets/img/blog/spie23.png
 excerpt_separator: <!--more-->
 ---
 
