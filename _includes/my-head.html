@@ -31,13 +31,11 @@ crossorigin>
     $(".sidebar-bg").css("background-image", "url(" + accentImage + ")");
     $(".sidebar-bg").hide().fadeIn(500);
   }
-  // Listen for custom event
   window.addEventListener("hydejack-dark-mode-toggle", function () {
     updateAccentImage();
   });
 </script>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   function initializeAccentImage() {
     window._sunrise = 6;
