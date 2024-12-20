@@ -48,14 +48,14 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title: Research
-    url: /projects/
+  # - title: Research
+  #   url: /projects/
   - title: Publications
     url: /publications/
   - title: News
     url: /blog/
-  - title: How-Tos
-    url: /docs/
+  # - title: How-Tos
+  #   url: /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

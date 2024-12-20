@@ -19,9 +19,7 @@ I obtained my Ph.D. degree in Electrical and Computer Engineering from the Unive
 My full CV can be found [here](/assets/files/cv_yw.pdf).
 {:.note title="📎 Curriculum Vitae"}
 
-## Research Highlights
-
-<!--projects-->
+<!-- ## Research Highlights -->
 
 ## Recent Publications
 
