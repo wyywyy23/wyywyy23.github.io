@@ -68,7 +68,7 @@ menu:
 #   url: /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright: © 2024 Yuyang Wang. All rights reserved.
+copyright: © 2025 Yuyang Wang. All rights reserved.
 
 # Format of the permalinks
 permalink: /blog/:categories/:year-:month-:day-:title/
@@ -343,7 +343,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: Exa0TwziH1oZSDsN3QSHYHBUztHQBMJN3Rzs5W-cuSY
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
