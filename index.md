@@ -9,7 +9,7 @@ featured: false
 
 > "Embrace light. Admire it. Love it. But above all, know light." — George Eastman
 
-I am joining the University of Connecticut as an Assistant Professor in the Department of Electrical and Computer Engineering in Fall 2025. I am looking for motivated Ph.D. students and postdocs to join my research group. If you are interested in working with me, please feel free to reach out at yw3831 [at] columbia [dot] edu.
+I am joining the University of Connecticut as an Assistant Professor in the Department of Electrical and Computer Engineering in Fall 2025. I am looking for motivated Ph.D. students and postdocs to join my research group. If you are interested in working with me, please feel free to reach out at yuyang.wang [at] uconn [dot] edu.
 {:.note title="📢 Looking for Students"}
 
 I am currently a Postdoctoral Research Scientist in the [Lightwave Research Laboratory](https://lightwave.ee.columbia.edu) at the Columbia University in the City of New York, supervised by [Prof. Keren Bergman](https://lightwave.ee.columbia.edu/bergman). I design **large-scale integrated photonic systems** to transform future computing paradigms. Addressing communication bottlenecks in AI/machine learning applications through embedded photonic I/O and heterogeneous integration, I aim to redefine chip-to-chip connectivity with unparalleled density and novel functionalities beyond data communication.
