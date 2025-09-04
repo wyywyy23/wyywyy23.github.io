@@ -8,7 +8,7 @@ wyy:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    Yuyang Wang is a Postdoctoral Research Scientist at Columbia University working on large-scale integrated photonics for future communication and computing systems.
+    Yuyang Wang is an Assistant Professor at the University of Connecticut working on large-scale integrated photonics for future communication and computing systems.
 
   # This photo will be used in the about section
   picture:
