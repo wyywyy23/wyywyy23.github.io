@@ -27,7 +27,7 @@ description: >
   Yuyang Wang is an Assistant Professor at UConn.
 
 # A shorter description for the sidebar.
-tagline: " Researcher <br> Educator <br> Father of Two"
+tagline: " Photonics Researcher <br> Engineering Educator <br> Husband & Father of Two"
 
 # A list of keywords for your blog
 keywords: []
@@ -51,6 +51,8 @@ menu:
   #   url: /projects/
   - title: Publications
     url: /publications/
+  - title: Teaching
+    url: /teaching/
   - title: News
     url: /blog/
   # - title: How-Tos
