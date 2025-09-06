@@ -12,7 +12,7 @@ featured: false
 I am looking for motivated Ph.D. students and postdocs to join my research group. If you are interested in working with me, please feel free to reach out at yuyang.wang [at] uconn [dot] edu.
 {:.note title="📢 Looking for Students"}
 
-![Full-width image](assets/img/misc/uconn_foliage@3840w.jpg){:.lead width="3840" height="2560" loading="lazy"}
+![UConn Foliage](assets/img/misc/uconn_foliage@3840w.jpg){:.lead width="3840" height="2560" loading="lazy"}
 
 I am an Assistant Professor in Electrical and Computer Engineering at the University of Connecticut. I design **large-scale integrated photonic systems** to transform future computing paradigms. Addressing communication bottlenecks in AI/machine learning applications through embedded photonic I/O and heterogeneous integration, I aim to redefine chip-to-chip connectivity with unparalleled density and novel functionalities beyond data communication.
 
