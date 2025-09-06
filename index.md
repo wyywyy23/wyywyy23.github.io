@@ -14,7 +14,7 @@ I am looking for motivated Ph.D. students and postdocs to join my research group
 
 ![Full-width image](assets/img/misc/uconn_foliage@3840w.jpg){:.lead width="3840" height="2560" loading="lazy"}
 
-I am an Assistant Professor in Electrical and Computer Engineering at the University of Connecticut. I designed **large-scale integrated photonic systems** to transform future computing paradigms. Addressing communication bottlenecks in AI/machine learning applications through embedded photonic I/O and heterogeneous integration, I aimed to redefine chip-to-chip connectivity with unparalleled density and novel functionalities beyond data communication.
+I am an Assistant Professor in Electrical and Computer Engineering at the University of Connecticut. I design **large-scale integrated photonic systems** to transform future computing paradigms. Addressing communication bottlenecks in AI/machine learning applications through embedded photonic I/O and heterogeneous integration, I aim to redefine chip-to-chip connectivity with unparalleled density and novel functionalities beyond data communication.
 
 Prior to joining UConn, I was a Postdoctoral Research Scientist in the [Lightwave Research Laboratory](https://lightwave.ee.columbia.edu) at Columbia University in the City of New York, supervised by [Prof. Keren Bergman](https://lightwave.ee.columbia.edu/bergman).
 
