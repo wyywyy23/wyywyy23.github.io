@@ -14,3 +14,5 @@ links:
   - title: UConn Catalog
     url: https://catalog.uconn.edu/undergraduate/courses/ece/
 ---
+
+[Spring 2026](s26)
