@@ -302,6 +302,10 @@ collections:
     permalink: /projects/:path/
     output: true
 
+  teaching:
+    permalink: /teaching/:path/
+    output: true
+
 # File inclusion/exclusion
 # ----------------------------------------------------------------------------------------
 
