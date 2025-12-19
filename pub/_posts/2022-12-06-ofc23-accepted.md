@@ -1,5 +1,6 @@
 ---
 layout: post
+related_posts: []
 description: >
   Our paper on fab-robust waveguide dispersion engineering is accepted at OFC 2023 and will be presented on March 09, 2023.
 image:
@@ -8,7 +9,6 @@ image:
     480w: /assets/img/blog/ofc23@480w.png
     960w: /assets/img/blog/ofc23@960w.png
     1920w: /assets/img/blog/ofc23.png
-# accent_image: /assets/img/blog/ofc23.png
 excerpt_separator: <!--more-->
 ---
 

@@ -52,7 +52,7 @@ menu:
   - title: Publications
     url: /publications/
   - title: Teaching
-    url: /teaching/
+    url: /docs/teaching/
   - title: News
     url: /blog/
   # - title: How-Tos
@@ -300,10 +300,6 @@ collections:
 
   projects:
     permalink: /projects/:path/
-    output: true
-
-  teaching:
-    permalink: /teaching/:path/
     output: true
 
 # File inclusion/exclusion

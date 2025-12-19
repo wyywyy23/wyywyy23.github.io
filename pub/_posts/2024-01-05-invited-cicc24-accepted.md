@@ -1,5 +1,6 @@
 ---
 layout: post
+related_posts: []
 description: >
   Our invited paper on embedded silicon photonics I/O is accepted at IEEE CICC 2024 and will be presented on April 22, 2024.
 image:
@@ -8,7 +9,6 @@ image:
     480w: /assets/img/blog/cicc24@480w.png
     960w: /assets/img/blog/cicc24@960w.png
     1920w: /assets/img/blog/cicc24.png
-# accent_image: /assets/img/blog/cicc24.png
 excerpt_separator: <!--more-->
 ---
 
