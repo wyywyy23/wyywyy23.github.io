@@ -8,6 +8,6 @@ hide_description: false
 
 ## University of Connecticut
 
-### [ECE 2001 -- Electrical Circuits](ece2001/)
+### ECE 2001 -- Electrical Circuits
 
 [Spring 2026](ece2001/s26/)
