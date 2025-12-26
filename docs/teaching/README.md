@@ -10,7 +10,7 @@ hide_description: false
 
 ### ECE 2001 -- Electrical Circuits
 
-Analysis of electrical networks incorporating passive and active elements. Basic laws and techniques of analysis. Transient and forced response of linear circuits. AC steady state power and three-phase circuits. Periodic excitation and frequency response. Computer analysis tools. Design projects are implemented and tested in the laboratory.
+Electrical circuits are used as models to represent and analyze electrical behavior using interconnected elements such as resistors, capacitors, inductors, and sources, enabling engineers to write and solve circuit equations to predict voltages, currents, and system response within the limits of the model.
 {:.note title="Description"}
 
 <a href="https://uconn-one-lab.notion.site/UCONN-ECE-2001-Spring-2026-2cc225279a668025b82ce9215d131645?source=copy_link" target="_blank">Spring 2026</a>
