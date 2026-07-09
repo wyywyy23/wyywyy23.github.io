@@ -1,0 +1,60 @@
+name: Maintenance Automation
+
+on:
+  workflow_dispatch:
+    inputs:
+      run_image_resize:
+        description: Run responsive image generation under assets/img
+        required: false
+        default: true
+        type: boolean
+      run_submodule_update:
+        description: Update Font Awesome and Academicons submodules
+        required: false
+        default: true
+        type: boolean
+  schedule:
+    - cron: "0 11 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install image tooling dependency
+        run: python -m pip install --upgrade pip pillow
+
+      - name: Run image resize automation
+        if: ${{ github.event_name == 'schedule' || inputs.run_image_resize }}
+        run: make resize-images
+
+      - name: Run submodule update automation
+        if: ${{ github.event_name == 'schedule' || inputs.run_submodule_update }}
+        run: make update-submodules
+
+      - name: Create maintenance pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: automate image variants and icon submodule refresh"
+          title: "chore: maintenance refresh (images and icon submodules)"
+          body: |
+            Automated maintenance updates:
+            - Regenerated responsive image variants under assets/img as needed.
+            - Updated icon submodules to latest release tags.
+          branch: chore/maintenance-refresh
+          delete-branch: true
