@@ -17,6 +17,7 @@ on:
     - cron: "0 11 * * 1"
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write
 
@@ -47,6 +48,7 @@ jobs:
         run: make update-submodules
 
       - name: Create maintenance pull request
+        id: create_pull_request
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -58,3 +60,20 @@ jobs:
             - Updated icon submodules to latest release tags.
           branch: chore/maintenance-refresh
           delete-branch: true
+
+      - name: Merge maintenance pull request
+        if: ${{ steps.create_pull_request.outputs.pull-request-number != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge "${{ steps.create_pull_request.outputs.pull-request-number }}" \
+            --repo "${{ github.repository }}" \
+            --squash \
+            --delete-branch \
+            --match-head-commit "${{ steps.create_pull_request.outputs.pull-request-head-sha }}"
+
+      - name: Deploy site after maintenance merge
+        if: ${{ steps.create_pull_request.outputs.pull-request-number != '' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run jekyll.yml --repo "${{ github.repository }}" --ref master
