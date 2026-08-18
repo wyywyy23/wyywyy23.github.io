@@ -23,4 +23,4 @@ The work presents a co-designed silicon photonics chip I/O architecture for ener
 See the [official IEEE Electronics Packaging Society award announcement](https://eps.ieee.org/awards/best-paper-awards/).
 {:.note title="🏆 Best Paper Award"}
 
-Congratulations and many thanks to all our collaborators: Songli Wang, Robert Parsons, Swarnava Sanyal, Vignesh Gopal, Asher Novick, Anthony Rizzo, Michal Lipson, and Alexander L. Gaeta!
+Congratulations and many thanks to all our collaborators: Songli Wang, Robert Parsons, Swarnava Sanyal, Vignesh Gopal, Asher Novick, Anthony Rizzo, Michal Lipson, Alexander L. Gaeta, and Keren Bergman!
