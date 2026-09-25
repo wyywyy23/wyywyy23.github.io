@@ -28,6 +28,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -95,6 +96,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -156,6 +158,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -217,6 +220,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -288,6 +292,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -357,6 +362,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -428,6 +434,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -489,6 +496,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -557,6 +565,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -625,6 +634,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -693,6 +703,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -754,6 +765,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -815,6 +827,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [
         {
@@ -874,6 +887,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": "jstqe",
       "article_format": null,
       "deadlines": [
         {
@@ -923,6 +937,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": "jstqe",
       "article_format": null,
       "deadlines": [
         {
@@ -972,6 +987,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": "photonics-journal",
       "article_format": null,
       "deadlines": [
         {
@@ -1020,6 +1036,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": "jstqe",
       "article_format": null,
       "deadlines": [
         {
@@ -1069,6 +1086,7 @@
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
+      "journal_id": "jstqe",
       "article_format": null,
       "deadlines": [
         {
@@ -1119,6 +1137,7 @@
       "paper_ids": [],
       "target_group": "core",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Research articles",
         "source": "https://ieeephotonics.org/publications/ieee-optica-journal-of-lightwave-technology/"
@@ -1164,6 +1183,7 @@
       ],
       "target_group": "core",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Research articles",
         "source": "https://opg.optica.org/content/journal/about/item/oe/"
@@ -1205,6 +1225,7 @@
       "paper_ids": [],
       "target_group": "core",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Research articles",
         "source": "https://opg.optica.org/content/journal/about/item/prj/"
@@ -1254,6 +1275,7 @@
       "paper_ids": [],
       "target_group": "core",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Articles: 6–8 pages · Letters: 4 pages",
         "source": "https://opg.optica.org/content/journal/about/item/optica/"
@@ -1271,6 +1293,58 @@
         {
           "label": "Scope / article types",
           "url": "https://opg.optica.org/content/journal/about/item/optica/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "jstqe",
+      "title": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "short_name": "JSTQE",
+      "kind": "journal",
+      "category": "journal",
+      "track": "topical",
+      "cycle": "Topic-specific issues",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "quantum"
+      ],
+      "website": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/",
+      "submission_mode": "topical",
+      "format": [
+        "Contributed research papers follow the scope and deadline of the selected topical issue.",
+        "Contributed papers: 8 double-column pages before overlength charges apply. Check the selected CFP for additional requirements.",
+        "Tutorials and reviews are by invitation."
+      ],
+      "format_source": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/",
+      "note": "",
+      "fit": "Integrated photonics, optical interconnects, photonic computing and devices; select the matching topical call.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "target_group": "core",
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": {
+        "label": "Topic-specific deadlines",
+        "source": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/"
+      },
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/"
+        },
+        {
+          "label": "Open calls",
+          "url": "https://ieeephotonics.org/publications/publication-calls-for-papers/#jstqe"
         }
       ],
       "recurrence": null,
@@ -1302,6 +1376,7 @@
       "paper_ids": [],
       "target_group": "core",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Research articles",
         "source": "https://opg.optica.org/content/journal/about/item/jocn/"
@@ -1343,6 +1418,7 @@
       "paper_ids": [],
       "target_group": "core",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1385,6 +1461,7 @@
       ],
       "target_group": "letters",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Short communications",
         "source": "https://opg.optica.org/content/journal/about/item/ol/"
@@ -1432,6 +1509,7 @@
       "paper_ids": [],
       "target_group": "letters",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Letters: 4-page limit",
         "source": "https://ieeephotonics.org/publications/photonics-technology-letters/"
@@ -1476,6 +1554,7 @@
       "paper_ids": [],
       "target_group": "letters",
       "target_topic": null,
+      "journal_id": null,
       "article_format": {
         "label": "Letters: 3,000 words at submission",
         "source": "https://publishing.aip.org/resources/researchers/author-instructions/#apl"
@@ -1517,6 +1596,7 @@
       "paper_ids": [],
       "target_group": "letters",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1557,6 +1637,7 @@
       "paper_ids": [],
       "target_group": "letters",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1595,6 +1676,7 @@
       "paper_ids": [],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1635,6 +1717,7 @@
       ],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1675,6 +1758,7 @@
       ],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1717,6 +1801,7 @@
       ],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1755,6 +1840,7 @@
       "paper_ids": [],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1793,6 +1879,7 @@
       "paper_ids": [],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1831,6 +1918,7 @@
       "paper_ids": [],
       "target_group": "devices",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1871,6 +1959,7 @@
       ],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1909,6 +1998,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1953,6 +2043,7 @@
       ],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -1991,6 +2082,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2029,6 +2121,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2067,6 +2160,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2105,6 +2199,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2143,6 +2238,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2183,6 +2279,7 @@
       ],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2221,6 +2318,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2259,6 +2357,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2297,6 +2396,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2335,6 +2435,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2373,6 +2474,7 @@
       "paper_ids": [],
       "target_group": "reach",
       "target_topic": null,
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2412,6 +2514,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "quantum",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2451,6 +2554,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "quantum",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2490,6 +2594,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "quantum",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2529,6 +2634,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "quantum",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2568,6 +2674,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "quantum",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2606,6 +2713,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "materials",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2644,6 +2752,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "materials",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2682,6 +2791,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "materials",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2720,6 +2830,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "materials",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2761,6 +2872,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "electronics",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2800,6 +2912,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "electronics",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2839,6 +2952,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "electronics",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2877,6 +2991,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2915,6 +3030,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2953,6 +3069,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -2991,6 +3108,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -3029,6 +3147,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -3067,6 +3186,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -3106,6 +3226,7 @@
       "paper_ids": [],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
@@ -3146,6 +3267,7 @@
       ],
       "target_group": "specialist",
       "target_topic": "applied",
+      "journal_id": null,
       "article_format": null,
       "deadlines": [],
       "links": [
