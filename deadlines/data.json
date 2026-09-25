@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-09-25",
+  "entries": [
+    {
+      "id": "ofc-2027",
+      "title": "OFC 2027",
+      "kind": "conference",
+      "cycle": "2027",
+      "topics": [
+        "optical-communications",
+        "photonics"
+      ],
+      "website": "https://www.ofcconference.org/",
+      "submission_mode": "fixed",
+      "deadlines": [
+        {
+          "label": "Regular abstract & summary",
+          "date": "2026-10-20",
+          "at": null,
+          "timezone": null,
+          "source": "https://www.ofcconference.org/submit-a-paper/author-timeline/"
+        }
+      ],
+      "format": [
+        "Contributed papers: 35-word abstract and a three-page summary in PDF.",
+        "Include title, authors and affiliations, the abstract, and the required copyright statement.",
+        "Use the official meeting style guide; separate tracks have their own instructions."
+      ],
+      "links": [
+        {
+          "label": "CFP & submission",
+          "url": "https://www.ofcconference.org/submit-a-paper/"
+        },
+        {
+          "label": "Format & templates",
+          "url": "https://www.ofcconference.org/submit-a-paper/submission-guidelines/"
+        },
+        {
+          "label": "Author timeline",
+          "url": "https://www.ofcconference.org/submit-a-paper/author-timeline/"
+        }
+      ],
+      "event": {
+        "start": "2027-03-07",
+        "end": "2027-03-11",
+        "city": "Los Angeles, California, USA",
+        "venue": "Los Angeles Convention Center"
+      },
+      "note": "The author timeline lists dates only. Check the submission portal for the closing time and timezone.",
+      "verified_on": "2026-09-25",
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-10-20",
+        "basis_url": "https://www.ofcconference.org/submit-a-paper/author-timeline/",
+        "basis_cycle": 2027
+      }
+    },
+    {
+      "id": "cleo-2027",
+      "title": "CLEO 2027",
+      "kind": "conference",
+      "cycle": "2027",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "quantum"
+      ],
+      "website": "https://cleoconference.org/",
+      "submission_mode": "fixed",
+      "deadlines": [
+        {
+          "label": "Abstract & summary",
+          "date": "2026-11-23",
+          "at": "2026-11-23T23:59:00-08:00",
+          "timezone": "America/Los_Angeles",
+          "source": "https://cleoconference.org/2027-call-for-papers/"
+        }
+      ],
+      "format": [
+        "35-word abstract and a two-page summary, submitted as a PDF.",
+        "Include title, authors, affiliations and the required copyright statement; embed all fonts.",
+        "Use the official CLEO style guide and confirm the 2027 two-page limit."
+      ],
+      "links": [
+        {
+          "label": "Call for papers",
+          "url": "https://cleoconference.org/2027-call-for-papers/"
+        },
+        {
+          "label": "Format & template",
+          "url": "https://cleoconference.org/2027-paper-preparation-and-requirements/"
+        }
+      ],
+      "event": {
+        "start": "2027-05-02",
+        "end": "2027-05-07",
+        "city": "Long Beach, California, USA",
+        "venue": "Long Beach Convention Center"
+      },
+      "note": "",
+      "verified_on": "2026-09-25",
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-11-23",
+        "basis_url": "https://cleoconference.org/2027-call-for-papers/",
+        "basis_cycle": 2027
+      }
+    },
+    {
+      "id": "isscc-2027-regular",
+      "title": "ISSCC 2027 · Regular papers",
+      "kind": "conference",
+      "cycle": "2027",
+      "topics": [
+        "integrated-circuits"
+      ],
+      "website": "https://www.isscc.org/",
+      "submission_mode": "fixed",
+      "deadlines": [
+        {
+          "label": "Regular paper submission",
+          "date": "2026-09-09",
+          "at": "2026-09-09T15:00:00-04:00",
+          "timezone": "America/New_York",
+          "source": "https://submissions.mirasmart.com/ISSCC2027/PDF/ISSCC2027CFP.pdf"
+        }
+      ],
+      "format": [
+        "Abstract: at most 500 characters, including spaces.",
+        "Submit two PDFs: text (at most five pages; fewer than 11,000 characters with stated exclusions) and figures (at most two pages).",
+        "Text: single-column, double-spaced, 12 pt Arial Narrow. Follow the official figure template and double-blind review rules."
+      ],
+      "links": [
+        {
+          "label": "CFP PDF",
+          "url": "https://submissions.mirasmart.com/ISSCC2027/PDF/ISSCC2027CFP.pdf"
+        },
+        {
+          "label": "Author instructions & templates",
+          "url": "https://www.isscc.org/paper-submission-26"
+        }
+      ],
+      "event": {
+        "start": "2027-02-14",
+        "end": "2027-02-18",
+        "city": "San Francisco, California, USA",
+        "venue": "San Francisco Marriott Marquis"
+      },
+      "note": "Regular paper submissions only. The next cycle is shown after this deadline; unannounced dates remain month-level estimates.",
+      "verified_on": "2026-09-25",
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-09-09",
+        "basis_url": "https://submissions.mirasmart.com/ISSCC2027/PDF/ISSCC2027CFP.pdf",
+        "basis_cycle": 2027
+      }
+    },
+    {
+      "id": "jlt-regular",
+      "title": "Journal of Lightwave Technology",
+      "kind": "journal",
+      "cycle": "Regular articles",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "website": "https://ieeephotonics.org/publications/ieee-optica-journal-of-lightwave-technology/",
+      "submission_mode": "rolling",
+      "deadlines": [],
+      "format": [
+        "Use the standard two-column, single-spaced journal format.",
+        "Place figures within the text for an accurate page count. Use the journal’s current author instructions and template."
+      ],
+      "links": [
+        {
+          "label": "Author instructions & templates",
+          "url": "https://ieeephotonics.org/publications/ieee-optica-journal-of-lightwave-technology/"
+        }
+      ],
+      "event": null,
+      "note": "Regular articles have no issue-specific CFP deadline listed. Special issues are tracked separately.",
+      "verified_on": "2026-09-25",
+      "recurrence": null
+    },
+    {
+      "id": "nature-photonics-article",
+      "title": "Nature Photonics",
+      "kind": "journal",
+      "cycle": "Article",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "website": "https://www.nature.com/nphoton/",
+      "submission_mode": "rolling",
+      "deadlines": [],
+      "format": [
+        "Article: main text up to 3,000 words, excluding abstract, Methods, references and figure legends.",
+        "Abstract up to 200 words; up to six figures and/or tables.",
+        "Follow the initial-submission instructions; other article types have different limits."
+      ],
+      "links": [
+        {
+          "label": "Content types & limits",
+          "url": "https://www.nature.com/nphoton/content"
+        },
+        {
+          "label": "Submission guidelines",
+          "url": "https://www.nature.com/nphoton/submission-guidelines"
+        }
+      ],
+      "event": null,
+      "note": "Regular Article submissions; no issue-specific CFP deadline listed.",
+      "verified_on": "2026-09-25",
+      "recurrence": null
+    }
+  ]
+}
