@@ -1,27 +1,22 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Conference and journal submission deadlines, meeting dates, CFPs and author requirements for photonics, optical communications, integrated circuits and quantum technology.">
-  <title>Submission Calendar · Yuyang Wang</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script type="module" src="./app.js"></script>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Optical communication and integrated photonics conference deadlines, CFPs, formats, meeting dates and locations.">
+<title>Conference deadlines · Yuyang Wang</title>
+<link rel="stylesheet" href="./styles.css"><script type="module" src="./app.js"></script>
 </head>
-<body>
-  <a class="skip" href="#results">Skip to opportunities</a>
-  <header class="topbar"><a class="brand" href="https://wangyy.phd/">YUYANG WANG<span>Research resources</span></a><a href="https://wangyy.phd/">Back to homepage ↗</a></header>
-  <main>
-    <section class="hero" aria-labelledby="page-title"><div><div class="eyebrow"><span></span> THE NEXT SUBMISSION</div><h1 id="page-title">Submission<br>Calendar.</h1><p class="intro">The next regular submission cycle. Conference dates, journal requirements, and official calls in one place.</p><p class="subjects">Photonics · Optical communications · Integrated circuits · Quantum</p></div><aside class="hero-note"><span class="small-label">SUBMISSION CALENDAR</span><p>Find your next venue.<br>Keep the details close.</p><span id="updated">Loading verified records…</span></aside></section>
-    <section class="stats" aria-label="Calendar overview"><div><strong id="count-upcoming">—</strong><span>confirmed deadlines</span></div><div><strong id="count-conferences">—</strong><span>estimated next cycle</span></div><div><strong id="count-journals">—</strong><span>journals</span></div><div class="stats-note">Official dates, in their original timezone.<br>Expand a venue for CFPs, formats, and sources.</div></section>
-    <section class="toolbar" aria-label="Filter opportunities">
-      <div class="search-row"><label class="search"><span>Search</span><input id="search" type="search" placeholder="Search a venue, topic, or city" autocomplete="off"></label><label>Type<select id="kind"><option value="all">All types</option><option value="conference">Conferences</option><option value="journal">Journals</option></select></label><label>Sort<select id="sort"><option value="deadline">Next deadline</option><option value="name">Name A–Z</option><option value="meeting">Meeting date</option></select></label></div>
-      <div class="filter-row"><div class="topics" role="group" aria-label="Research area"><button data-topic="all" aria-pressed="true">All areas</button><button data-topic="photonics" aria-pressed="false">Photonics</button><button data-topic="optical-communications" aria-pressed="false">Optical communications</button><button data-topic="integrated-circuits" aria-pressed="false">Integrated circuits</button><button data-topic="quantum" aria-pressed="false">Quantum</button></div><span class="past">Always showing the next regular cycle</span></div>
-    </section>
-    <div class="list-heading"><h2>Opportunities <span id="result-count" aria-live="polite"></span></h2><button id="export" class="export" disabled>↓ Export shown dates (.ics)</button></div>
-    <p class="precision">Estimated months use the previous official CFP as a guide. A new official call replaces the estimate; no exact deadline is inferred.</p>
-    <section id="results" aria-label="Opportunities"><p class="empty" role="status">Loading calendar…</p></section>
-    <noscript><p>JavaScript is needed to filter the calendar. <a href="./data.json">Read the complete calendar data</a>.</p></noscript>
-    <footer><p>A curated research resource by <a href="https://wangyy.phd/">Yuyang Wang</a>.</p><p>Dates may change. Each entry links to its official source and last verification date.<br>Calendar downloads are snapshots; they do not update automatically.</p></footer>
-  </main>
-</body>
-</html>
+<body data-page="conferences" data-base="./">
+<a class="skip" href="#results">Skip to deadlines</a>
+<header><a href="https://wangyy.phd/">Yuyang Wang</a><span>Submission calendar</span><span id="updated">Loading…</span></header>
+<main>
+<nav class="page-nav" aria-label="Submission calendars"><a href="./" aria-current="page">Conferences</a><a href="./journals/">Journals</a></nav>
+<h1>Conference deadlines</h1>
+<p class="rule">The earliest required submission deadline governs sorting and rollover. Abstract and full-paper dates are both listed.</p>
+<div class="controls"><label>Search<input id="search" type="search" placeholder="Conference, topic, location" autocomplete="off"></label><label>Area<select id="area"><option value="all">All areas</option><option value="photonics">Photonics</option><option value="optical-communications">Optical communications</option><option value="integrated-circuits">Design automation / IC</option><option value="quantum">Quantum</option></select></label><button id="export" disabled>Export displayed dates (.ics)</button></div>
+<div class="section-nav"><a href="#core">Core conferences</a><a href="#postdeadline">Post-deadline</a><a href="#adjacent">Design automation</a><a href="#meeting-plan">Meeting dates</a><span id="result-count" aria-live="polite"></span></div>
+<section id="results" aria-label="Conference opportunities"><p role="status">Loading…</p></section>
+<section id="meeting-plan" aria-label="Announced conference meeting dates"></section>
+<noscript><p>JavaScript is needed to show current submission cycles. <a href="./data.json">Calendar data</a>.</p></noscript>
+<footer>Estimated months use a previous official CFP; exact dates appear only after verification. Times without an official cutoff remain date-only. Calendar exports are snapshots.<br><a href="./data.json">Public data</a> · <a href="https://wangyy.phd/">Homepage</a></footer>
+</main></body></html>
