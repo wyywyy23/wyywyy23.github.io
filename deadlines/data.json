@@ -1,12 +1,6 @@
 {
   "schema_version": 2,
   "updated_on": "2026-09-25",
-  "catalog": {
-    "scope": "Mainstream original-research venues for integrated photonics, optical communication, photonic materials/devices, quantum hardware and photonic design automation.",
-    "ranking": "Qualitative editorial grouping by visibility, selectivity and field recognition; not a JIF ranking. Journals within a group are alphabetical. Specialist and cross-field fit still governs suitability.",
-    "lab_source": "https://lightwave.ee.columbia.edu/publications",
-    "papers_policy": "Selected 2025–2026 integrated-photonics papers, linked to publisher pages or DOIs; not an exhaustive literature feed."
-  },
   "entries": [
     {
       "id": "ofc-2027",
@@ -31,7 +25,6 @@
       "note": "The author timeline lists dates only. Check the submission portal for the closing time and timezone.",
       "fit": "Optical communication, PIC devices, optical interconnects and systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -96,7 +89,6 @@
       "note": "",
       "fit": "Integrated photonics, lasers, optical devices and quantum optics.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -155,7 +147,6 @@
       "note": "",
       "fit": "Silicon photonic devices, integration, fabrication and applications.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -214,7 +205,6 @@
       "note": "May forecast uses the Society’s regular-call extension announcement. Later extensions do not establish a next-year deadline.",
       "fit": "Photonics devices, optical communications, computing and quantum photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -283,7 +273,6 @@
       "note": "2027 meeting moves from June to April; the previous April submission month is only a weak planning estimate. Start checking earlier.",
       "fit": "Optical Interconnects and Packaging: CPO, chiplets, photonic devices and design.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -350,7 +339,6 @@
       "note": "Original CFP: March 13; organizer announced a final extension to March 27. The 2027 meeting moves to September; the March forecast may shift.",
       "fit": "Numerical simulation, compact models, inverse design and optoelectronic devices.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -419,7 +407,6 @@
       "note": "The later proceedings manuscript deadline is not the entry deadline for a new submission.",
       "fit": "OPTO tracks on silicon photonics, photonic integration, lasers and optical interconnects.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -478,7 +465,6 @@
       "note": "",
       "fit": "CAD methods, modeling, physical design and emerging technologies; CFP explicitly includes nanophotonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -544,7 +530,6 @@
       "note": "",
       "fit": "Track 6: Photonic/RF/Analog-Mixed Signal Design; includes communication and computing using photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -610,7 +595,6 @@
       "note": "",
       "fit": "Design Methods and Tools, on-chip communication and emerging technologies. Fit requires a design/automation contribution; a dedicated photonics track is not confirmed.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -676,7 +660,6 @@
       "note": "Full-paper date conflict: the research-page timeline says Nov 18, 2026 (17:00 PST), while its FAQ and event listings say Nov 17. Verify the submission portal; this page uses the earlier mandatory abstract gate, Nov 11.",
       "fit": "EDA, emerging interconnects, chiplets and electronic–photonic co-design; select a matching research category.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -735,7 +718,6 @@
       "note": "For new, significant late-breaking results; this is a separate reviewed research call, not an extension of regular submissions.",
       "fit": "Photonics devices, optical communications, computing and quantum photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -767,7 +749,7 @@
       "announced_next": null,
       "eligibility": {
         "status": "eligible",
-        "basis": "The open call invites authors to submit new and significant results; it lists no degree or career-stage restriction. Graduate-student authors are eligible under these published rules.",
+        "basis": "The open call invites authors to submit new and significant results; it lists no degree or career-stage restriction. Student authors are eligible under these published rules.",
         "source": "https://ieee-ipc.org/paper-submission/submission-guidelines/"
       }
     },
@@ -794,7 +776,6 @@
       "note": "For new, significant late-breaking results; this is a separate reviewed research call, not an extension of regular submissions.",
       "fit": "Optical communication, PIC devices, optical interconnects and systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -826,7 +807,7 @@
       "announced_next": null,
       "eligibility": {
         "status": "eligible",
-        "basis": "Technical submissions are open to all members of the scientific and technical community, and postdeadline papers use the contributed-submission process. Graduate-student authors are eligible; postdeadline papers are excluded from the student-paper competition.",
+        "basis": "Technical submissions are open to all members of the scientific and technical community, and postdeadline papers use the contributed-submission process. Student authors are eligible; postdeadline papers are excluded from the student-paper competition.",
         "source": "https://www.ofcconference.org/submit-a-paper/submission-guidelines/"
       }
     },
@@ -851,7 +832,6 @@
       "note": "Issue publication: Jan–Feb 2027. This call is not assumed to recur annually.",
       "fit": "High-speed IM/DD links, PIC/EIC devices, packaging and systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -898,7 +878,6 @@
       "note": "Issue publication: May–Jun 2027 (tentative). This call is not assumed to recur annually.",
       "fit": "Integrated photonic computing, accelerators, neuromorphic systems and electronic–photonic platforms.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -945,7 +924,6 @@
       "note": "Issue publication: Spring 2027 (tentative). This call is not assumed to recur annually.",
       "fit": "Device/PIC modeling, inverse design, multiphysics and reproducible simulation.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -991,7 +969,6 @@
       "note": "Issue publication: Nov–Dec 2027. This call is not assumed to recur annually.",
       "fit": "Topological photonics, structured light and classical/quantum photonic devices.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -1038,7 +1015,6 @@
       "note": "Issue publication: Jan–Feb 2028 (tentative). This call is not assumed to recur annually.",
       "fit": "Integrated semiconductor lasers, low-noise sources and co-packaged optics.",
       "verified_on": "2026-09-25",
-      "influence_tier": null,
       "paper_ids": [],
       "deadlines": [
         {
@@ -1082,7 +1058,6 @@
       "note": "",
       "fit": "Fundamental breakthroughs with broad scientific significance.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [
         "zheng-qkd"
       ],
@@ -1120,7 +1095,6 @@
       "note": "",
       "fit": "Broad scientific advances in photonic computing, devices or quantum technology.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1160,7 +1134,6 @@
       "note": "",
       "fit": "Major advances in photonic devices, integrated platforms and systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [
         "daudlin-3d"
       ],
@@ -1198,7 +1171,6 @@
       "note": "",
       "fit": "Electronic–photonic integration, computing hardware and interface circuits.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1234,7 +1206,6 @@
       "note": "",
       "fit": "Nanoscale devices, materials and integration with a strong nanotechnology advance.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1270,7 +1241,6 @@
       "note": "",
       "fit": "Fundamental optical and quantum physics demonstrated on integrated platforms.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1281,6 +1251,182 @@
         {
           "label": "Author information",
           "url": "https://www.nature.com/nphys/submission-guidelines"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "nature-communications",
+      "title": "Nature Communications",
+      "short_name": "Nature Communications",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.nature.com/ncomms/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.nature.com/ncomms/submission-guidelines",
+      "note": "",
+      "fit": "Complete device, platform or system advances with broad specialist interest.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.nature.com/ncomms/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.nature.com/ncomms/submission-guidelines"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "science-advances",
+      "title": "Science Advances",
+      "short_name": "Science Advances",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.science.org/journal/sciadv",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.science.org/content/page/science-advances-information-authors",
+      "note": "",
+      "fit": "Cross-disciplinary advances in materials, integrated optics and computing.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.science.org/journal/sciadv"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.science.org/content/page/science-advances-information-authors"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "prx",
+      "title": "Physical Review X",
+      "short_name": "Physical Review X",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://journals.aps.org/prx/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://journals.aps.org/prx/authors",
+      "note": "",
+      "fit": "Broadly significant physics; integrated platforms need a central physics result.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://journals.aps.org/prx/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://journals.aps.org/prx/authors"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "prl",
+      "title": "Physical Review Letters",
+      "short_name": "Physical Review Letters",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://journals.aps.org/prl/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://journals.aps.org/prl/authors",
+      "note": "",
+      "fit": "Concise, significant physics results; not an engineering-only performance report.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://journals.aps.org/prl/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://journals.aps.org/prl/authors"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "prx-quantum",
+      "title": "PRX Quantum",
+      "short_name": "PRX Quantum",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "quantum",
+        "photonics"
+      ],
+      "website": "https://journals.aps.org/prxquantum/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://journals.aps.org/prxquantum/authors",
+      "note": "",
+      "fit": "Major quantum-information results; integrated quantum hardware is relevant.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://journals.aps.org/prxquantum/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://journals.aps.org/prxquantum/authors"
         }
       ],
       "recurrence": null,
@@ -1306,7 +1452,6 @@
       "note": "",
       "fit": "High-visibility optics and photonics devices, platforms and applications.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [
         "lightin"
       ],
@@ -1344,7 +1489,6 @@
       "note": "",
       "fit": "Significant advances across optics; PICs, nonlinear and quantum photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": 1,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1355,334 +1499,6 @@
         {
           "label": "Author information",
           "url": "https://opg.optica.org/optica/home.cfm"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "advanced-photonics",
-      "title": "Advanced Photonics",
-      "short_name": "Advanced Photonics",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.spiedigitallibrary.org/journals/advanced-photonics",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.spiedigitallibrary.org/journals/advanced-photonics/author-guidelines",
-      "note": "",
-      "fit": "Substantial advances in optical science and photonic technology.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 1,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.spiedigitallibrary.org/journals/advanced-photonics"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.spiedigitallibrary.org/journals/advanced-photonics/author-guidelines"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "prx",
-      "title": "Physical Review X",
-      "short_name": "Physical Review X",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://journals.aps.org/prx/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://journals.aps.org/prx/authors",
-      "note": "",
-      "fit": "Broadly significant physics; integrated platforms need a central physics result.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 1,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://journals.aps.org/prx/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://journals.aps.org/prx/authors"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "nature-communications",
-      "title": "Nature Communications",
-      "short_name": "Nature Communications",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.nature.com/ncomms/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.nature.com/ncomms/submission-guidelines",
-      "note": "",
-      "fit": "Complete device, platform or system advances with broad specialist interest.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.nature.com/ncomms/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.nature.com/ncomms/submission-guidelines"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "science-advances",
-      "title": "Science Advances",
-      "short_name": "Science Advances",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.science.org/journal/sciadv",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.science.org/content/page/science-advances-information-authors",
-      "note": "",
-      "fit": "Cross-disciplinary advances in materials, integrated optics and computing.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.science.org/journal/sciadv"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.science.org/content/page/science-advances-information-authors"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "prl",
-      "title": "Physical Review Letters",
-      "short_name": "Physical Review Letters",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://journals.aps.org/prl/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://journals.aps.org/prl/authors",
-      "note": "",
-      "fit": "Concise, significant physics results; not an engineering-only performance report.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://journals.aps.org/prl/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://journals.aps.org/prl/authors"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "laser-photonics-reviews",
-      "title": "Laser & Photonics Reviews",
-      "short_name": "Laser & Photonics Reviews",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://onlinelibrary.wiley.com/journal/18638899",
-      "submission_mode": "rolling",
-      "format": [
-        "Free-format initial submission; check the current author guide for revised-manuscript requirements."
-      ],
-      "format_source": "https://www.onlinelibrary.wiley.com/page/journal/18638899/homepage/author-guidelines",
-      "note": "",
-      "fit": "Original photonics research and reviews; integration, lasers and novel devices.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [
-        "deng-programmable"
-      ],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://onlinelibrary.wiley.com/journal/18638899"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.onlinelibrary.wiley.com/page/journal/18638899/homepage/author-guidelines"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "photonix",
-      "title": "PhotoniX",
-      "short_name": "PhotoniX",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://link.springer.com/journal/43074",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://link.springer.com/journal/43074/submission-guidelines",
-      "note": "",
-      "fit": "Photonic information processing, integrated systems and interdisciplinary photonics.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://link.springer.com/journal/43074"
-        },
-        {
-          "label": "Author information",
-          "url": "https://link.springer.com/journal/43074/submission-guidelines"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "elight",
-      "title": "eLight",
-      "short_name": "eLight",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://link.springer.com/journal/43593",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://link.springer.com/journal/43593/submission-guidelines",
-      "note": "",
-      "fit": "Optical science and technology with broad significance.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://link.springer.com/journal/43593"
-        },
-        {
-          "label": "Author information",
-          "url": "https://link.springer.com/journal/43593/submission-guidelines"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "oea",
-      "title": "Opto-Electronic Advances",
-      "short_name": "Opto-Electronic Advances",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.oejournal.org/oea",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.oejournal.org/oea",
-      "note": "",
-      "fit": "High-impact optoelectronic devices, nanophotonics and optical systems.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.oejournal.org/oea"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.oejournal.org/oea"
         }
       ],
       "recurrence": null,
@@ -1708,7 +1524,6 @@
       "note": "",
       "fit": "Materials-led advances enabling photonic devices and integration.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1746,7 +1561,6 @@
       "note": "",
       "fit": "Nanoscale photonic materials and devices with a clear nanoscale advance.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1782,7 +1596,6 @@
       "note": "",
       "fit": "Nanomaterials and nanodevices; substantial materials or physical insight.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1793,6 +1606,45 @@
         {
           "label": "Author information",
           "url": "https://pubs.acs.org/journal/ancac3"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "laser-photonics-reviews",
+      "title": "Laser & Photonics Reviews",
+      "short_name": "Laser & Photonics Reviews",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://onlinelibrary.wiley.com/journal/18638899",
+      "submission_mode": "rolling",
+      "format": [
+        "Free-format initial submission; check the current author guide for revised-manuscript requirements."
+      ],
+      "format_source": "https://www.onlinelibrary.wiley.com/page/journal/18638899/homepage/author-guidelines",
+      "note": "",
+      "fit": "Original photonics research and reviews; integration, lasers and novel devices.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [
+        "deng-programmable"
+      ],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://onlinelibrary.wiley.com/journal/18638899"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.onlinelibrary.wiley.com/page/journal/18638899/homepage/author-guidelines"
         }
       ],
       "recurrence": null,
@@ -1818,7 +1670,6 @@
       "note": "",
       "fit": "Integrated photonic devices, optical communication and quantum photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1854,7 +1705,6 @@
       "note": "",
       "fit": "Photonic devices, materials, nanophotonics and silicon photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [
         "qd-laser-detector"
       ],
@@ -1892,7 +1742,6 @@
       "note": "",
       "fit": "Photonic science and engineering, including PICs and integrated systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1903,6 +1752,146 @@
         {
           "label": "Author information",
           "url": "https://pubs.aip.org/aip/app"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "advanced-photonics",
+      "title": "Advanced Photonics",
+      "short_name": "Advanced Photonics",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.spiedigitallibrary.org/journals/advanced-photonics",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.spiedigitallibrary.org/journals/advanced-photonics/author-guidelines",
+      "note": "",
+      "fit": "Substantial advances in optical science and photonic technology.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.spiedigitallibrary.org/journals/advanced-photonics"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.spiedigitallibrary.org/journals/advanced-photonics/author-guidelines"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "photonix",
+      "title": "PhotoniX",
+      "short_name": "PhotoniX",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://link.springer.com/journal/43074",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://link.springer.com/journal/43074/submission-guidelines",
+      "note": "",
+      "fit": "Photonic information processing, integrated systems and interdisciplinary photonics.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://link.springer.com/journal/43074"
+        },
+        {
+          "label": "Author information",
+          "url": "https://link.springer.com/journal/43074/submission-guidelines"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "elight",
+      "title": "eLight",
+      "short_name": "eLight",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://link.springer.com/journal/43593",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://link.springer.com/journal/43593/submission-guidelines",
+      "note": "",
+      "fit": "Optical science and technology with broad significance.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://link.springer.com/journal/43593"
+        },
+        {
+          "label": "Author information",
+          "url": "https://link.springer.com/journal/43593/submission-guidelines"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "oea",
+      "title": "Opto-Electronic Advances",
+      "short_name": "Opto-Electronic Advances",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.oejournal.org/oea",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.oejournal.org/oea",
+      "note": "",
+      "fit": "High-impact optoelectronic devices, nanophotonics and optical systems.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.oejournal.org/oea"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.oejournal.org/oea"
         }
       ],
       "recurrence": null,
@@ -1928,7 +1917,6 @@
       "note": "",
       "fit": "Nanoscale optics, integrated photonic devices and platforms.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [
         "parsons-wafer"
       ],
@@ -1966,7 +1954,6 @@
       "note": "",
       "fit": "Optical materials and structures enabling novel photonic functions.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -1977,42 +1964,6 @@
         {
           "label": "Author information",
           "url": "https://advanced.onlinelibrary.wiley.com/journal/21951071"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "jphys-photonics",
-      "title": "Journal of Physics: Photonics",
-      "short_name": "Journal of Physics: Photonics",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/",
-      "note": "",
-      "fit": "Interdisciplinary photonic devices, materials and applications.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 2,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/"
         }
       ],
       "recurrence": null,
@@ -2038,7 +1989,6 @@
       "note": "",
       "fit": "Optical and photonic research across devices, imaging and systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2078,7 +2028,6 @@
       "note": "",
       "fit": "Optical links, interconnects, PIC devices and communication systems.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2089,6 +2038,41 @@
         {
           "label": "Author information",
           "url": "https://ieeephotonics.org/publications/ieee-optica-journal-of-lightwave-technology/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "jphys-photonics",
+      "title": "Journal of Physics: Photonics",
+      "short_name": "Journal of Physics: Photonics",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/",
+      "note": "",
+      "fit": "Interdisciplinary photonic devices, materials and applications.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-physics-photonics/about-journal-physics-photonics/"
         }
       ],
       "recurrence": null,
@@ -2114,7 +2098,6 @@
       "note": "",
       "fit": "Full research articles across integrated optics, devices and system demonstrations.",
       "verified_on": "2026-09-25",
-      "influence_tier": 3,
       "paper_ids": [
         "zypman-resonators",
         "robinson-initialization"
@@ -2153,7 +2136,6 @@
       "note": "",
       "fit": "Short reports of original optics and photonics results.",
       "verified_on": "2026-09-25",
-      "influence_tier": 3,
       "paper_ids": [
         "wang-ramzi"
       ],
@@ -2166,442 +2148,6 @@
         {
           "label": "Author information",
           "url": "https://opg.optica.org/ol/home.cfm"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "ptl",
-      "title": "IEEE Photonics Technology Letters",
-      "short_name": "IEEE Photonics Technology Letters",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://ieeephotonics.org/publications/photonics-technology-letters/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://ieeephotonics.org/publications/photonics-technology-letters/",
-      "note": "",
-      "fit": "Short device and photonic-technology reports; compact experimental contributions.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://ieeephotonics.org/publications/photonics-technology-letters/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://ieeephotonics.org/publications/photonics-technology-letters/"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "photonics-journal",
-      "title": "IEEE Photonics Journal",
-      "short_name": "IEEE Photonics Journal",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://ieeephotonics.org/publications/photonics-journal/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://ieeephotonics.org/publications/photonics-journal/",
-      "note": "",
-      "fit": "Open-access research across photonic devices, integration and applications.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://ieeephotonics.org/publications/photonics-journal/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://ieeephotonics.org/publications/photonics-journal/"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "jqe",
-      "title": "IEEE Journal of Quantum Electronics",
-      "short_name": "IEEE Journal of Quantum Electronics",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/",
-      "note": "",
-      "fit": "Device physics, lasers, optoelectronics and photonic components.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "applied-optics",
-      "title": "Applied Optics",
-      "short_name": "Applied Optics",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://opg.optica.org/ao/home.cfm",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://opg.optica.org/ao/home.cfm",
-      "note": "",
-      "fit": "Applied optical engineering, components, measurement and system design.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://opg.optica.org/ao/home.cfm"
-        },
-        {
-          "label": "Author information",
-          "url": "https://opg.optica.org/ao/home.cfm"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "josab",
-      "title": "JOSA B",
-      "short_name": "JOSA B",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://opg.optica.org/josab/home.cfm",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://opg.optica.org/josab/home.cfm",
-      "note": "",
-      "fit": "Optical physics, nonlinear and quantum optics on integrated platforms.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://opg.optica.org/josab/home.cfm"
-        },
-        {
-          "label": "Author information",
-          "url": "https://opg.optica.org/josab/home.cfm"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "optical-materials-express",
-      "title": "Optical Materials Express",
-      "short_name": "Optical Materials Express",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://opg.optica.org/ome/home.cfm",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://opg.optica.org/ome/home.cfm",
-      "note": "",
-      "fit": "Optical material platforms, fabrication and material-dependent device behavior.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://opg.optica.org/ome/home.cfm"
-        },
-        {
-          "label": "Author information",
-          "url": "https://opg.optica.org/ome/home.cfm"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "journal-optics",
-      "title": "Journal of Optics",
-      "short_name": "Journal of Optics",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/",
-      "note": "",
-      "fit": "Optical physics and engineering, including integrated and quantum optics.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "optics-communications",
-      "title": "Optics Communications",
-      "short_name": "Optics Communications",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.sciencedirect.com/journal/optics-communications",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.sciencedirect.com/journal/optics-communications",
-      "note": "",
-      "fit": "Optics research across devices, propagation and photonic applications.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.sciencedirect.com/journal/optics-communications"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.sciencedirect.com/journal/optics-communications"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "optics-laser-technology",
-      "title": "Optics & Laser Technology",
-      "short_name": "Optics & Laser Technology",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.sciencedirect.com/journal/optics-and-laser-technology",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.sciencedirect.com/journal/optics-and-laser-technology",
-      "note": "",
-      "fit": "Applied photonics and laser technology; check device/application fit.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.sciencedirect.com/journal/optics-and-laser-technology"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.sciencedirect.com/journal/optics-and-laser-technology"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "optical-fiber-technology",
-      "title": "Optical Fiber Technology",
-      "short_name": "Optical Fiber Technology",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "optical-communications",
-        "photonics"
-      ],
-      "website": "https://www.sciencedirect.com/journal/optical-fiber-technology",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.sciencedirect.com/journal/optical-fiber-technology",
-      "note": "",
-      "fit": "Fiber, link and transmission technologies; PIC work should connect to a link/system.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.sciencedirect.com/journal/optical-fiber-technology"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.sciencedirect.com/journal/optical-fiber-technology"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "scientific-reports",
-      "title": "Scientific Reports",
-      "short_name": "Scientific Reports",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "photonics"
-      ],
-      "website": "https://www.nature.com/srep/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.nature.com/srep/author-instructions",
-      "note": "",
-      "fit": "Technically sound, complete device/platform studies across disciplines.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 3,
-      "paper_ids": [
-        "parsons-undercut"
-      ],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://www.nature.com/srep/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://www.nature.com/srep/author-instructions"
-        }
-      ],
-      "recurrence": null,
-      "event": null,
-      "announced_next": null,
-      "eligibility": null
-    },
-    {
-      "id": "prx-quantum",
-      "title": "PRX Quantum",
-      "short_name": "PRX Quantum",
-      "kind": "journal",
-      "category": "journal",
-      "track": "rolling",
-      "cycle": "Regular submissions",
-      "topics": [
-        "quantum",
-        "photonics"
-      ],
-      "website": "https://journals.aps.org/prxquantum/",
-      "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://journals.aps.org/prxquantum/authors",
-      "note": "",
-      "fit": "Major quantum-information results; integrated quantum hardware is relevant.",
-      "verified_on": "2026-09-25",
-      "influence_tier": 1,
-      "paper_ids": [],
-      "deadlines": [],
-      "links": [
-        {
-          "label": "Journal / latest articles",
-          "url": "https://journals.aps.org/prxquantum/"
-        },
-        {
-          "label": "Author information",
-          "url": "https://journals.aps.org/prxquantum/authors"
         }
       ],
       "recurrence": null,
@@ -2628,7 +2174,6 @@
       "note": "",
       "fit": "Quantum information and computation enabled by integrated photonic hardware.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2665,7 +2210,6 @@
       "note": "",
       "fit": "Quantum engineering, communication and computing with broad quantum relevance.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2702,7 +2246,6 @@
       "note": "",
       "fit": "Quantum science with a central theoretical or experimental quantum contribution.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2739,7 +2282,6 @@
       "note": "",
       "fit": "Optical quantum information, communication and integrated quantum photonics.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2775,7 +2317,6 @@
       "note": "",
       "fit": "Applied physics of integrated photonic and quantum devices.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2814,7 +2355,6 @@
       "note": "",
       "fit": "Transistor-level electronics for photonics: drivers, TIAs and co-designed ICs.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2851,7 +2391,6 @@
       "note": "",
       "fit": "Photonic design automation, synthesis, layout, verification and models.",
       "verified_on": "2026-09-25",
-      "influence_tier": 2,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2888,7 +2427,6 @@
       "note": "",
       "fit": "Design methods and automation algorithms; optical circuits need an EDA contribution.",
       "verified_on": "2026-09-25",
-      "influence_tier": 3,
       "paper_ids": [],
       "deadlines": [],
       "links": [
@@ -2899,6 +2437,394 @@
         {
           "label": "Author information",
           "url": "https://dl.acm.org/journal/todaes"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "ptl",
+      "title": "IEEE Photonics Technology Letters",
+      "short_name": "IEEE Photonics Technology Letters",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://ieeephotonics.org/publications/photonics-technology-letters/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://ieeephotonics.org/publications/photonics-technology-letters/",
+      "note": "",
+      "fit": "Short device and photonic-technology reports; compact experimental contributions.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://ieeephotonics.org/publications/photonics-technology-letters/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://ieeephotonics.org/publications/photonics-technology-letters/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "jqe",
+      "title": "IEEE Journal of Quantum Electronics",
+      "short_name": "IEEE Journal of Quantum Electronics",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/",
+      "note": "",
+      "fit": "Device physics, lasers, optoelectronics and photonic components.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://ieeephotonics.org/publications/journal-of-quantum-electronics/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "photonics-journal",
+      "title": "IEEE Photonics Journal",
+      "short_name": "IEEE Photonics Journal",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://ieeephotonics.org/publications/photonics-journal/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://ieeephotonics.org/publications/photonics-journal/",
+      "note": "",
+      "fit": "Open-access research across photonic devices, integration and applications.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://ieeephotonics.org/publications/photonics-journal/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://ieeephotonics.org/publications/photonics-journal/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "josab",
+      "title": "JOSA B",
+      "short_name": "JOSA B",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://opg.optica.org/josab/home.cfm",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://opg.optica.org/josab/home.cfm",
+      "note": "",
+      "fit": "Optical physics, nonlinear and quantum optics on integrated platforms.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://opg.optica.org/josab/home.cfm"
+        },
+        {
+          "label": "Author information",
+          "url": "https://opg.optica.org/josab/home.cfm"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "journal-optics",
+      "title": "Journal of Optics",
+      "short_name": "Journal of Optics",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/",
+      "note": "",
+      "fit": "Optical physics and engineering, including integrated and quantum optics.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://publishingsupport.iopscience.iop.org/journals/journal-of-optics/about-journal-of-optics/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "optical-materials-express",
+      "title": "Optical Materials Express",
+      "short_name": "Optical Materials Express",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://opg.optica.org/ome/home.cfm",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://opg.optica.org/ome/home.cfm",
+      "note": "",
+      "fit": "Optical material platforms, fabrication and material-dependent device behavior.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://opg.optica.org/ome/home.cfm"
+        },
+        {
+          "label": "Author information",
+          "url": "https://opg.optica.org/ome/home.cfm"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "applied-optics",
+      "title": "Applied Optics",
+      "short_name": "Applied Optics",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://opg.optica.org/ao/home.cfm",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://opg.optica.org/ao/home.cfm",
+      "note": "",
+      "fit": "Applied optical engineering, components, measurement and system design.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://opg.optica.org/ao/home.cfm"
+        },
+        {
+          "label": "Author information",
+          "url": "https://opg.optica.org/ao/home.cfm"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "optics-communications",
+      "title": "Optics Communications",
+      "short_name": "Optics Communications",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.sciencedirect.com/journal/optics-communications",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.sciencedirect.com/journal/optics-communications",
+      "note": "",
+      "fit": "Optics research across devices, propagation and photonic applications.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.sciencedirect.com/journal/optics-communications"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.sciencedirect.com/journal/optics-communications"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "optics-laser-technology",
+      "title": "Optics & Laser Technology",
+      "short_name": "Optics & Laser Technology",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.sciencedirect.com/journal/optics-and-laser-technology",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.sciencedirect.com/journal/optics-and-laser-technology",
+      "note": "",
+      "fit": "Applied photonics and laser technology; check device/application fit.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.sciencedirect.com/journal/optics-and-laser-technology"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.sciencedirect.com/journal/optics-and-laser-technology"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "optical-fiber-technology",
+      "title": "Optical Fiber Technology",
+      "short_name": "Optical Fiber Technology",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "optical-communications",
+        "photonics"
+      ],
+      "website": "https://www.sciencedirect.com/journal/optical-fiber-technology",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.sciencedirect.com/journal/optical-fiber-technology",
+      "note": "",
+      "fit": "Fiber, link and transmission technologies; PIC work should connect to a link/system.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.sciencedirect.com/journal/optical-fiber-technology"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.sciencedirect.com/journal/optical-fiber-technology"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "scientific-reports",
+      "title": "Scientific Reports",
+      "short_name": "Scientific Reports",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics"
+      ],
+      "website": "https://www.nature.com/srep/",
+      "submission_mode": "rolling",
+      "format": [],
+      "format_source": "https://www.nature.com/srep/author-instructions",
+      "note": "",
+      "fit": "Technically sound, complete device/platform studies across disciplines.",
+      "verified_on": "2026-09-25",
+      "paper_ids": [
+        "parsons-undercut"
+      ],
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://www.nature.com/srep/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://www.nature.com/srep/author-instructions"
         }
       ],
       "recurrence": null,
@@ -2917,7 +2843,6 @@
       "url": "https://doi.org/10.1038/s41566-025-01633-0",
       "source": "https://www.nature.com/articles/s41566-025-01633-0",
       "topic": "3D electronic–photonic integration / optical I/O",
-      "bergman": true,
       "verified_on": "2026-09-25"
     },
     {
@@ -2929,7 +2854,6 @@
       "url": "https://doi.org/10.1515/nanoph-2025-0439",
       "source": "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2025-0439/html",
       "topic": "Wafer-scale variability / DWDM link models",
-      "bergman": true,
       "verified_on": "2026-09-25"
     },
     {
@@ -2941,7 +2865,6 @@
       "url": "https://doi.org/10.1038/s41598-025-14480-4",
       "source": "https://www.nature.com/articles/s41598-025-14480-4",
       "topic": "Foundry process / thermal tuning",
-      "bergman": true,
       "verified_on": "2026-09-25"
     },
     {
@@ -2953,7 +2876,6 @@
       "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-16-29435",
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2026/oe-34-16-29435.pdf",
       "topic": "Fabrication tolerance / resonators",
-      "bergman": true,
       "verified_on": "2026-09-25"
     },
     {
@@ -2965,7 +2887,6 @@
       "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-26-53700",
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2025/oe-33-26-53700.pdf",
       "topic": "Link initialization / fabrication variation",
-      "bergman": true,
       "verified_on": "2026-09-25"
     },
     {
@@ -2977,7 +2898,6 @@
       "url": "https://opg.optica.org/ol/fulltext.cfm?id=567026&uri=ol-50-2-698",
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2025/Automated%20tuning%20of%20a%20ring-assisted%20MZI-based%20interleaver%20for%20Kerr%20frequency%20combs.pdf",
       "topic": "Automated tuning / frequency combs",
-      "bergman": true,
       "verified_on": "2026-09-25"
     },
     {
@@ -2989,7 +2909,6 @@
       "url": "https://doi.org/10.1038/s41586-026-10152-z",
       "source": "https://www.nature.com/articles/s41586-026-10152-z",
       "topic": "Integrated quantum communications",
-      "bergman": false,
       "verified_on": "2026-09-25"
     },
     {
@@ -3001,7 +2920,6 @@
       "url": "https://doi.org/10.1038/s41377-026-02209-5",
       "source": "https://www.nature.com/articles/s41377-026-02209-5",
       "topic": "Programmable PICs / hardware–software co-design",
-      "bergman": false,
       "verified_on": "2026-09-25"
     },
     {
@@ -3013,7 +2931,6 @@
       "url": "https://doi.org/10.1021/acsphotonics.5c01299",
       "source": "https://pubs.acs.org/doi/10.1021/acsphotonics.5c01299",
       "topic": "Monolithic III–V integration / sources and detectors",
-      "bergman": false,
       "verified_on": "2026-09-25"
     },
     {
@@ -3025,7 +2942,6 @@
       "url": "https://doi.org/10.1002/lpor.202502837",
       "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202502837",
       "topic": "Programmable modulation / integrated circuits",
-      "bergman": false,
       "verified_on": "2026-09-25"
     }
   ]
