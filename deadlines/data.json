@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-09-25",
+  "updated_on": "2026-09-26",
   "entries": [
     {
       "id": "ofc-2027",
@@ -697,9 +697,9 @@
         "Abstract registration is required before manuscript upload."
       ],
       "format_source": "https://dac.com/2027/program/research-manuscript-submissions",
-      "note": "Full-paper date conflict: the research-page timeline says Nov 18, 2026 (17:00 PST), while its FAQ and event listings say Nov 17. Verify the submission portal; this page uses the earlier mandatory abstract gate, Nov 11.",
-      "fit": "EDA, emerging interconnects, chiplets and electronic–photonic co-design; select a matching research category.",
-      "verified_on": "2026-09-25",
+      "note": "Full-paper date conflict: the research submission page and FAQ say Nov 18, 2026 (17:00 PST), while the separate official event listing still says Nov 17. Verify the submission portal; the mandatory abstract deadline is Nov 11.",
+      "fit": "EDA6.6: design automation for photonic interconnects and circuits; EDA7.5: layout optimization for optical interconnects. Chiplet and electronic–photonic co-design also fit matching research categories.",
+      "verified_on": "2026-09-26",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -722,6 +722,10 @@
         {
           "label": "Format",
           "url": "https://dac.com/2027/program/research-manuscript-submissions"
+        },
+        {
+          "label": "Conflicting event timeline",
+          "url": "https://dac.com/2027/event-type/research-manuscripts"
         }
       ],
       "recurrence": {
@@ -1179,7 +1183,9 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "zypman-resonators",
-        "robinson-initialization"
+        "robinson-initialization",
+        "jeon-self-sensing",
+        "chung-agentic-pda"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1955,7 +1961,8 @@
       "fit": "Fundamental breakthroughs with broad scientific significance.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "zheng-qkd"
+        "zheng-qkd",
+        "meng-nanomembranes"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2039,7 +2046,8 @@
       "fit": "Major advances in photonic devices, integrated platforms and systems.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "daudlin-3d"
+        "daudlin-3d",
+        "nakajima-unitary-sdm"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2196,7 +2204,9 @@
       "note": "",
       "fit": "Complete device, platform or system advances with broad specialist interest.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "gao-polarization"
+      ],
       "target_group": "reach",
       "target_topic": null,
       "journal_id": null,
@@ -3396,6 +3406,61 @@
       "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202502837",
       "topic": "Programmable modulation / integrated circuits",
       "verified_on": "2026-09-25"
+    },
+    {
+      "id": "nakajima-unitary-sdm",
+      "title": "Programmable photonic unitary processor enables parameterized differentiable long-haul spatial division multiplexed transmission",
+      "journal_id": "nature-photonics",
+      "year": 2026,
+      "published_on": "2026-09-25",
+      "url": "https://doi.org/10.1038/s41566-026-01997-x",
+      "source": "https://www.nature.com/articles/s41566-026-01997-x",
+      "topic": "Programmable PICs / differentiable link optimization",
+      "verified_on": "2026-09-26"
+    },
+    {
+      "id": "meng-nanomembranes",
+      "title": "Heterogeneous photonic integration of single-crystalline nanomembranes",
+      "journal_id": "nature",
+      "year": 2026,
+      "published_on": "2026-09-16",
+      "url": "https://doi.org/10.1038/s41586-026-11000-w",
+      "source": "https://www.nature.com/articles/s41586-026-11000-w",
+      "topic": "Heterogeneous Si/SiN integration / modulators and isolators",
+      "verified_on": "2026-09-26"
+    },
+    {
+      "id": "jeon-self-sensing",
+      "title": "Self-sensing III-V/Si active diode for tapless optical power regulation in silicon photonic integrated circuits",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-09-09",
+      "url": "https://doi.org/10.1364/OE.606644",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-19-35322",
+      "topic": "III–V/Si integration / calibrated optical power control",
+      "verified_on": "2026-09-26"
+    },
+    {
+      "id": "chung-agentic-pda",
+      "title": "LLM-assisted agentic workflow for silicon photonic design automation",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-09-08",
+      "url": "https://doi.org/10.1364/OE.604609",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-19-34999",
+      "topic": "PIC design automation / layout and simulation workflows",
+      "verified_on": "2026-09-26"
+    },
+    {
+      "id": "gao-polarization",
+      "title": "Ultrafast reset-free integrated polarization tracking enabled by thin-film lithium tantalate",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-07-17",
+      "url": "https://doi.org/10.1038/s41467-026-75732-z",
+      "source": "https://www.nature.com/articles/s41467-026-75732-z",
+      "topic": "Photonic–electronic control / coherent optical interconnects",
+      "verified_on": "2026-09-26"
     }
   ]
 }
