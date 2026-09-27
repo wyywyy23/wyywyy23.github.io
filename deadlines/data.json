@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-09-26",
+  "updated_on": "2026-09-27",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1138,7 +1138,9 @@
       "note": "",
       "fit": "Optical interconnects, PIC devices, transceivers, packaging and link/system demonstrations.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "nie-r2piac"
+      ],
       "target_group": "core",
       "target_topic": null,
       "journal_id": null,
@@ -1228,7 +1230,9 @@
       "note": "",
       "fit": "Integrated photonic devices, circuits and computing; substantial original photonics results.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "shen-3d-diffractive"
+      ],
       "target_group": "core",
       "target_topic": null,
       "journal_id": null,
@@ -3461,6 +3465,28 @@
       "source": "https://www.nature.com/articles/s41467-026-75732-z",
       "topic": "Photonic–electronic control / coherent optical interconnects",
       "verified_on": "2026-09-26"
+    },
+    {
+      "id": "nie-r2piac",
+      "title": "R²PIAC: A Runtime Reconfigurable Photonic Interconnect Architecture for Chiplet-Based DNN Accelerators",
+      "journal_id": "jlt",
+      "year": 2026,
+      "published_on": "2026-09-08",
+      "url": "https://doi.org/10.1109/JLT.2026.3731646",
+      "source": "https://ieeexplore.ieee.org/abstract/document/11683784",
+      "topic": "Chiplet optical interconnects / runtime scheduling and co-design",
+      "verified_on": "2026-09-27"
+    },
+    {
+      "id": "shen-3d-diffractive",
+      "title": "Optical diffractive layers 3D-integrated on a silicon photonic chip for high-density optical neural networks",
+      "journal_id": "photonics-research",
+      "year": 2026,
+      "published_on": "2026-09-18",
+      "url": "https://doi.org/10.1364/PRJ.591330",
+      "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4317",
+      "topic": "3D photonic integration / hybrid optical computing architectures",
+      "verified_on": "2026-09-27"
     }
   ]
 }
