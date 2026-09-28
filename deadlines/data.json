@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-09-27",
+  "updated_on": "2026-09-28",
   "entries": [
     {
       "id": "ofc-2027",
@@ -424,13 +424,14 @@
       "website": "https://spie.org/conferences-and-exhibitions/photonics-west",
       "submission_mode": "fixed",
       "format": [
-        "Submit an abstract to the relevant OPTO conference; requirements vary by conference.",
-        "Use the linked SPIE presenter instructions for the abstract and later proceedings manuscript."
+        "Technical-review abstract: 200–300 words; program summary: 50–150 words, both text only.",
+        "Speaker biography: up to 1,000 characters including spaces.",
+        "Select the matching OPTO conference and check its CFP for additional requirements."
       ],
-      "format_source": "https://www.spiecareercenter.org/conferences-and-exhibitions/photonics-west/presenters",
-      "note": "The later proceedings manuscript deadline is not the entry deadline for a new submission.",
+      "format_source": "https://spie.org/conferences-and-exhibitions/photonics-west/presenters/abstract-submission-guidelines",
+      "note": "2027 conference proceedings: manuscripts due 13 January 2027 after abstract acceptance.",
       "fit": "OPTO tracks on silicon photonics, photonic integration, lasers and optical interconnects.",
-      "verified_on": "2026-09-25",
+      "verified_on": "2026-09-28",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -442,23 +443,23 @@
           "date": "2026-07-22",
           "at": null,
           "timezone": null,
-          "source": "https://www.spiecareercenter.org/conferences-and-exhibitions/photonics-west/presenters"
+          "source": "https://spie.org/conferences-and-exhibitions/photonics-west/presenters/abstract-submission-guidelines"
         }
       ],
       "links": [
         {
           "label": "CFP / dates",
-          "url": "https://www.spiecareercenter.org/conferences-and-exhibitions/photonics-west/presenters"
+          "url": "https://spie.org/conferences-and-exhibitions/photonics-west/presenters/abstract-submission-guidelines"
         },
         {
           "label": "Format",
-          "url": "https://www.spiecareercenter.org/conferences-and-exhibitions/photonics-west/presenters"
+          "url": "https://spie.org/conferences-and-exhibitions/photonics-west/presenters/abstract-submission-guidelines"
         }
       ],
       "recurrence": {
         "frequency": "annual",
         "basis_date": "2026-07-22",
-        "basis_url": "https://www.spiecareercenter.org/conferences-and-exhibitions/photonics-west/presenters",
+        "basis_url": "https://spie.org/conferences-and-exhibitions/photonics-west/presenters/abstract-submission-guidelines",
         "basis_cycle": 2027
       },
       "event": {
