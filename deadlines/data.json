@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-09-28",
+  "updated_on": "2026-09-29",
   "entries": [
     {
       "id": "ofc-2027",
@@ -288,7 +288,7 @@
       "format_source": "https://oip-conference.org/paper-submission-1",
       "note": "2027 meeting moves from June to April; the previous April submission month is only a weak planning estimate. Start checking earlier.",
       "fit": "Optical Interconnects and Packaging: CPO, chiplets, photonic devices and design.",
-      "verified_on": "2026-09-25",
+      "verified_on": "2026-09-29",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -333,7 +333,7 @@
           "start": "2027-04-26",
           "end": "2027-04-28",
           "city": "Santa Barbara, California, USA",
-          "venue": "Venue to be announced",
+          "venue": "Hilton Santa Barbara Beachfront Resort",
           "source": "https://oip-conference.org/"
         }
       },
@@ -1140,7 +1140,8 @@
       "fit": "Optical interconnects, PIC devices, transceivers, packaging and link/system demonstrations.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "nie-r2piac"
+        "nie-r2piac",
+        "sion-optical-io"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1188,7 +1189,8 @@
         "zypman-resonators",
         "robinson-initialization",
         "jeon-self-sensing",
-        "chung-agentic-pda"
+        "chung-agentic-pda",
+        "si-inverse-reflector"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2052,7 +2054,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "daudlin-3d",
-        "nakajima-unitary-sdm"
+        "nakajima-unitary-sdm",
+        "st-arnault-circulator"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2210,7 +2213,8 @@
       "fit": "Complete device, platform or system advances with broad specialist interest.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "gao-polarization"
+        "gao-polarization",
+        "liu-temporal-kernels"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -3488,6 +3492,50 @@
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4317",
       "topic": "3D photonic integration / hybrid optical computing architectures",
       "verified_on": "2026-09-27"
+    },
+    {
+      "id": "si-inverse-reflector",
+      "title": "On-chip ultracompact broadband reflector and high-Q Fabry-Pérot cavity based on inverse design",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-09-28",
+      "url": "https://doi.org/10.1364/OE.611221",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-37844",
+      "topic": "Fabrication-aware inverse design / silicon photonic resonators",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "id": "liu-temporal-kernels",
+      "title": "Microrings as programmable temporal kernels enabling photonic AI beyond 100 Gbaud",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-09-25",
+      "url": "https://doi.org/10.1038/s41467-026-77446-8",
+      "source": "https://www.nature.com/articles/s41467-026-77446-8",
+      "topic": "Programmable microring computing / early online article",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "id": "st-arnault-circulator",
+      "title": "Integrated electro-optic circulator on thin-film lithium niobate for bidirectional optical fibre transmission",
+      "journal_id": "nature-photonics",
+      "year": 2026,
+      "published_on": "2026-09-11",
+      "url": "https://doi.org/10.1038/s41566-026-02008-9",
+      "source": "https://www.nature.com/articles/s41566-026-02008-9",
+      "topic": "Electro-optic nonreciprocity / bidirectional coherent links",
+      "verified_on": "2026-09-29"
+    },
+    {
+      "id": "sion-optical-io",
+      "title": "2.5D Co-Packaged Optical I/O Chipsets on a SiON/Si Interposer for 4 × 100 G Optical Interconnection",
+      "journal_id": "jlt",
+      "year": 2026,
+      "published_on": "2026-07-01",
+      "url": "https://doi.org/10.1109/JLT.2026.3708975",
+      "source": "https://ieeexplore.ieee.org/abstract/document/11592393",
+      "topic": "Co-packaged optical I/O / SiON interposer and heterogeneous integration",
+      "verified_on": "2026-09-29"
     }
   ]
 }
