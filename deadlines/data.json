@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-09-29",
+  "updated_on": "2026-09-30",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1190,7 +1190,8 @@
         "robinson-initialization",
         "jeon-self-sensing",
         "chung-agentic-pda",
-        "si-inverse-reflector"
+        "si-inverse-reflector",
+        "shishavan-kerr-reservoir"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2214,7 +2215,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "gao-polarization",
-        "liu-temporal-kernels"
+        "liu-temporal-kernels",
+        "he-recursive-design"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -3536,6 +3538,28 @@
       "source": "https://ieeexplore.ieee.org/abstract/document/11592393",
       "topic": "Co-packaged optical I/O / SiON interposer and heterogeneous integration",
       "verified_on": "2026-09-29"
+    },
+    {
+      "id": "shishavan-kerr-reservoir",
+      "title": "Image classification using spectral features from a Kerr comb photonic reservoir computer",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-09-29",
+      "url": "https://doi.org/10.1364/OE.604117",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-37924",
+      "topic": "Kerr-comb reservoir computing / numerical study",
+      "verified_on": "2026-09-30"
+    },
+    {
+      "id": "he-recursive-design",
+      "title": "Hyper-spectral photonic integrated circuits based on recursive inverse design",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-08-11",
+      "url": "https://doi.org/10.1038/s41467-026-76328-3",
+      "source": "https://www.nature.com/articles/s41467-026-76328-3",
+      "topic": "PIC inverse design / compact-model and geometry co-design",
+      "verified_on": "2026-09-30"
     }
   ]
 }
