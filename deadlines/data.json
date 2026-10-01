@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-09-30",
+  "updated_on": "2026-10-01",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1235,7 +1235,9 @@
       "fit": "Integrated photonic devices, circuits and computing; substantial original photonics results.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "shen-3d-diffractive"
+        "shen-3d-diffractive",
+        "zhou-multidimensional-interconnect",
+        "yang-hybrid-qd-microring"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2216,7 +2218,8 @@
       "paper_ids": [
         "gao-polarization",
         "liu-temporal-kernels",
-        "he-recursive-design"
+        "he-recursive-design",
+        "su-transfer-printed-tflt-sin"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -3560,6 +3563,39 @@
       "source": "https://www.nature.com/articles/s41467-026-76328-3",
       "topic": "PIC inverse design / compact-model and geometry co-design",
       "verified_on": "2026-09-30"
+    },
+    {
+      "id": "zhou-multidimensional-interconnect",
+      "title": "Monolithic silicon photonic multiplexer, transceiver, and processor for 4 × 196 Gbps/λ multidimensional inter-chip communication",
+      "journal_id": "photonics-research",
+      "year": 2026,
+      "published_on": "2026-09-30",
+      "url": "https://doi.org/10.1364/PRJ.603843",
+      "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4500",
+      "topic": "Chip-to-chip optical interconnects / programmable MIMO processing",
+      "verified_on": "2026-10-01"
+    },
+    {
+      "id": "yang-hybrid-qd-microring",
+      "title": "Experimental and design space exploration of ultra-low threshold hybrid III–V/Si quantum dot microring lasers",
+      "journal_id": "photonics-research",
+      "year": 2026,
+      "published_on": "2026-09-30",
+      "url": "https://doi.org/10.1364/PRJ.608645",
+      "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4565",
+      "topic": "Hybrid III–V/Si lasers / integrated light-source design",
+      "verified_on": "2026-10-01"
+    },
+    {
+      "id": "su-transfer-printed-tflt-sin",
+      "title": "A broadband lithium tantalate-on-silicon nitride heterogeneous modulator for optical and terahertz communications and radar sensing",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-08-20",
+      "url": "https://doi.org/10.1038/s41467-026-76800-0",
+      "source": "https://www.nature.com/articles/s41467-026-76800-0",
+      "topic": "Micro-transfer printing / heterogeneous TFLT–SiN modulators",
+      "verified_on": "2026-10-01"
     }
   ]
 }
