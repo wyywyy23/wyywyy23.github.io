@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-01",
+  "updated_on": "2026-10-02",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1191,7 +1191,8 @@
         "jeon-self-sensing",
         "chung-agentic-pda",
         "si-inverse-reflector",
-        "shishavan-kerr-reservoir"
+        "shishavan-kerr-reservoir",
+        "gantz-microring-thermal-state"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1729,7 +1730,8 @@
       "fit": "Photonic devices, materials, nanophotonics and silicon photonics.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "qd-laser-detector"
+        "qd-laser-detector",
+        "sun-erasable-pcm-probe"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -2058,7 +2060,8 @@
       "paper_ids": [
         "daudlin-3d",
         "nakajima-unitary-sdm",
-        "st-arnault-circulator"
+        "st-arnault-circulator",
+        "reichler-endless-locking"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2812,7 +2815,9 @@
       "note": "",
       "fit": "Optical materials and structures enabling novel photonic functions.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "amoah-freeform-routing"
+      ],
       "target_group": "specialist",
       "target_topic": "materials",
       "journal_id": null,
@@ -3596,6 +3601,50 @@
       "source": "https://www.nature.com/articles/s41467-026-76800-0",
       "topic": "Micro-transfer printing / heterogeneous TFLT–SiN modulators",
       "verified_on": "2026-10-01"
+    },
+    {
+      "id": "gantz-microring-thermal-state",
+      "title": "Direct observation of bistability and resonance evolution in silicon microring resonators using a CW pump-broadband probe technique",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-10-01",
+      "url": "https://doi.org/10.1364/OE.612005",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-38425",
+      "topic": "Microring thermal modeling / operating-point control",
+      "verified_on": "2026-10-02"
+    },
+    {
+      "id": "reichler-endless-locking",
+      "title": "Endlessly self-injection-locked photonic integrated lasers",
+      "journal_id": "nature-photonics",
+      "year": 2026,
+      "published_on": "2026-09-28",
+      "url": "https://doi.org/10.1038/s41566-026-01985-1",
+      "source": "https://www.nature.com/articles/s41566-026-01985-1",
+      "topic": "Integrated laser design / passive locking stability",
+      "verified_on": "2026-10-02"
+    },
+    {
+      "id": "amoah-freeform-routing",
+      "title": "Freeform Light Routing in Nearly-Hyperuniform Slabs: Toward a General-Purpose Design Platform for Integrated Photonics",
+      "journal_id": "advanced-optical-materials",
+      "year": 2026,
+      "published_on": "2026-09-25",
+      "url": "https://doi.org/10.1002/adom.71768",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.71768",
+      "topic": "PIC routing / silicon photonic design",
+      "verified_on": "2026-10-02"
+    },
+    {
+      "id": "sun-erasable-pcm-probe",
+      "title": "Erasable PCM-Assisted Probe for In Situ Monitoring of Photonic Integrated Circuits",
+      "journal_id": "acs-photonics",
+      "year": 2026,
+      "published_on": "2026-08-14",
+      "url": "https://doi.org/10.1021/acsphotonics.6c00749",
+      "source": "https://pubs.acs.org/doi/10.1021/acsphotonics.6c00749",
+      "topic": "PIC monitoring / phase-error calibration",
+      "verified_on": "2026-10-02"
     }
   ]
 }
