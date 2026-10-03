@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-02",
+  "updated_on": "2026-10-03",
   "entries": [
     {
       "id": "ofc-2027",
@@ -678,6 +678,68 @@
       },
       "announced_next": null,
       "eligibility": null
+    },
+    {
+      "id": "date-2027-postdeadline",
+      "title": "DATE 2027 — Late Breaking Results",
+      "short_name": "DATE",
+      "kind": "conference",
+      "category": "adjacent",
+      "track": "postdeadline",
+      "cycle": "2027",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "website": "https://www.date-conference.com/",
+      "submission_mode": "fixed",
+      "format": [
+        "2-page extended abstract; one additional references-only page allowed.",
+        "Double-blind: omit author names and affiliations; use the DATE templates.",
+        "Title must begin with \"Late Breaking Results: \"."
+      ],
+      "format_source": "https://www.date-conference.com/call-for-papers#Submission-Instructions-Late-Breaking-Results",
+      "note": "Separate peer-reviewed Late Breaking Results extended-abstract call; not an extension of regular research-paper submission. Submission link not yet available on the official site as of 3 October 2026.",
+      "fit": "Design Methods and Tools, on-chip communication and emerging technologies. Fit requires a design/automation contribution; a dedicated photonics track is not confirmed.",
+      "verified_on": "2026-10-03",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Late Breaking Results extended abstract",
+          "date": "2026-11-29",
+          "at": "2026-11-29T23:59:59-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://www.date-conference.com/call-for-papers"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP / dates",
+          "url": "https://www.date-conference.com/call-for-papers#Late-Breaking-Results"
+        },
+        {
+          "label": "Format / templates",
+          "url": "https://www.date-conference.com/call-for-papers#Submission-Instructions-Late-Breaking-Results"
+        }
+      ],
+      "recurrence": null,
+      "event": {
+        "start": "2027-03-22",
+        "end": "2027-03-24",
+        "city": "Dresden, Germany",
+        "venue": "Venue: see official site",
+        "source": "https://www.date-conference.com/call-for-papers"
+      },
+      "announced_next": null,
+      "eligibility": {
+        "status": "eligible",
+        "basis": "Open to prospective authors with original work relevant to DATE research topics; no career-stage restriction is stated. Student submission eligibility is separate from any award eligibility.",
+        "source": "https://www.date-conference.com/call-for-papers#Late-Breaking-Results"
+      }
     },
     {
       "id": "dac-2027",
@@ -1974,7 +2036,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "zheng-qkd",
-        "meng-nanomembranes"
+        "meng-nanomembranes",
+        "moille-self-aligned-microcomb"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2222,7 +2285,8 @@
         "gao-polarization",
         "liu-temporal-kernels",
         "he-recursive-design",
-        "su-transfer-printed-tflt-sin"
+        "su-transfer-printed-tflt-sin",
+        "sun-geometrical-resonators"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2737,7 +2801,9 @@
       "note": "",
       "fit": "Materials-led advances enabling photonic devices and integration.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "hazra-knbo3-silicon"
+      ],
       "target_group": "specialist",
       "target_topic": "materials",
       "journal_id": null,
@@ -3645,6 +3711,39 @@
       "source": "https://pubs.acs.org/doi/10.1021/acsphotonics.6c00749",
       "topic": "PIC monitoring / phase-error calibration",
       "verified_on": "2026-10-02"
+    },
+    {
+      "id": "hazra-knbo3-silicon",
+      "title": "Epitaxially Integrated Electro-Optic KNbO3 Thin Films on Silicon",
+      "journal_id": "advanced-materials",
+      "year": 2026,
+      "published_on": "2026-09-28",
+      "url": "https://doi.org/10.1002/adma.75067",
+      "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75067",
+      "topic": "Epitaxial electro-optic integration on silicon",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "sun-geometrical-resonators",
+      "title": "Geometrical-optics resonator photonics",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-09-14",
+      "url": "https://doi.org/10.1038/s41467-026-77489-x",
+      "source": "https://www.nature.com/articles/s41467-026-77489-x",
+      "topic": "PIC resonator design / tunable filtering",
+      "verified_on": "2026-10-03"
+    },
+    {
+      "id": "moille-self-aligned-microcomb",
+      "title": "Self-aligned optical microcomb emerging between octave-separated lasers",
+      "journal_id": "nature",
+      "year": 2026,
+      "published_on": "2026-09-30",
+      "url": "https://doi.org/10.1038/s41586-026-11086-2",
+      "source": "https://www.nature.com/articles/s41586-026-11086-2",
+      "topic": "Foundry SiN microcomb design / stabilization",
+      "verified_on": "2026-10-03"
     }
   ]
 }
