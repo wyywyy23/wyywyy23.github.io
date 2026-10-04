@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-03",
+  "updated_on": "2026-10-04",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1877,7 +1877,9 @@
       "fit": "Original photonics research and reviews; integration, lasers and novel devices.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "deng-programmable"
+        "deng-programmable",
+        "wang-multiband-sin-lasers",
+        "shen-topological-tflt-modulator"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -3744,6 +3746,28 @@
       "source": "https://www.nature.com/articles/s41586-026-11086-2",
       "topic": "Foundry SiN microcomb design / stabilization",
       "verified_on": "2026-10-03"
+    },
+    {
+      "id": "wang-multiband-sin-lasers",
+      "title": "Heterogeneous Integration of Multi-Band Mode-Locked and Single-Mode Lasers on an Extended Commercial SiN Platform",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-10-01",
+      "url": "https://doi.org/10.1002/lpor.71990",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71990",
+      "topic": "Heterogeneous III-V / SiN laser integration",
+      "verified_on": "2026-10-04"
+    },
+    {
+      "id": "shen-topological-tflt-modulator",
+      "title": "Beyond 110 GHz Electro-Optic Slow-Light Modulation via Cascaded One-Dimensional Topological Edge States on Thin-Film Lithium Tantalate",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-09-28",
+      "url": "https://doi.org/10.1002/lpor.71888",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71888",
+      "topic": "Optical-interconnect modulator / electro-optic co-design",
+      "verified_on": "2026-10-04"
     }
   ]
 }
