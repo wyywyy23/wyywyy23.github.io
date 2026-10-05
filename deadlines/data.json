@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-04",
+  "updated_on": "2026-10-05",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1254,7 +1254,8 @@
         "chung-agentic-pda",
         "si-inverse-reflector",
         "shishavan-kerr-reservoir",
-        "gantz-microring-thermal-state"
+        "gantz-microring-thermal-state",
+        "vatandoust-biawg-calibration"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -3280,7 +3281,9 @@
       "note": "",
       "fit": "Applied photonics and laser technology; check device/application fit.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "huang-time-domain-uq"
+      ],
       "target_group": "specialist",
       "target_topic": "applied",
       "journal_id": null,
@@ -3768,6 +3771,28 @@
       "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71888",
       "topic": "Optical-interconnect modulator / electro-optic co-design",
       "verified_on": "2026-10-04"
+    },
+    {
+      "id": "vatandoust-biawg-calibration",
+      "title": "Dual-directional interferometric control for post-fabrication wavelength alignment in a silicon photonic bidirectional arrayed waveguide grating",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-09-10",
+      "url": "https://doi.org/10.1364/OE.596214",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-19-35571",
+      "topic": "Fabrication variation / wavelength calibration",
+      "verified_on": "2026-10-05"
+    },
+    {
+      "id": "huang-time-domain-uq",
+      "title": "Scalable time-domain uncertainty quantification for passive photonic circuits via dimension-reduction framework",
+      "journal_id": "optics-laser-technology",
+      "year": 2026,
+      "published_on": "2026-09-30",
+      "url": "https://doi.org/10.1016/j.optlastec.2026.116524",
+      "source": "https://www.sciencedirect.com/science/article/pii/S003039922601875X",
+      "topic": "PIC modeling / time-domain variability",
+      "verified_on": "2026-10-05"
     }
   ]
 }
