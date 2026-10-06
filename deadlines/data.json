@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-05",
+  "updated_on": "2026-10-06",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1203,7 +1203,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "nie-r2piac",
-        "sion-optical-io"
+        "sion-optical-io",
+        "levy-dfb-spacing"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -3363,7 +3364,8 @@
       "fit": "Technically sound, complete device/platform studies across disciplines.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "parsons-undercut"
+        "parsons-undercut",
+        "sunwoo-hybrid-nonreciprocal"
       ],
       "target_group": "specialist",
       "target_topic": "applied",
@@ -3793,6 +3795,28 @@
       "source": "https://www.sciencedirect.com/science/article/pii/S003039922601875X",
       "topic": "PIC modeling / time-domain variability",
       "verified_on": "2026-10-05"
+    },
+    {
+      "id": "levy-dfb-spacing",
+      "title": "Precision Wavelength-Spacing Controller for Continuous Control of a DFB laser array",
+      "journal_id": "jlt",
+      "year": 2026,
+      "published_on": "2026-10-01",
+      "url": "https://doi.org/10.1109/JLT.2026.3739658",
+      "source": "https://ieeexplore.ieee.org/abstract/document/11718590",
+      "topic": "DWDM sources / continuous wavelength control",
+      "verified_on": "2026-10-06"
+    },
+    {
+      "id": "sunwoo-hybrid-nonreciprocal",
+      "title": "Hybrid-integrated nonreciprocal polarization rotator based on dielectric metasurfaces and a magnet-free thin-film Faraday rotator",
+      "journal_id": "scientific-reports",
+      "year": 2026,
+      "published_on": "2026-10-01",
+      "url": "https://doi.org/10.1038/s41598-026-74316-7",
+      "source": "https://www.nature.com/articles/s41598-026-74316-7",
+      "topic": "Hybrid silicon integration / nonreciprocal polarization",
+      "verified_on": "2026-10-06"
     }
   ]
 }
