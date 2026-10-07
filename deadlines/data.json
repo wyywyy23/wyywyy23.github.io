@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-06",
+  "updated_on": "2026-10-07",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2455,7 +2455,9 @@
       "note": "",
       "fit": "Photonic information processing, integrated systems and interdisciplinary photonics.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "ou-integrated-quantum-memory"
+      ],
       "target_group": "reach",
       "target_topic": null,
       "journal_id": null,
@@ -3655,22 +3657,22 @@
       "title": "Monolithic silicon photonic multiplexer, transceiver, and processor for 4 × 196 Gbps/λ multidimensional inter-chip communication",
       "journal_id": "photonics-research",
       "year": 2026,
-      "published_on": "2026-09-30",
+      "published_on": "2026-08-24",
       "url": "https://doi.org/10.1364/PRJ.603843",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4500",
       "topic": "Chip-to-chip optical interconnects / programmable MIMO processing",
-      "verified_on": "2026-10-01"
+      "verified_on": "2026-10-07"
     },
     {
       "id": "yang-hybrid-qd-microring",
       "title": "Experimental and design space exploration of ultra-low threshold hybrid III–V/Si quantum dot microring lasers",
       "journal_id": "photonics-research",
       "year": 2026,
-      "published_on": "2026-09-30",
+      "published_on": "2026-08-12",
       "url": "https://doi.org/10.1364/PRJ.608645",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4565",
       "topic": "Hybrid III–V/Si lasers / integrated light-source design",
-      "verified_on": "2026-10-01"
+      "verified_on": "2026-10-07"
     },
     {
       "id": "su-transfer-printed-tflt-sin",
@@ -3886,11 +3888,22 @@
       "title": "Widely tunable silicon photonics optoelectronic oscillator with a high-finesse waveguide resonator",
       "journal_id": "photonics-research",
       "year": 2026,
-      "published_on": "2026-09-30",
+      "published_on": "2026-07-30",
       "url": "https://doi.org/10.1364/PRJ.599543",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4446",
       "topic": "Electronic-photonic systems / tunable microwave generation",
-      "verified_on": "2026-10-06"
+      "verified_on": "2026-10-07"
+    },
+    {
+      "id": "ou-integrated-quantum-memory",
+      "title": "Random access and high dimensional integrated quantum memory",
+      "journal_id": "photonix",
+      "year": 2026,
+      "published_on": "2026-09-14",
+      "url": "https://doi.org/10.1186/s43074-026-00284-w",
+      "source": "https://link.springer.com/article/10.1186/s43074-026-00284-w",
+      "topic": "Integrated quantum memory / multichannel storage and electrical control",
+      "verified_on": "2026-10-07"
     }
   ]
 }
