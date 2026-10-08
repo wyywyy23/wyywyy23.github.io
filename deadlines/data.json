@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-07",
+  "updated_on": "2026-10-08",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1799,7 +1799,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "qd-laser-detector",
-        "sun-erasable-pcm-probe"
+        "sun-erasable-pcm-probe",
+        "wang-tfln-timebin-memory"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -3904,6 +3905,17 @@
       "source": "https://link.springer.com/article/10.1186/s43074-026-00284-w",
       "topic": "Integrated quantum memory / multichannel storage and electrical control",
       "verified_on": "2026-10-07"
+    },
+    {
+      "id": "wang-tfln-timebin-memory",
+      "title": "Storage of Telecom-Band Time-Bin Qubits in Thin-Film Lithium Niobate",
+      "journal_id": "acs-photonics",
+      "year": 2026,
+      "published_on": "2026-09-22",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01734",
+      "source": "https://pubs.acs.org/apchd5/article/doi/10.1021/acsphotonics.6c01734/5434974/Storage-of-Telecom-Band-Time-Bin-Qubits-in-Thin",
+      "topic": "Integrated quantum memory / telecom time-bin storage on TFLN",
+      "verified_on": "2026-10-08"
     }
   ]
 }
