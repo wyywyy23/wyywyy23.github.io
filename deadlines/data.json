@@ -3480,6 +3480,10 @@
       "url": "https://doi.org/10.1038/s41566-025-01633-0",
       "source": "https://www.nature.com/articles/s41566-025-01633-0",
       "topic": "3D electronic–photonic integration / optical I/O",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3491,6 +3495,11 @@
       "url": "https://doi.org/10.1515/nanoph-2025-0439",
       "source": "https://www.degruyterbrill.com/document/doi/10.1515/nanoph-2025-0439/html",
       "topic": "Wafer-scale variability / DWDM link models",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3502,6 +3511,10 @@
       "url": "https://doi.org/10.1038/s41598-025-14480-4",
       "source": "https://www.nature.com/articles/s41598-025-14480-4",
       "topic": "Foundry process / thermal tuning",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3513,6 +3526,10 @@
       "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-16-29435",
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2026/oe-34-16-29435.pdf",
       "topic": "Fabrication tolerance / resonators",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3524,6 +3541,11 @@
       "url": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-26-53700",
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2025/oe-33-26-53700.pdf",
       "topic": "Link initialization / fabrication variation",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3535,6 +3557,10 @@
       "url": "https://opg.optica.org/ol/fulltext.cfm?id=567026&uri=ol-50-2-698",
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2025/Automated%20tuning%20of%20a%20ring-assisted%20MZI-based%20interleaver%20for%20Kerr%20frequency%20combs.pdf",
       "topic": "Automated tuning / frequency combs",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3546,6 +3572,11 @@
       "url": "https://doi.org/10.1038/s41586-026-10152-z",
       "source": "https://www.nature.com/articles/s41586-026-10152-z",
       "topic": "Integrated quantum communications",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "quantum"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3557,6 +3588,10 @@
       "url": "https://doi.org/10.1038/s41377-026-02209-5",
       "source": "https://www.nature.com/articles/s41377-026-02209-5",
       "topic": "Programmable PICs / hardware–software co-design",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3568,6 +3603,9 @@
       "url": "https://doi.org/10.1021/acsphotonics.5c01299",
       "source": "https://pubs.acs.org/doi/10.1021/acsphotonics.5c01299",
       "topic": "Monolithic III–V integration / sources and detectors",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3579,6 +3617,9 @@
       "url": "https://doi.org/10.1002/lpor.202502837",
       "source": "https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202502837",
       "topic": "Programmable modulation / integrated circuits",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-09-25"
     },
     {
@@ -3590,6 +3631,11 @@
       "url": "https://doi.org/10.1038/s41566-026-01997-x",
       "source": "https://www.nature.com/articles/s41566-026-01997-x",
       "topic": "Programmable PICs / differentiable link optimization",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-26"
     },
     {
@@ -3601,6 +3647,9 @@
       "url": "https://doi.org/10.1038/s41586-026-11000-w",
       "source": "https://www.nature.com/articles/s41586-026-11000-w",
       "topic": "Heterogeneous Si/SiN integration / modulators and isolators",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-09-26"
     },
     {
@@ -3612,6 +3661,10 @@
       "url": "https://doi.org/10.1364/OE.606644",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-19-35322",
       "topic": "III–V/Si integration / calibrated optical power control",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-26"
     },
     {
@@ -3623,6 +3676,10 @@
       "url": "https://doi.org/10.1364/OE.604609",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-19-34999",
       "topic": "PIC design automation / layout and simulation workflows",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-26"
     },
     {
@@ -3634,6 +3691,11 @@
       "url": "https://doi.org/10.1038/s41467-026-75732-z",
       "source": "https://www.nature.com/articles/s41467-026-75732-z",
       "topic": "Photonic–electronic control / coherent optical interconnects",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-26"
     },
     {
@@ -3645,6 +3707,11 @@
       "url": "https://doi.org/10.1109/JLT.2026.3731646",
       "source": "https://ieeexplore.ieee.org/abstract/document/11683784",
       "topic": "Chiplet optical interconnects / runtime scheduling and co-design",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-27"
     },
     {
@@ -3656,6 +3723,9 @@
       "url": "https://doi.org/10.1364/PRJ.591330",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4317",
       "topic": "3D photonic integration / hybrid optical computing architectures",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-09-27"
     },
     {
@@ -3667,6 +3737,10 @@
       "url": "https://doi.org/10.1364/OE.611221",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-37844",
       "topic": "Fabrication-aware inverse design / silicon photonic resonators",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-29"
     },
     {
@@ -3678,6 +3752,9 @@
       "url": "https://doi.org/10.1038/s41467-026-77446-8",
       "source": "https://www.nature.com/articles/s41467-026-77446-8",
       "topic": "Programmable microring computing / early online article",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-09-29"
     },
     {
@@ -3689,6 +3766,10 @@
       "url": "https://doi.org/10.1038/s41566-026-02008-9",
       "source": "https://www.nature.com/articles/s41566-026-02008-9",
       "topic": "Electro-optic nonreciprocity / bidirectional coherent links",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-09-29"
     },
     {
@@ -3700,6 +3781,10 @@
       "url": "https://doi.org/10.1109/JLT.2026.3708975",
       "source": "https://ieeexplore.ieee.org/abstract/document/11592393",
       "topic": "Co-packaged optical I/O / SiON interposer and heterogeneous integration",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-09-29"
     },
     {
@@ -3711,6 +3796,9 @@
       "url": "https://doi.org/10.1364/OE.604117",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-37924",
       "topic": "Kerr-comb reservoir computing / numerical study",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-09-30"
     },
     {
@@ -3722,6 +3810,10 @@
       "url": "https://doi.org/10.1038/s41467-026-76328-3",
       "source": "https://www.nature.com/articles/s41467-026-76328-3",
       "topic": "PIC inverse design / compact-model and geometry co-design",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-09-30"
     },
     {
@@ -3733,6 +3825,10 @@
       "url": "https://doi.org/10.1364/PRJ.603843",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4500",
       "topic": "Chip-to-chip optical interconnects / programmable MIMO processing",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-10-07"
     },
     {
@@ -3744,6 +3840,9 @@
       "url": "https://doi.org/10.1364/PRJ.608645",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4565",
       "topic": "Hybrid III–V/Si lasers / integrated light-source design",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-07"
     },
     {
@@ -3755,6 +3854,10 @@
       "url": "https://doi.org/10.1038/s41467-026-76800-0",
       "source": "https://www.nature.com/articles/s41467-026-76800-0",
       "topic": "Micro-transfer printing / heterogeneous TFLT–SiN modulators",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-10-01"
     },
     {
@@ -3766,6 +3869,10 @@
       "url": "https://doi.org/10.1364/OE.612005",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-38425",
       "topic": "Microring thermal modeling / operating-point control",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-02"
     },
     {
@@ -3777,6 +3884,9 @@
       "url": "https://doi.org/10.1038/s41566-026-01985-1",
       "source": "https://www.nature.com/articles/s41566-026-01985-1",
       "topic": "Integrated laser design / passive locking stability",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-02"
     },
     {
@@ -3788,6 +3898,10 @@
       "url": "https://doi.org/10.1002/adom.71768",
       "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adom.71768",
       "topic": "PIC routing / silicon photonic design",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-02"
     },
     {
@@ -3799,6 +3913,10 @@
       "url": "https://doi.org/10.1021/acsphotonics.6c00749",
       "source": "https://pubs.acs.org/doi/10.1021/acsphotonics.6c00749",
       "topic": "PIC monitoring / phase-error calibration",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-02"
     },
     {
@@ -3810,6 +3928,9 @@
       "url": "https://doi.org/10.1002/adma.75067",
       "source": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.75067",
       "topic": "Epitaxial electro-optic integration on silicon",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-03"
     },
     {
@@ -3821,6 +3942,10 @@
       "url": "https://doi.org/10.1038/s41467-026-77489-x",
       "source": "https://www.nature.com/articles/s41467-026-77489-x",
       "topic": "PIC resonator design / tunable filtering",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-03"
     },
     {
@@ -3832,6 +3957,10 @@
       "url": "https://doi.org/10.1038/s41586-026-11086-2",
       "source": "https://www.nature.com/articles/s41586-026-11086-2",
       "topic": "Foundry SiN microcomb design / stabilization",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-03"
     },
     {
@@ -3843,6 +3972,9 @@
       "url": "https://doi.org/10.1002/lpor.71990",
       "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71990",
       "topic": "Heterogeneous III-V / SiN laser integration",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-04"
     },
     {
@@ -3854,6 +3986,10 @@
       "url": "https://doi.org/10.1002/lpor.71888",
       "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.71888",
       "topic": "Optical-interconnect modulator / electro-optic co-design",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-10-04"
     },
     {
@@ -3865,6 +4001,10 @@
       "url": "https://doi.org/10.1364/OE.596214",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-19-35571",
       "topic": "Fabrication variation / wavelength calibration",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-05"
     },
     {
@@ -3876,6 +4016,10 @@
       "url": "https://doi.org/10.1016/j.optlastec.2026.116524",
       "source": "https://www.sciencedirect.com/science/article/pii/S003039922601875X",
       "topic": "PIC modeling / time-domain variability",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-05"
     },
     {
@@ -3887,6 +4031,11 @@
       "url": "https://doi.org/10.1109/JLT.2026.3739658",
       "source": "https://ieeexplore.ieee.org/abstract/document/11718590",
       "topic": "DWDM sources / continuous wavelength control",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "integrated-circuits"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3898,6 +4047,9 @@
       "url": "https://doi.org/10.1038/s41598-026-74316-7",
       "source": "https://www.nature.com/articles/s41598-026-74316-7",
       "topic": "Hybrid silicon integration / nonreciprocal polarization",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3909,6 +4061,10 @@
       "url": "https://doi.org/10.1038/s41377-026-02339-w",
       "source": "https://www.nature.com/articles/s41377-026-02339-w",
       "topic": "Quantum emitter integration / spin-photon interfaces",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3920,6 +4076,10 @@
       "url": "https://doi.org/10.1364/PRJ.601824",
       "source": "https://opg.optica.org/prj/upcoming_pdf.cfm?id=601824",
       "topic": "On-chip quantum interference / entanglement",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3931,6 +4091,10 @@
       "url": "https://doi.org/10.1016/j.optcom.2026.133786",
       "source": "https://www.sciencedirect.com/science/article/pii/S0030401826009260",
       "topic": "Optical interconnects / silicon WDM transmitters",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3942,6 +4106,9 @@
       "url": "https://doi.org/10.1109/JPHOT.2026.3737446",
       "source": "https://ieeexplore.ieee.org/document/11710317",
       "topic": "PIC wavelength selection / fabricated Bragg filters",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3953,6 +4120,9 @@
       "url": "https://doi.org/10.1002/lpor.71974",
       "source": "https://onlinelibrary.wiley.com/doi/abs/10.1002/lpor.71974",
       "topic": "Integrated acousto-optic modulation / heterogeneous platforms",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-06"
     },
     {
@@ -3964,6 +4134,9 @@
       "url": "https://doi.org/10.1364/PRJ.599543",
       "source": "https://opg.optica.org/prj/fulltext.cfm?uri=prj-14-10-4446",
       "topic": "Electronic-photonic systems / tunable microwave generation",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-07"
     },
     {
@@ -3975,6 +4148,11 @@
       "url": "https://doi.org/10.1186/s43074-026-00284-w",
       "source": "https://link.springer.com/article/10.1186/s43074-026-00284-w",
       "topic": "Integrated quantum memory / multichannel storage and electrical control",
+      "topics": [
+        "photonics",
+        "integrated-circuits",
+        "quantum"
+      ],
       "verified_on": "2026-10-07"
     },
     {
@@ -3986,6 +4164,10 @@
       "url": "https://doi.org/10.1021/acsphotonics.6c01734",
       "source": "https://pubs.acs.org/apchd5/article/doi/10.1021/acsphotonics.6c01734/5434974/Storage-of-Telecom-Band-Time-Bin-Qubits-in-Thin",
       "topic": "Integrated quantum memory / telecom time-bin storage on TFLN",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
       "verified_on": "2026-10-08"
     },
     {
@@ -3997,6 +4179,9 @@
       "url": "https://doi.org/10.1364/OE.614440",
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-21-38813",
       "topic": "SiN photonic switching / graphene microheater and thermal control",
+      "topics": [
+        "photonics"
+      ],
       "verified_on": "2026-10-09"
     }
   ]
