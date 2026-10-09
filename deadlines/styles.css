@@ -16,7 +16,7 @@ header a{font-weight:700;text-decoration:none}
 header>span{color:var(--muted)}
 #updated{margin-left:auto;color:var(--muted);font-variant-numeric:tabular-nums}
 main{max-width:1320px;margin:auto;padding:24px 24px 36px}
-.page-nav{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 25px;padding:5px;border:1px solid var(--line);border-radius:12px;background:#eaf0f6}
+.page-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 25px;padding:5px;border:1px solid var(--line);border-radius:12px;background:#eaf0f6}
 .page-nav a{padding:12px 20px;border:1px solid transparent;font-size:20px;font-weight:700;text-align:center;text-decoration:none;border-radius:8px}
 .page-nav a:hover{background:#f7faff}
 .page-nav a[aria-current]{color:white;background:var(--blue);border-color:var(--blue);box-shadow:0 2px 5px rgba(23,61,101,.16)}
@@ -123,7 +123,7 @@ footer{border-top:1px solid var(--line);margin-top:32px;padding-top:17px;color:v
 @media(max-width:900px){.controls{flex-wrap:wrap}.controls label:first-child{flex-basis:45%}.controls button{font-size:13px}.target-nav{position:static}#core-journals,#letter-journals,#device-journals,#special,#reach-journals,#specialist-journals,.journal-row,#recent-papers{scroll-margin-top:18px}}
 @media(max-width:700px){
  header{padding:13px 16px;gap:12px;flex-wrap:wrap}header span:nth-child(2){display:none}#updated{font-size:11px}
- main{padding:16px}.page-nav{gap:5px;margin-bottom:22px;padding:4px}.page-nav a{font-size:18px;padding:11px 8px}
+ main{padding:16px}.page-nav{gap:5px;margin-bottom:22px;padding:4px}.page-nav a{font-size:16px;padding:11px 5px}
  h1{font-size:24px}h2{font-size:19px;margin-top:26px}
  .controls{gap:10px;padding:12px}.controls label:first-child{flex-basis:100%}.controls label:nth-child(2){flex:1}.controls button{font-size:12px;padding:10px}
  .section-nav{gap:3px;padding:7px}.section-nav a{padding:7px 8px}#result-count{width:100%;margin:3px 0 0;padding:5px 8px;border-top:1px solid var(--line)}
