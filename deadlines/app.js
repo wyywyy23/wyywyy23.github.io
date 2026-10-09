@@ -91,6 +91,11 @@ async function start(){
   const search=document.querySelector('#search'),area=document.querySelector('#area'),exp=document.querySelector('#export');let entries=[],shown=[];
   const recent=data.papers.filter(p=>p.year>=new Date().getFullYear()-1);
   function render(){const now=new Date(),q=search.value.trim().toLowerCase(),open=new Set([...results.querySelectorAll('details[open]')].filter(e=>e.id).map(e=>e.id));entries=visibleEntries(data.entries,page,now);
+   if(page==='papers'){
+    const papers=recent.filter(p=>{const journal=data.entries.find(e=>e.id===p.journal_id);return (area.value==='all'||journal?.topics.includes(area.value))&&(!q||[p.title,p.topic,journal?.title].join(' ').toLowerCase().includes(q));}).sort((a,b)=>b.year-a.year||(b.published_on||'').localeCompare(a.published_on||'')||a.title.localeCompare(b.title));
+    results.innerHTML=papers.map(p=>`<article class="paper-row"><h2>${external(p.url,p.title)}</h2><p><a href="../journals/#${esc(p.journal_id)}">${esc(data.entries.find(e=>e.id===p.journal_id)?.title)}</a> · ${esc(p.published_on||p.year)}</p><p>${esc(p.topic)}</p></article>`).join('')||'<p class="empty">No matching recent papers.</p>';
+    document.querySelector('#result-count').textContent=`${papers.length} papers`;return;
+   }
    const matches=e=>(area.value==='all'||e.topics.includes(area.value))&&(!q||[e.title,e.short_name,e.fit,e.note,e.event?.city,e.event?.venue,...e.format,e.article_format?.label,...recent.filter(p=>e.paper_ids.includes(p.id)).map(p=>p.title+' '+p.topic)].join(' ').toLowerCase().includes(q));shown=entries.filter(matches);
    if(page==='conferences'){
     results.innerHTML=section('core','Core conferences · regular submissions',shown.filter(e=>e.category==='core'&&e.track==='regular'),now,'')+section('postdeadline','Post-deadline · Student eligible',shown.filter(e=>e.track==='postdeadline'),now,'')+section('adjacent','Design automation / adjacent conferences',shown.filter(e=>e.category==='adjacent'&&e.track==='regular'),now,'');
@@ -98,14 +103,13 @@ async function start(){
    }else{
     results.innerHTML=journalDirectory(shown.filter(e=>e.kind==='journal'),recent,shown.filter(e=>e.kind==='special-issue'),now,!!q||area.value!=='all');
     const specialLink=document.querySelector('#special-count');if(specialLink)specialLink.textContent=String(shown.filter(e=>e.kind==='special-issue').length);
-    const matchedJournals=new Set(shown.filter(e=>e.kind==='journal').map(e=>e.id));const papers=recent.filter(p=>matchedJournals.has(p.journal_id)&&(!q||[p.title,p.topic,data.entries.find(e=>e.id===p.journal_id)?.title].join(' ').toLowerCase().includes(q))).sort((a,b)=>b.year-a.year||(b.published_on||'').localeCompare(a.published_on||'')||a.title.localeCompare(b.title));
-    document.querySelector('#recent-papers').innerHTML=`<h2>Recent integrated-photonics papers <small>${papers.length}</small></h2>${papers.map(p=>`<article class="paper-row"><h3>${external(p.url,p.title)}</h3><p>${esc(data.entries.find(e=>e.id===p.journal_id)?.title)} · ${esc(p.published_on||p.year)}</p><p>${esc(p.topic)}</p></article>`).join('')||'<p class="empty">No matching recent papers.</p>'}`;
+
    }
    for(const id of open){const el=document.getElementById(id);if(el)el.open=true;}
    document.querySelector('#result-count').textContent=`${shown.length} ${page==='conferences'?'submission rounds':'journals / calls'}`;exp.disabled=!shown.some(e=>nextDeadline(e,now)||e.event);
   }
-  search.addEventListener('input',render);area.addEventListener('change',render);results.addEventListener('click',e=>{const b=e.target.closest('[data-calendar]');if(b)download(entries.filter(x=>x.id===b.dataset.calendar));});exp.addEventListener('click',()=>download(shown));render();setInterval(render,60000);
-  function revealAnchor(){const linked=document.getElementById(location.hash.slice(1));if(!linked)return;let node=linked;while(node){if(node.tagName==='DETAILS')node.open=true;node=node.parentElement;}linked.scrollIntoView();}window.addEventListener('hashchange',revealAnchor);revealAnchor();
+  search.addEventListener('input',render);area.addEventListener('change',render);results.addEventListener('click',e=>{const b=e.target.closest('[data-calendar]');if(b)download(entries.filter(x=>x.id===b.dataset.calendar));});exp?.addEventListener('click',()=>download(shown));render();setInterval(render,60000);
+  function revealAnchor(){if(page==='journals'&&location.hash==='#recent-papers'){location.replace('../papers/');return;}const linked=document.getElementById(location.hash.slice(1));if(!linked)return;let node=linked;while(node){if(node.tagName==='DETAILS')node.open=true;node=node.parentElement;}linked.scrollIntoView();}window.addEventListener('hashchange',revealAnchor);revealAnchor();
  }catch(error){results.innerHTML=`<p class="empty">Unable to load records. Reload this page or <a href="${esc(document.body.dataset.base)}data.json">open the data</a>.</p>`;}
 }
 if(typeof document!=='undefined')start();

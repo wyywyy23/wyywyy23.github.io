@@ -70,6 +70,76 @@
       "eligibility": null
     },
     {
+      "id": "ecoc-2027",
+      "title": "ECOC 2027",
+      "short_name": "ECOC",
+      "kind": "conference",
+      "category": "core",
+      "track": "regular",
+      "cycle": "2027",
+      "topics": [
+        "optical-communications",
+        "photonics",
+        "quantum"
+      ],
+      "website": "https://ecoc2027.org/",
+      "submission_mode": "fixed",
+      "format": [
+        "2027 author-format and template requirements have not yet been published on the official website."
+      ],
+      "format_source": "https://ecoc2027.org/important-dates/",
+      "note": "Submission opens 15 February 2027. The official deadline is date-only; closing time and timezone are not announced. 2027 format requirements are pending.",
+      "fit": "SC3: PICs, assemblies and packaging; SC12: optical I/O, co-packaged optics and photonic computing for AI/datacentres; SC11: quantum devices, interfaces and communication.",
+      "verified_on": "2026-10-09",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Regular paper submission",
+          "date": "2027-04-25",
+          "at": null,
+          "timezone": null,
+          "source": "https://ecoc2027.org/important-dates/"
+        }
+      ],
+      "links": [
+        {
+          "label": "Submission dates",
+          "url": "https://ecoc2027.org/important-dates/"
+        },
+        {
+          "label": "Technical scope",
+          "url": "https://ecoc2027.org/topics/"
+        },
+        {
+          "label": "Meeting dates",
+          "url": "https://ecoc2027.org/"
+        },
+        {
+          "label": "Venue",
+          "url": "https://ecoc2027.org/venue/"
+        }
+      ],
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2027-04-25",
+        "basis_url": "https://ecoc2027.org/important-dates/",
+        "basis_cycle": 2027
+      },
+      "event": {
+        "start": "2027-10-10",
+        "end": "2027-10-14",
+        "city": "Milan, Italy",
+        "venue": "MiCo – Milano Convention Centre",
+        "source": "https://ecoc2027.org/venue/"
+      },
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
       "id": "cleo-2027",
       "title": "CLEO 2027",
       "short_name": "CLEO",
