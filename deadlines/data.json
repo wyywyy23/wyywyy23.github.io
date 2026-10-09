@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-08",
+  "updated_on": "2026-10-09",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1256,7 +1256,8 @@
         "si-inverse-reflector",
         "shishavan-kerr-reservoir",
         "gantz-microring-thermal-state",
-        "vatandoust-biawg-calibration"
+        "vatandoust-biawg-calibration",
+        "li-graphene-sin-nanobeam-switch"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -3916,6 +3917,17 @@
       "source": "https://pubs.acs.org/apchd5/article/doi/10.1021/acsphotonics.6c01734/5434974/Storage-of-Telecom-Band-Time-Bin-Qubits-in-Thin",
       "topic": "Integrated quantum memory / telecom time-bin storage on TFLN",
       "verified_on": "2026-10-08"
+    },
+    {
+      "id": "li-graphene-sin-nanobeam-switch",
+      "title": "Compact thermo-optic switch based on graphene-silicon nitride nanobeam cavity",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-10-05",
+      "url": "https://doi.org/10.1364/OE.614440",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-21-38813",
+      "topic": "SiN photonic switching / graphene microheater and thermal control",
+      "verified_on": "2026-10-09"
     }
   ]
 }
