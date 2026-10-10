@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-09",
+  "updated_on": "2026-10-10",
   "entries": [
     {
       "id": "ofc-2027",
@@ -222,9 +222,9 @@
         "45-word abstract and 50-word presenter biography."
       ],
       "format_source": "https://www.ieee-siphotonics.org/paper-submission/submission-guidelines/",
-      "note": "",
+      "note": "Extended from October 12 to October 26, 2026. Closing time and timezone are not announced.",
       "fit": "Silicon photonic devices, integration, fabrication and applications.",
-      "verified_on": "2026-09-25",
+      "verified_on": "2026-10-10",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -232,8 +232,8 @@
       "article_format": null,
       "deadlines": [
         {
-          "label": "Paper + abstract",
-          "date": "2026-10-12",
+          "label": "Paper + abstract (extended)",
+          "date": "2026-10-26",
           "at": null,
           "timezone": null,
           "source": "https://www.ieee-siphotonics.org/paper-submission/submission-guidelines/"
@@ -251,7 +251,7 @@
       ],
       "recurrence": {
         "frequency": "annual",
-        "basis_date": "2026-10-12",
+        "basis_date": "2026-10-26",
         "basis_url": "https://www.ieee-siphotonics.org/paper-submission/submission-guidelines/",
         "basis_cycle": 2027
       },
@@ -1790,7 +1790,9 @@
       "note": "",
       "fit": "Nanoscale photonic materials and devices with a clear nanoscale advance.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "barya-tfln-microsecond-memory"
+      ],
       "target_group": "letters",
       "target_topic": null,
       "journal_id": null,
@@ -4183,6 +4185,21 @@
         "photonics"
       ],
       "verified_on": "2026-10-09"
+    },
+    {
+      "id": "barya-tfln-microsecond-memory",
+      "title": "Telecom Quantum Memory over 1 μs in Nanophotonic Lithium Niobate",
+      "journal_id": "nano-letters",
+      "year": 2026,
+      "published_on": "2026-08-31",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c02567",
+      "source": "https://pubs.acs.org/nalefd/article/26/36/12056/5384963/Telecom-Quantum-Memory-over-1-s-in-Nanophotonic",
+      "topic": "Er:TFLN telecom quantum memory / microsecond storage and temporal multiplexing",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-10-10"
     }
   ]
 }
