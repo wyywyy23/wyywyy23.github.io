@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-10",
+  "updated_on": "2026-10-11",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1327,7 +1327,8 @@
         "shishavan-kerr-reservoir",
         "gantz-microring-thermal-state",
         "vatandoust-biawg-calibration",
-        "li-graphene-sin-nanobeam-switch"
+        "li-graphene-sin-nanobeam-switch",
+        "wang-inverse-sin-spectrometer"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -4200,6 +4201,21 @@
         "quantum"
       ],
       "verified_on": "2026-10-10"
+    },
+    {
+      "id": "wang-inverse-sin-spectrometer",
+      "title": "Inverse-designed integrated computational spectrometer with sub-ångström resolution",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-10-06",
+      "url": "https://doi.org/10.1364/OE.603614",
+      "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-21-38862",
+      "topic": "PIC inverse design / calibrated SiN computational spectroscopy",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-11"
     }
   ]
 }
