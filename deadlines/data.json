@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-11",
+  "updated_on": "2026-10-12",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2370,7 +2370,8 @@
         "liu-temporal-kernels",
         "he-recursive-design",
         "su-transfer-printed-tflt-sin",
-        "sun-geometrical-resonators"
+        "sun-geometrical-resonators",
+        "congia-integrated-quantum-frequency-processor"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -4216,6 +4217,22 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-11"
+    },
+    {
+      "id": "congia-integrated-quantum-frequency-processor",
+      "title": "Fully integrated quantum frequency processor on a silicon chip",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-09-15",
+      "url": "https://doi.org/10.1038/s41467-026-77287-5",
+      "source": "https://www.nature.com/articles/s41467-026-77287-5",
+      "topic": "Integrated quantum frequency-bin processing / calibrated spectral control; early online article",
+      "topics": [
+        "photonics",
+        "quantum",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-12"
     }
   ]
 }
