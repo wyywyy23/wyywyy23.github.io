@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-12",
+  "updated_on": "2026-10-14",
   "entries": [
     {
       "id": "ofc-2027",
@@ -3470,6 +3470,319 @@
       ],
       "recurrence": null,
       "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "ectc-2027",
+      "title": "ECTC 2027",
+      "short_name": "ECTC",
+      "kind": "conference",
+      "category": "packaging",
+      "track": "regular",
+      "cycle": "2027",
+      "topics": [
+        "integrated-circuits"
+      ],
+      "website": "https://ectc.net/",
+      "submission_mode": "fixed",
+      "format": [
+        "2027 CFP: abstract up to 700 words + novelty paragraph up to 50 words; optional one figure or table.",
+        "Accepted abstracts: 4–8-page manuscript due February 19, 2027. This is not a new-submission gate."
+      ],
+      "format_source": "https://ectc.net/wp-content/uploads/2026/08/77thCallforPapers-Web1.pdf",
+      "note": "2027 abstract submission is closed. Calendar extends October 5 to October 12; next cycle date and format are not announced.",
+      "fit": "Photonic packaging, co-packaged optics, heterogeneous/3D integration, chiplets and package modeling.",
+      "verified_on": "2026-10-14",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Abstract (extended)",
+          "date": "2026-10-12",
+          "at": null,
+          "timezone": null,
+          "source": "https://ectc.net/calendar/"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP / dates",
+          "url": "https://ectc.net/wp-content/uploads/2026/08/77thCallforPapers-Web1.pdf"
+        }
+      ],
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-10-12",
+        "basis_url": "https://ectc.net/calendar/",
+        "basis_cycle": 2027
+      },
+      "event": {
+        "start": "2027-06-01",
+        "end": "2027-06-04",
+        "city": "Denver, Colorado, USA",
+        "venue": "Gaylord Rockies Resort & Convention Center",
+        "source": "https://ectc.net/"
+      },
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "sc-2026",
+      "title": "SC 2026",
+      "short_name": "SC",
+      "kind": "conference",
+      "category": "hpc",
+      "track": "regular",
+      "cycle": "2026",
+      "topics": [
+        "integrated-circuits"
+      ],
+      "website": "https://sc26.supercomputing.org/",
+      "submission_mode": "fixed",
+      "format": [
+        "2026: 10 two-column IEEE pages excluding references; double-anonymous.",
+        "Paper checklist and Artifact Description required; AD due April 28, 2026."
+      ],
+      "format_source": "https://sc26.supercomputing.org/program/papers/",
+      "note": "SC27 CFP and meeting details are not verified; do not reuse SC26 format as a confirmed next-cycle rule.",
+      "fit": "HPC architectures and networks, heterogeneous systems and large-scale interconnects. Optical I/O work needs a substantive HPC systems contribution.",
+      "verified_on": "2026-10-14",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-04-01",
+          "at": "2026-04-01T23:59:00-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://sc26.supercomputing.org/program/papers/"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-04-08",
+          "at": "2026-04-08T23:59:00-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://sc26.supercomputing.org/program/papers/"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP / dates",
+          "url": "https://sc26.supercomputing.org/program/papers/"
+        }
+      ],
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-04-01",
+        "basis_url": "https://sc26.supercomputing.org/program/papers/",
+        "basis_cycle": 2026
+      },
+      "event": {
+        "start": "2026-11-15",
+        "end": "2026-11-20",
+        "city": "Chicago, Illinois, USA",
+        "venue": "McCormick Place",
+        "source": "https://sc26.supercomputing.org/all-dates-deadlines/"
+      },
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "isca-2027",
+      "title": "ISCA 2027",
+      "short_name": "ISCA",
+      "kind": "conference",
+      "category": "architecture",
+      "track": "regular",
+      "cycle": "2027",
+      "topics": [
+        "integrated-circuits"
+      ],
+      "website": "https://iscaconf.org/isca2027/index.php",
+      "submission_mode": "fixed",
+      "format": [
+        "Title, abstract and full author list must be final at abstract registration.",
+        "Detailed page-limit, anonymity and submission-system instructions will be published separately."
+      ],
+      "format_source": "https://iscaconf.org/isca2027/submit/callforpapers.php",
+      "note": "",
+      "fit": "Interconnection networks, chiplets/die-to-die fabrics, disaggregated systems and emerging computing. Requires an architecture contribution; no dedicated photonics track confirmed.",
+      "verified_on": "2026-10-14",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-11-09",
+          "at": "2026-11-09T23:59:00-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://iscaconf.org/isca2027/submit/callforpapers.php"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-11-16",
+          "at": "2026-11-16T23:59:00-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://iscaconf.org/isca2027/submit/callforpapers.php"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP / dates",
+          "url": "https://iscaconf.org/isca2027/submit/callforpapers.php"
+        }
+      ],
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-11-09",
+        "basis_url": "https://iscaconf.org/isca2027/submit/callforpapers.php",
+        "basis_cycle": 2027
+      },
+      "event": {
+        "start": "2027-06-05",
+        "end": "2027-06-09",
+        "city": "Atlanta, Georgia, USA",
+        "venue": "Venue to be announced",
+        "source": "https://iscaconf.org/isca2027/index.php"
+      },
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "hpca-2027",
+      "title": "HPCA 2027",
+      "short_name": "HPCA",
+      "kind": "conference",
+      "category": "architecture",
+      "track": "regular",
+      "cycle": "2027",
+      "topics": [
+        "integrated-circuits"
+      ],
+      "website": "https://conf.researchr.org/home/hpca-2027",
+      "submission_mode": "fixed",
+      "format": [
+        "2027: 11 two-column pages excluding references; minimum 10pt; double-blind.",
+        "Register title, abstract, authors and conflicts before full-paper upload."
+      ],
+      "format_source": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference/",
+      "note": "2027 main-track registration is closed. Next-cycle CFP and meeting details not announced.",
+      "fit": "Interconnection/network interfaces, accelerators and 3D/chiplet/interposer effects on architecture. Requires architectural evaluation; no dedicated photonics track confirmed.",
+      "verified_on": "2026-10-14",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Paper registration + abstract",
+          "date": "2026-07-24",
+          "at": "2026-07-24T23:59:00-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference/"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-07-31",
+          "at": "2026-07-31T23:59:00-12:00",
+          "timezone": "Etc/GMT+12",
+          "source": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference/"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP / dates",
+          "url": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference/"
+        }
+      ],
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-07-24",
+        "basis_url": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference/",
+        "basis_cycle": 2027
+      },
+      "event": {
+        "start": "2027-03-20",
+        "end": "2027-03-24",
+        "city": "Salt Lake City, Utah, USA",
+        "venue": "Venue to be announced",
+        "source": "https://conf.researchr.org/track/hpca-2027/hpca-2027-main-conference/"
+      },
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "micro-2026",
+      "title": "MICRO 2026",
+      "short_name": "MICRO",
+      "kind": "conference",
+      "category": "architecture",
+      "track": "regular",
+      "cycle": "2026",
+      "topics": [
+        "integrated-circuits"
+      ],
+      "website": "https://www.microarch.org/micro59/",
+      "submission_mode": "fixed",
+      "format": [
+        "2026: 11 two-column pages excluding references; minimum 9pt; no appendix.",
+        "Double-blind; all authors registered by abstract deadline."
+      ],
+      "format_source": "https://www.microarch.org/micro59/submit/guidelines.php",
+      "note": "MICRO 2027 CFP and meeting details not verified.",
+      "fit": "Interconnects, datacenter computing, accelerators and circuit/technology effects on architecture. Requires microarchitecture or systems contribution; no dedicated photonics track confirmed.",
+      "verified_on": "2026-10-14",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Abstract registration",
+          "date": "2026-03-31",
+          "at": "2026-03-31T23:59:00-04:00",
+          "timezone": "America/New_York",
+          "source": "https://www.microarch.org/micro59/submit/papers.php"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-04-07",
+          "at": "2026-04-07T23:59:00-04:00",
+          "timezone": "America/New_York",
+          "source": "https://www.microarch.org/micro59/submit/papers.php"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP / dates",
+          "url": "https://www.microarch.org/micro59/submit/guidelines.php"
+        }
+      ],
+      "recurrence": {
+        "frequency": "annual",
+        "basis_date": "2026-03-31",
+        "basis_url": "https://www.microarch.org/micro59/submit/papers.php",
+        "basis_cycle": 2026
+      },
+      "event": {
+        "start": "2026-10-31",
+        "end": "2026-11-04",
+        "city": "Athens, Greece",
+        "venue": "Venue to be announced",
+        "source": "https://www.microarch.org/micro59/"
+      },
       "announced_next": null,
       "eligibility": null
     }
