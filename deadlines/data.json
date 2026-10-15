@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-14",
+  "updated_on": "2026-10-15",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1874,7 +1874,8 @@
       "paper_ids": [
         "qd-laser-detector",
         "sun-erasable-pcm-probe",
-        "wang-tfln-timebin-memory"
+        "wang-tfln-timebin-memory",
+        "song-flg-nonvolatile-pcm-programming"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -4546,6 +4547,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-12"
+    },
+    {
+      "id": "song-flg-nonvolatile-pcm-programming",
+      "title": "Few-Layer Graphene Heater Enabled High-Precision Phase-Change Photonic Devices",
+      "journal_id": "acs-photonics",
+      "year": 2026,
+      "published_on": "2026-10-05",
+      "url": "https://doi.org/10.1021/acsphotonics.6c00755",
+      "source": "https://pubs.acs.org/apchd5/article/doi/10.1021/acsphotonics.6c00755/5444643",
+      "topic": "Nonvolatile silicon PIC programming / segmented graphene heaters and phase-change control",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-15"
     }
   ]
 }
