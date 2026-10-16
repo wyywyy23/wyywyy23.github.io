@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-15",
+  "updated_on": "2026-10-16",
   "entries": [
     {
       "id": "ofc-2027",
@@ -896,9 +896,9 @@
         "45-word abstract."
       ],
       "format_source": "https://ieee-ipc.org/paper-submission/submission-guidelines/",
-      "note": "For new, significant late-breaking results; this is a separate reviewed research call, not an extension of regular submissions.",
+      "note": "Extended from 12 to 19 October 2026. New, significant late-breaking results; separate reviewed research call. Accepted authors must register and present in person.",
       "fit": "Photonics devices, optical communications, computing and quantum photonics.",
-      "verified_on": "2026-09-25",
+      "verified_on": "2026-10-16",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -906,8 +906,8 @@
       "article_format": null,
       "deadlines": [
         {
-          "label": "Post-deadline paper",
-          "date": "2026-10-12",
+          "label": "Post-deadline paper (extended)",
+          "date": "2026-10-19",
           "at": null,
           "timezone": null,
           "source": "https://ieee-ipc.org/paper-submission/submission-guidelines/"
@@ -921,6 +921,10 @@
         {
           "label": "Submission rules",
           "url": "https://ieee-ipc.org/paper-submission/submission-guidelines/"
+        },
+        {
+          "label": "Official extension",
+          "url": "https://ieeephotonics.org/conferences/conference-calls-for-papers/"
         }
       ],
       "recurrence": null,
@@ -2327,7 +2331,9 @@
       "note": "",
       "fit": "Fundamental optical and quantum physics demonstrated on integrated platforms.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "zhao-chip-mediated-quantum-skyrmions"
+      ],
       "target_group": "reach",
       "target_topic": null,
       "journal_id": null,
@@ -4562,6 +4568,22 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-15"
+    },
+    {
+      "id": "zhao-chip-mediated-quantum-skyrmions",
+      "title": "Chip-mediated manipulation of photonic quantum skyrmions",
+      "journal_id": "nature-physics",
+      "year": 2026,
+      "published_on": "2026-10-12",
+      "url": "https://doi.org/10.1038/s41567-026-03487-x",
+      "source": "https://www.nature.com/articles/s41567-026-03487-x",
+      "topic": "Programmable SiN quantum PIC / entangled-photon topology preparation and transfer",
+      "topics": [
+        "photonics",
+        "quantum",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-16"
     }
   ]
 }
