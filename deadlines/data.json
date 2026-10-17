@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-16",
+  "updated_on": "2026-10-17",
   "entries": [
     {
       "id": "ofc-2027",
@@ -3178,7 +3178,9 @@
       "note": "",
       "fit": "Applied physics of integrated photonic and quantum devices.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "li-automated-quantum-dot-nanocavity"
+      ],
       "target_group": "specialist",
       "target_topic": "applied",
       "journal_id": null,
@@ -4584,6 +4586,22 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-16"
+    },
+    {
+      "id": "li-automated-quantum-dot-nanocavity",
+      "title": "Automated optimization of a photonic crystal nanocavity for effective light-matter interaction",
+      "journal_id": "physical-review-applied",
+      "year": 2026,
+      "published_on": "2026-10-14",
+      "url": "https://doi.org/10.1103/q5vz-6sfp",
+      "source": "https://journals.aps.org/prapplied/abstract/10.1103/q5vz-6sfp",
+      "topic": "Automated photonic-crystal cavity design / quantum-dot light–matter coupling",
+      "topics": [
+        "photonics",
+        "quantum",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-17"
     }
   ]
 }
