@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-17",
+  "updated_on": "2026-10-18",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1618,7 +1618,8 @@
       "fit": "A focused new optical result that can stand on its own as a concise paper.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "wang-ramzi"
+        "wang-ramzi",
+        "liu-agf-folded-thermo-optic-phase-shifter"
       ],
       "target_group": "letters",
       "target_topic": null,
@@ -4602,6 +4603,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-17"
+    },
+    {
+      "id": "liu-agf-folded-thermo-optic-phase-shifter",
+      "title": "Artificial gauge field based thermo-optic phase shifter enabling low power consumption and broadband operation",
+      "journal_id": "optics-letters",
+      "year": 2026,
+      "published_on": "2026-09-21",
+      "url": "https://doi.org/10.1364/OL.611117",
+      "source": "https://opg.optica.org/ol/fulltext.cfm?uri=ol-51-20-5870",
+      "topic": "Folded silicon thermo-optic phase shifter / broadband crosstalk suppression",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-18"
     }
   ]
 }
