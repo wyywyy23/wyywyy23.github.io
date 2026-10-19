@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-18",
+  "updated_on": "2026-10-19",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2858,7 +2858,9 @@
       "note": "",
       "fit": "Optical quantum information, communication and integrated quantum photonics.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "yama-gap-diamond-spin-photon-interface"
+      ],
       "target_group": "specialist",
       "target_topic": "quantum",
       "journal_id": null,
@@ -4618,6 +4620,22 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-18"
+    },
+    {
+      "id": "yama-gap-diamond-spin-photon-interface",
+      "title": "Efficient spin-photon interactions in a scalable nanophotonic platform",
+      "journal_id": "optica-quantum",
+      "year": 2026,
+      "published_on": "2026-10-15",
+      "url": "https://doi.org/10.1364/OPTICAQ.607235",
+      "source": "https://opg.optica.org/opticaq/fulltext.cfm?uri=opticaq-4-5-511",
+      "topic": "GaP-on-diamond quantum interface / SiV-cavity coupling and spin readout",
+      "topics": [
+        "photonics",
+        "quantum",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-19"
     }
   ]
 }
