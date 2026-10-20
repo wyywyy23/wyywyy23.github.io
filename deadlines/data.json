@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-19",
+  "updated_on": "2026-10-20",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1380,7 +1380,8 @@
         "zhou-multidimensional-interconnect",
         "yang-hybrid-qd-microring",
         "wang-twisted-photon-hom",
-        "imran-tunable-silicon-oeo"
+        "imran-tunable-silicon-oeo",
+        "chawlani-modulation-free-integrated-laser-stabilization"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -4636,6 +4637,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-19"
+    },
+    {
+      "id": "chawlani-modulation-free-integrated-laser-stabilization",
+      "title": "Modulation-Free Laser Stabilization with an Integrated Coil Interferometer Circuit",
+      "journal_id": "photonics-research",
+      "year": 2026,
+      "published_on": "2026-10-19",
+      "url": "https://doi.org/10.1364/PRJ.604189",
+      "source": "https://opg.optica.org/prj/upcoming_pdf.cfm?id=604189",
+      "topic": "SiN laser stabilization / integrated Fano-error discriminator; accepted Early Posting",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-20"
     }
   ]
 }
