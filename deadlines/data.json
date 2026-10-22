@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-20",
+  "updated_on": "2026-10-22",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1968,7 +1968,8 @@
         "deng-programmable",
         "wang-multiband-sin-lasers",
         "shen-topological-tflt-modulator",
-        "yue-michelson-acousto-optic"
+        "yue-michelson-acousto-optic",
+        "zheng-cross-scale-integrated-photonic-convolver"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -4652,6 +4653,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-20"
+    },
+    {
+      "id": "zheng-cross-scale-integrated-photonic-convolver",
+      "title": "Cross-Scale Integrated Photonic Convolver Based on Conjugate-Symmetric Interference",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-10-17",
+      "url": "https://doi.org/10.1002/lpor.72096",
+      "source": "https://onlinelibrary.wiley.com/toc/18638899/0/0?page=1",
+      "topic": "Cross-scale photonic convolution / reusable chip weights and FIR circuits",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-22"
     }
   ]
 }
