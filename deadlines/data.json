@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-22",
+  "updated_on": "2026-10-23",
   "entries": [
     {
       "id": "ofc-2027",
@@ -3144,7 +3144,9 @@
       "note": "",
       "fit": "Design methods and automation algorithms; optical circuits need an EDA contribution.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "huang-delay-aware-verilog-a-pic-modeling"
+      ],
       "target_group": "specialist",
       "target_topic": "electronics",
       "journal_id": null,
@@ -4668,6 +4670,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-22"
+    },
+    {
+      "id": "huang-delay-aware-verilog-a-pic-modeling",
+      "title": "A Delay-Aware Verilog-A Modeling and Simulation Framework for Passive Photonic Integrated Circuits",
+      "journal_id": "todaes",
+      "year": 2026,
+      "published_on": "2026-10-19",
+      "url": "https://doi.org/10.1145/3849810",
+      "source": "https://api.crossref.org/works/10.1145/3849810",
+      "topic": "Delay-aware PIC macromodeling / Verilog-A electronic–photonic co-simulation",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-23"
     }
   ]
 }
