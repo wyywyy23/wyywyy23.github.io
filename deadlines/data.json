@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-23",
+  "updated_on": "2026-10-24",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1881,7 +1881,8 @@
         "qd-laser-detector",
         "sun-erasable-pcm-probe",
         "wang-tfln-timebin-memory",
-        "song-flg-nonvolatile-pcm-programming"
+        "song-flg-nonvolatile-pcm-programming",
+        "westhues-post-cmos-waveguide-spad"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -4685,6 +4686,22 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-23"
+    },
+    {
+      "id": "westhues-post-cmos-waveguide-spad",
+      "title": "Room-Temperature Visible-Light Single-Photon Avalanche Detection in Grating-Coupled Post-CMOS Photonic Circuits",
+      "journal_id": "acs-photonics",
+      "year": 2026,
+      "published_on": "2026-10-21",
+      "url": "https://doi.org/10.1021/acsphotonics.6c01473",
+      "source": "https://pubs.acs.org/apchd5/article/doi/10.1021/acsphotonics.6c01473/5454837/Room-Temperature-Visible-Light-Single-Photon",
+      "topic": "Integrated single-photon detection / post-CMOS SiN–SPAD interface co-design",
+      "topics": [
+        "photonics",
+        "quantum",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-24"
     }
   ]
 }
