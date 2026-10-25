@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-24",
+  "updated_on": "2026-10-25",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1105,6 +1105,57 @@
       "eligibility": null
     },
     {
+      "id": "jstqe-spectrometers",
+      "title": "Advances in Multifunctional Optical Spectrometers",
+      "short_name": "JSTQE",
+      "kind": "special-issue",
+      "category": "special",
+      "track": "special",
+      "cycle": "Sep–Oct 2027 (tentative)",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "website": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/",
+      "submission_mode": "fixed",
+      "format": [
+        "Use JSTQE author instructions; select “Special Issue on Advances in Multifunctional Optical Spectrometers.”",
+        "Graphical abstract strongly suggested."
+      ],
+      "format_source": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/",
+      "note": "Issue publication: Sep–Oct 2027 (tentative). This call is not assumed to recur annually.",
+      "fit": "On-chip multifunctional spectrometers, computational spectrometry and hardware–software co-design.",
+      "verified_on": "2026-10-25",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": "jstqe",
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Manuscript",
+          "date": "2026-12-01",
+          "at": null,
+          "timezone": null,
+          "source": "https://ieeephotonics.org/wp-content/uploads/2026/06/Call_for_papers_Special_issue_on_Advances_in_Multifunctional_Optical_Spectrometers2026.pdf"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP PDF",
+          "url": "https://ieeephotonics.org/wp-content/uploads/2026/06/Call_for_papers_Special_issue_on_Advances_in_Multifunctional_Optical_Spectrometers2026.pdf"
+        },
+        {
+          "label": "Author instructions",
+          "url": "https://ieeephotonics.org/publications/journal-of-selected-topics-in-quantum-electronics/"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
       "id": "pj-nusod",
       "title": "Numerical Simulation of Optoelectronic Devices",
       "short_name": "IEEE Photonics Journal",
@@ -1620,7 +1671,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "wang-ramzi",
-        "liu-agf-folded-thermo-optic-phase-shifter"
+        "liu-agf-folded-thermo-optic-phase-shifter",
+        "zhang-euler-ln-microresonator"
       ],
       "target_group": "letters",
       "target_topic": null,
@@ -4702,6 +4754,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-24"
+    },
+    {
+      "id": "zhang-euler-ln-microresonator",
+      "title": "All-Euler-bend lithium niobate microresonators with intrinsic Q-factors exceeding 10 million",
+      "journal_id": "optics-letters",
+      "year": 2026,
+      "published_on": "2026-10-20",
+      "url": "https://doi.org/10.1364/OL.615284",
+      "source": "https://opg.optica.org/ol/abstract.cfm?uri=ol-51-21-5986",
+      "topic": "TFLN resonator geometry / mode control and self-injection-locked laser",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-25"
     }
   ]
 }
