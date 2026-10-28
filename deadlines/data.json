@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-27",
+  "updated_on": "2026-10-28",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1936,7 +1936,8 @@
         "sun-erasable-pcm-probe",
         "wang-tfln-timebin-memory",
         "song-flg-nonvolatile-pcm-programming",
-        "westhues-post-cmos-waveguide-spad"
+        "westhues-post-cmos-waveguide-spad",
+        "shang-inverse-designed-photonic-interfaces"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -4818,6 +4819,21 @@
         "integrated-circuits"
       ],
       "verified_on": "2026-10-27"
+    },
+    {
+      "id": "shang-inverse-designed-photonic-interfaces",
+      "title": "Inverse-Designed Photonic Interfaces beyond Eigenmode Expansion Limits",
+      "journal_id": "acs-photonics",
+      "year": 2026,
+      "published_on": "2026-10-09",
+      "url": "https://doi.org/10.1021/acsphotonics.6c00326",
+      "source": "https://pubs.acs.org/doi/10.1021/acsphotonics.6c00326",
+      "topic": "TFLN fiber-chip interfaces / inverse-designed single-layer spot-size conversion",
+      "topics": [
+        "photonics",
+        "integrated-circuits"
+      ],
+      "verified_on": "2026-10-28"
     }
   ]
 }
