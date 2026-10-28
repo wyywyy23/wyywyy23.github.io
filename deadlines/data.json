@@ -3888,7 +3888,7 @@
       "topics": [
         "photonics",
         "optical-communications",
-        "integrated-circuits"
+        "modeling-simulation"
       ],
       "verified_on": "2026-09-25"
     },
@@ -3902,8 +3902,7 @@
       "source": "https://www.nature.com/articles/s41598-025-14480-4",
       "topic": "Foundry process / thermal tuning",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-09-25"
     },
@@ -3917,8 +3916,7 @@
       "source": "https://lightwave.ee.columbia.edu/sites/lightwave.ee.columbia.edu/files/content/docs/Papers/2026/oe-34-16-29435.pdf",
       "topic": "Fabrication tolerance / resonators",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-09-25"
     },
@@ -3934,7 +3932,7 @@
       "topics": [
         "photonics",
         "optical-communications",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-25"
     },
@@ -3949,7 +3947,7 @@
       "topic": "Automated tuning / frequency combs",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-25"
     },
@@ -3980,7 +3978,7 @@
       "topic": "Programmable PICs / hardware–software co-design",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-25"
     },
@@ -4024,7 +4022,7 @@
       "topics": [
         "photonics",
         "optical-communications",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-26"
     },
@@ -4053,7 +4051,7 @@
       "topic": "III–V/Si integration / calibrated optical power control",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-26"
     },
@@ -4068,7 +4066,7 @@
       "topic": "PIC design automation / layout and simulation workflows",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-09-26"
     },
@@ -4084,7 +4082,7 @@
       "topics": [
         "photonics",
         "optical-communications",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-26"
     },
@@ -4100,7 +4098,7 @@
       "topics": [
         "photonics",
         "optical-communications",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-09-27"
     },
@@ -4129,7 +4127,7 @@
       "topic": "Fabrication-aware inverse design / silicon photonic resonators",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-09-29"
     },
@@ -4202,7 +4200,7 @@
       "topic": "PIC inverse design / compact-model and geometry co-design",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-09-30"
     },
@@ -4260,8 +4258,7 @@
       "source": "https://opg.optica.org/oe/fulltext.cfm?uri=oe-34-20-38425",
       "topic": "Microring thermal modeling / operating-point control",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-10-02"
     },
@@ -4290,7 +4287,7 @@
       "topic": "PIC routing / silicon photonic design",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-10-02"
     },
@@ -4305,7 +4302,7 @@
       "topic": "PIC monitoring / phase-error calibration",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-02"
     },
@@ -4334,7 +4331,7 @@
       "topic": "PIC resonator design / tunable filtering",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-10-03"
     },
@@ -4349,7 +4346,7 @@
       "topic": "Foundry SiN microcomb design / stabilization",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-03"
     },
@@ -4393,7 +4390,7 @@
       "topic": "Fabrication variation / wavelength calibration",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-05"
     },
@@ -4408,7 +4405,8 @@
       "topic": "PIC modeling / time-domain variability",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation",
+        "modeling-simulation"
       ],
       "verified_on": "2026-10-05"
     },
@@ -4424,7 +4422,7 @@
       "topics": [
         "photonics",
         "optical-communications",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-06"
     },
@@ -4540,8 +4538,8 @@
       "topic": "Integrated quantum memory / multichannel storage and electrical control",
       "topics": [
         "photonics",
-        "integrated-circuits",
-        "quantum"
+        "quantum",
+        "system-control"
       ],
       "verified_on": "2026-10-07"
     },
@@ -4600,7 +4598,7 @@
       "topic": "PIC inverse design / calibrated SiN computational spectroscopy",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-10-11"
     },
@@ -4616,7 +4614,7 @@
       "topics": [
         "photonics",
         "quantum",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-12"
     },
@@ -4630,8 +4628,7 @@
       "source": "https://pubs.acs.org/apchd5/article/doi/10.1021/acsphotonics.6c00755/5444643",
       "topic": "Nonvolatile silicon PIC programming / segmented graphene heaters and phase-change control",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-10-15"
     },
@@ -4647,7 +4644,7 @@
       "topics": [
         "photonics",
         "quantum",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-16"
     },
@@ -4663,7 +4660,7 @@
       "topics": [
         "photonics",
         "quantum",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-10-17"
     },
@@ -4677,8 +4674,7 @@
       "source": "https://opg.optica.org/ol/fulltext.cfm?uri=ol-51-20-5870",
       "topic": "Folded silicon thermo-optic phase shifter / broadband crosstalk suppression",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-10-18"
     },
@@ -4693,8 +4689,7 @@
       "topic": "GaP-on-diamond quantum interface / SiV-cavity coupling and spin readout",
       "topics": [
         "photonics",
-        "quantum",
-        "integrated-circuits"
+        "quantum"
       ],
       "verified_on": "2026-10-19"
     },
@@ -4709,7 +4704,7 @@
       "topic": "SiN laser stabilization / integrated Fano-error discriminator; accepted Early Posting",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "system-control"
       ],
       "verified_on": "2026-10-20"
     },
@@ -4723,8 +4718,7 @@
       "source": "https://onlinelibrary.wiley.com/toc/18638899/0/0?page=1",
       "topic": "Cross-scale photonic convolution / reusable chip weights and FIR circuits",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-10-22"
     },
@@ -4739,7 +4733,8 @@
       "topic": "Delay-aware PIC macromodeling / Verilog-A electronic–photonic co-simulation",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation",
+        "modeling-simulation"
       ],
       "verified_on": "2026-10-23"
     },
@@ -4754,8 +4749,7 @@
       "topic": "Integrated single-photon detection / post-CMOS SiN–SPAD interface co-design",
       "topics": [
         "photonics",
-        "quantum",
-        "integrated-circuits"
+        "quantum"
       ],
       "verified_on": "2026-10-24"
     },
@@ -4769,8 +4763,7 @@
       "source": "https://opg.optica.org/ol/abstract.cfm?uri=ol-51-21-5986",
       "topic": "TFLN resonator geometry / mode control and self-injection-locked laser",
       "topics": [
-        "photonics",
-        "integrated-circuits"
+        "photonics"
       ],
       "verified_on": "2026-10-25"
     },
@@ -4785,8 +4778,7 @@
       "topic": "Optical interconnect modulator / built-in electro-optic feedforward equalization",
       "topics": [
         "photonics",
-        "optical-communications",
-        "integrated-circuits"
+        "optical-communications"
       ],
       "verified_on": "2026-10-26"
     },
@@ -4816,7 +4808,7 @@
       "topic": "Fabrication-aware PIC inverse design / calibrated etch-lag grating couplers",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-10-27"
     },
@@ -4831,7 +4823,7 @@
       "topic": "TFLN fiber-chip interfaces / inverse-designed single-layer spot-size conversion",
       "topics": [
         "photonics",
-        "integrated-circuits"
+        "design-automation"
       ],
       "verified_on": "2026-10-28"
     }
