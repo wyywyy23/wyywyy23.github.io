@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-28",
+  "updated_on": "2026-10-29",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2025,7 +2025,8 @@
         "wang-multiband-sin-lasers",
         "shen-topological-tflt-modulator",
         "yue-michelson-acousto-optic",
-        "zheng-cross-scale-integrated-photonic-convolver"
+        "zheng-cross-scale-integrated-photonic-convolver",
+        "peng-lithography-aligned-qd-sin-integration"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -4826,6 +4827,21 @@
         "design-automation"
       ],
       "verified_on": "2026-10-28"
+    },
+    {
+      "id": "peng-lithography-aligned-qd-sin-integration",
+      "title": "Integration of III-V Quantum Dot Photonic Devices on Silicon Nitride via Lithography-Aligned Micro-Transfer Printing",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-10-23",
+      "url": "https://doi.org/10.1002/lpor.72084",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72084",
+      "topic": "Integrated quantum emitters / transfer-then-process III-V–SiN heterogeneous integration",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-10-29"
     }
   ]
 }
