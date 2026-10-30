@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-29",
+  "updated_on": "2026-10-30",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1434,7 +1434,8 @@
         "yang-hybrid-qd-microring",
         "wang-twisted-photon-hom",
         "imran-tunable-silicon-oeo",
-        "chawlani-modulation-free-integrated-laser-stabilization"
+        "chawlani-modulation-free-integrated-laser-stabilization",
+        "zhao-850nm-multiport-edge-coupler"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -4842,6 +4843,20 @@
         "quantum"
       ],
       "verified_on": "2026-10-29"
+    },
+    {
+      "id": "zhao-850nm-multiport-edge-coupler",
+      "title": "High-efficiency fiber-chip coupler at 850 nm via an inverse-design-optimized multi-port waveguide structure",
+      "journal_id": "photonics-research",
+      "year": 2026,
+      "published_on": "2026-08-20",
+      "url": "https://doi.org/10.1364/PRJ.601138",
+      "source": "https://opg.optica.org/prj/abstract.cfm?uri=prj-14-11-4619",
+      "topic": "850 nm SiN fiber-chip interfaces / inverse-optimized multi-port edge coupler; early online article",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-10-30"
     }
   ]
 }
