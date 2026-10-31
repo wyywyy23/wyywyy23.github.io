@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-30",
+  "updated_on": "2026-10-31",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2440,7 +2440,8 @@
         "su-transfer-printed-tflt-sin",
         "sun-geometrical-resonators",
         "congia-integrated-quantum-frequency-processor",
-        "kawahara-slowlight-eo-equalizer"
+        "kawahara-slowlight-eo-equalizer",
+        "metuh-vdw-waveguide-single-photon-source"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -4857,6 +4858,21 @@
         "photonics"
       ],
       "verified_on": "2026-10-30"
+    },
+    {
+      "id": "metuh-vdw-waveguide-single-photon-source",
+      "title": "Integrated on-chip quantum light sources on a van der Waals platform",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-10-28",
+      "url": "https://doi.org/10.1038/s41467-026-78806-0",
+      "source": "https://www.nature.com/articles/s41467-026-78806-0",
+      "topic": "Integrated quantum light sources / WSe2 emitters coupled to WS2 waveguides; early online article",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-10-31"
     }
   ]
 }
