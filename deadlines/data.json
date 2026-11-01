@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-10-31",
+  "updated_on": "2026-11-01",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2441,7 +2441,8 @@
         "sun-geometrical-resonators",
         "congia-integrated-quantum-frequency-processor",
         "kawahara-slowlight-eo-equalizer",
-        "metuh-vdw-waveguide-single-photon-source"
+        "metuh-vdw-waveguide-single-photon-source",
+        "lefaucher-silicon-w-center-cavity-source"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -4873,6 +4874,21 @@
         "quantum"
       ],
       "verified_on": "2026-10-31"
+    },
+    {
+      "id": "lefaucher-silicon-w-center-cavity-source",
+      "title": "Bright and pure single-photon source in silicon by nanoscale positioning of a color center in a microcavity",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-10-28",
+      "url": "https://doi.org/10.1038/s41467-026-78809-x",
+      "source": "https://www.nature.com/articles/s41467-026-78809-x",
+      "topic": "Silicon W-center single-photon source / nanoscale emitter–CBG cavity integration; early online article",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-01"
     }
   ]
 }
