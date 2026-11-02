@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-01",
+  "updated_on": "2026-11-02",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1385,7 +1385,8 @@
         "li-graphene-sin-nanobeam-switch",
         "wang-inverse-sin-spectrometer",
         "amorim-asi-photon-pair",
-        "tao-etch-lag-grating-coupler"
+        "tao-etch-lag-grating-coupler",
+        "singh-optilookup-photonic-rom"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -4889,6 +4890,21 @@
         "quantum"
       ],
       "verified_on": "2026-11-01"
+    },
+    {
+      "id": "singh-optilookup-photonic-rom",
+      "title": "OptiLookUp: a microring-based photonic read-only memory lookup table engine for photonic accelerators",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-10-30",
+      "url": "https://doi.org/10.1364/OE.616047",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-22-43023",
+      "topic": "Simulated microring photonic ROM / optical bank decoding and runtime function selection",
+      "topics": [
+        "photonics",
+        "system-control"
+      ],
+      "verified_on": "2026-11-02"
     }
   ]
 }
