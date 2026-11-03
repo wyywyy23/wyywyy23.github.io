@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-02",
+  "updated_on": "2026-11-03",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1386,7 +1386,8 @@
         "wang-inverse-sin-spectrometer",
         "amorim-asi-photon-pair",
         "tao-etch-lag-grating-coupler",
-        "singh-optilookup-photonic-rom"
+        "singh-optilookup-photonic-rom",
+        "fu-vertical-multicore-psgc-array"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2923,7 +2924,8 @@
       "fit": "Optical quantum information, communication and integrated quantum photonics.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "yama-gap-diamond-spin-photon-interface"
+        "yama-gap-diamond-spin-photon-interface",
+        "namdar-tfln-nongaussian-design"
       ],
       "target_group": "specialist",
       "target_topic": "quantum",
@@ -3687,12 +3689,13 @@
       "submission_mode": "fixed",
       "format": [
         "Title, abstract and full author list must be final at abstract registration.",
-        "Detailed page-limit, anonymity and submission-system instructions will be published separately."
+        "Up to 11 pages including appendices, plus unlimited references; ACM sigconf, two columns, single-spaced, US Letter PDF.",
+        "Double-blind review: anonymize author names, PDF metadata and artifact links. List every author in each reference."
       ],
-      "format_source": "https://iscaconf.org/isca2027/submit/callforpapers.php",
+      "format_source": "https://iscaconf.org/isca2027/submit/guidelines.php",
       "note": "",
       "fit": "Interconnection networks, chiplets/die-to-die fabrics, disaggregated systems and emerging computing. Requires an architecture contribution; no dedicated photonics track confirmed.",
-      "verified_on": "2026-10-14",
+      "verified_on": "2026-11-03",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -3718,6 +3721,10 @@
         {
           "label": "CFP / dates",
           "url": "https://iscaconf.org/isca2027/submit/callforpapers.php"
+        },
+        {
+          "label": "Submission guidelines / template",
+          "url": "https://iscaconf.org/isca2027/submit/guidelines.php"
         }
       ],
       "recurrence": {
@@ -4905,6 +4912,37 @@
         "system-control"
       ],
       "verified_on": "2026-11-02"
+    },
+    {
+      "id": "namdar-tfln-nongaussian-design",
+      "title": "Spectro-temporally tailored non-Gaussian quantum operations in thin-film waveguides",
+      "journal_id": "optica-quantum",
+      "year": 2026,
+      "published_on": "2026-10-27",
+      "url": "https://doi.org/10.1364/OPTICAQ.608646",
+      "source": "https://opg.optica.org/opticaq/abstract.cfm?uri=opticaq-4-6-518",
+      "topic": "Theoretical TFLN quantum-operation design / mode-selective photon addition and subtraction",
+      "topics": [
+        "photonics",
+        "quantum",
+        "design-automation"
+      ],
+      "verified_on": "2026-11-03"
+    },
+    {
+      "id": "fu-vertical-multicore-psgc-array",
+      "title": "Perfectly vertical polarization-splitting grating coupler array for space–polarization multiplexed optical interfaces",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-02",
+      "url": "https://doi.org/10.1364/OE.615075",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-23-43290",
+      "topic": "Silicon fiber-chip interfaces / seven-core-fiber polarization-splitting coupler array; element-wise measurements",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-03"
     }
   ]
 }
