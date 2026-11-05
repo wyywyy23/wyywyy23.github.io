@@ -1,6 +1,5 @@
 ---
 layout: post
-related_posts: []
 description: >
   An invited talk on our scalable silicon photonic DWDM link architecture is given at SPIE Photonics West on February 3, 2023.
 image:

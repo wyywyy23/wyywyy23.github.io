@@ -187,7 +187,7 @@ kramdown:
 
 hydejack:
   # Configure the order of complementary content on blog posts
-  post_addons: [about, newsletter, related, random, comments]
+  post_addons: [about, newsletter, related, comments]
 
   # Configure the order of complementary content on project pages
   project_addons: [about, newsletter, other, comments]
@@ -245,9 +245,9 @@ hydejack:
   # Disable the breadcrumbs above the title
   no_breadcrumbs: false
 
-  # Set to `true` when building with the `--lsi` option.
-  # The net effect is to use the Jekyll-provided `site.related_posts` variable.
-  use_lsi: true
+  # Recommend other posts in the same category unless related_posts is specified.
+  # Set to true only when using Jekyll-provided related posts instead.
+  use_lsi: false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.

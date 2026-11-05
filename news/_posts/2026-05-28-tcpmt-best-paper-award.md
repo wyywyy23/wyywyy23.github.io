@@ -1,6 +1,7 @@
 ---
 layout: post
-related_posts: []
+related_posts:
+  - pub/_posts/2024-11-07-invited-t-cpmt24-accepted.md
 description: >
   Our work on co-designed silicon photonics chip I/O received a 2025 IEEE T-CPMT Best Paper Award.
 image:

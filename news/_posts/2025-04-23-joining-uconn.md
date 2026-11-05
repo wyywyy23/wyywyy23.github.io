@@ -1,6 +1,5 @@
 ---
 layout: post
-related_posts: []
 description: >
   I’m starting as an assistant professor at UConn this fall!
 image:

@@ -1,6 +1,5 @@
 ---
 layout: post
-related_posts: []
 description: >
   Our paper on order-preserving DWDM channel calibration is accepted at OFC 2025 and will be presented on April 2, 2025.
 image:

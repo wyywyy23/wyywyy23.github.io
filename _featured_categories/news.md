@@ -3,14 +3,14 @@
 layout: grid
 
 # The title of the tag's page.
-title: News
+title: Announcements
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: news
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  News and announcements.
+  Announcements about appointments, awards, and activities.
 
 # (Optional) You can disable grouping posts by date.
 no_groups: false

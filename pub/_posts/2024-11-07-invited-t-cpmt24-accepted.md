@@ -1,6 +1,7 @@
 ---
 layout: post
-related_posts: []
+related_posts:
+  - news/_posts/2026-05-28-tcpmt-best-paper-award.md
 description: >
   Our invited journal paper on comb-driven 3D-integrated photonics I/O is accepted for publication in IEEE T-CPMT.
 image:
