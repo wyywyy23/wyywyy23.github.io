@@ -22,6 +22,9 @@ menu:
   url: "/blog/"
 
 copyright: Yuyang Wang. All rights reserved.
+legal:
+- title: Privacy
+  url: /privacy/
 
 permalink: "/blog/:categories/:year-:month-:day-:title/"
 
@@ -89,7 +92,7 @@ hydejack:
   no_theme_color: false
   no_breadcrumbs: false
   use_lsi: false
-  cookies_banner: false
+  cookies_banner: true
   advertise: false
   hide_dates: false
   hide_last_modified: false
