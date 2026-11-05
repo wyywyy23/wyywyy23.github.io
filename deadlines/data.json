@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-03",
+  "updated_on": "2026-11-05",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2506,6 +2506,59 @@
       "eligibility": null
     },
     {
+      "id": "advanced-science",
+      "title": "Advanced Science",
+      "short_name": "Advanced Science",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics",
+        "quantum",
+        "integrated-circuits"
+      ],
+      "website": "https://advanced.onlinelibrary.wiley.com/journal/21983844",
+      "submission_mode": "rolling",
+      "format": [
+        "Unsolicited, peer-reviewed Research Articles reporting original research.",
+        "Free-format initial submission; follow the current author guidelines."
+      ],
+      "format_source": "https://advanced.onlinelibrary.wiley.com/hub/journal/21983844/author-guidelines",
+      "note": "",
+      "fit": "Interdisciplinary advances in integrated quantum photonics, functional materials and photonic systems.",
+      "verified_on": "2026-11-05",
+      "paper_ids": [
+        "lee-lnoi-ququart-vqe"
+      ],
+      "target_group": "reach",
+      "target_topic": null,
+      "journal_id": null,
+      "article_format": {
+        "label": "Research Article",
+        "source": "https://advanced.onlinelibrary.wiley.com/hub/journal/21983844/author-guidelines"
+      },
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://advanced.onlinelibrary.wiley.com/journal/21983844"
+        },
+        {
+          "label": "Author information",
+          "url": "https://advanced.onlinelibrary.wiley.com/hub/journal/21983844/author-guidelines"
+        },
+        {
+          "label": "Journal scope",
+          "url": "https://advanced.onlinelibrary.wiley.com/hub/journal/21983844/productinformation.html"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
       "id": "light",
       "title": "Light: Science & Applications",
       "short_name": "Light: Science & Applications",
@@ -4943,6 +4996,22 @@
         "optical-communications"
       ],
       "verified_on": "2026-11-03"
+    },
+    {
+      "id": "lee-lnoi-ququart-vqe",
+      "title": "Lithium Niobate Electro-Optic Photonic Processor for Variational Quantum Eigensolver",
+      "journal_id": "advanced-science",
+      "year": 2026,
+      "published_on": "2026-08-18",
+      "url": "https://doi.org/10.1002/advs.76876",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13482944/",
+      "topic": "EO-reconfigured LNOI quantum VQE / four-path ququart and integrated PPLNOI photon-pair source",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-05"
     }
   ]
 }
