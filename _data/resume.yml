@@ -33,10 +33,6 @@ work:
     website: "https://www.ee.uconn.edu/people/faculty/faculty_alphabetical"
     startDate: "2025-08-23"
     endDate: ""
-    # summary: >
-    #   Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-    #   consistently fielded high Weisman Scores™ that are not merely competitive,
-    #   but approach the theoretical limit of lossless compression.
     # highlights:
     #   - "Founded the Integrated Photonics and Quantum Technologies (IPQT) Lab, focusing on large-scale integrated photonics for future communication and computing systems"
     #   - "Teaching ECE 3500: Semiconductor Devices and Fabrication (Fall 2025)"
@@ -46,10 +42,6 @@ work:
     website: "https://lightwave.ee.columbia.edu/"
     startDate: "2021-09-13"
     endDate: "2025-08-22"
-    # summary: >
-    #   Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-    #   consistently fielded high Weisman Scores™ that are not merely competitive,
-    #   but approach the theoretical limit of lossless compression.
     # highlights:
     #   - "Photonics design and integration, DARPA PIPES program, led the Phase 2 development and the successful transition to Phase 3"
     #   - "Contributed to the writing and visualization of the proposal that led to the award of $35M JUMP 2.0 grant for the CUbiC Center"
@@ -85,11 +77,6 @@ education:
     studyType: "B.Eng."
     startDate: "2011-09-01"
     endDate: "2015-07-01"
-# awards:
-#   - title: "Digital Compression Pioneer Award"
-#     date: "2014-11-01"
-#     awarder: "Techcrunch"
-#     summary: "There is no spoon."
 publications:
   - name: "Check out the publications page"
     publisher: ""
@@ -118,8 +105,3 @@ interests:
     keywords:
       - "Classical Piano"
       - "<a href='https://en.wikipedia.org/wiki/Guan_(instrument)' target='_blank' rel='noopener'>Guanzi</a>"
-# references:
-#   - name: "Erlich Bachman"
-#     reference: >
-#       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-#       Company proved that he will be a valuable addition to any company.
