@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-05",
+  "updated_on": "2026-11-06",
   "entries": [
     {
       "id": "ofc-2027",
@@ -3001,6 +3001,55 @@
       "eligibility": null
     },
     {
+      "id": "physical-review-a",
+      "title": "Physical Review A",
+      "short_name": "PRA",
+      "kind": "journal",
+      "category": "journal",
+      "track": "rolling",
+      "cycle": "Regular submissions",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "website": "https://journals.aps.org/pra/",
+      "submission_mode": "rolling",
+      "format": [
+        "Regular Articles: original research; no length limit.",
+        "Letters: 4500-word limit.",
+        "PDF manuscript for peer review; REVTeX or Word templates available."
+      ],
+      "format_source": "https://journals.aps.org/pra/authors",
+      "note": "",
+      "fit": "Quantum optics, integrated quantum circuits and optical quantum-information physics.",
+      "verified_on": "2026-11-06",
+      "paper_ids": [
+        "lima-pic-contextuality"
+      ],
+      "target_group": "specialist",
+      "target_topic": "quantum",
+      "journal_id": null,
+      "article_format": {
+        "label": "Regular Article / Letter (4500 words)",
+        "source": "https://journals.aps.org/pra/authors"
+      },
+      "deadlines": [],
+      "links": [
+        {
+          "label": "Journal / latest articles",
+          "url": "https://journals.aps.org/pra/"
+        },
+        {
+          "label": "Author information",
+          "url": "https://journals.aps.org/pra/authors"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
       "id": "advanced-materials",
       "title": "Advanced Materials",
       "short_name": "Advanced Materials",
@@ -5012,6 +5061,21 @@
         "system-control"
       ],
       "verified_on": "2026-11-05"
+    },
+    {
+      "id": "lima-pic-contextuality",
+      "title": "Contextuality tests in photonic integrated chips with imperfect compatibility",
+      "journal_id": "physical-review-a",
+      "year": 2026,
+      "published_on": "2026-11-05",
+      "url": "https://doi.org/10.1103/my8d-tdpk",
+      "source": "https://journals.aps.org/pra/abstract/10.1103/my8d-tdpk",
+      "topic": "Proposed qutrit PIC contextuality tests with loss and fabrication-error analysis (theoretical)",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-06"
     }
   ]
 }
