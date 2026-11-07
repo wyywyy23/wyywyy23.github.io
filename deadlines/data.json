@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-06",
+  "updated_on": "2026-11-07",
   "entries": [
     {
       "id": "ofc-2027",
@@ -3352,7 +3352,8 @@
       "fit": "Applied physics of integrated photonic and quantum devices.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "li-automated-quantum-dot-nanocavity"
+        "li-automated-quantum-dot-nanocavity",
+        "tang-boundary-scattering"
       ],
       "target_group": "specialist",
       "target_topic": "applied",
@@ -5076,6 +5077,21 @@
         "quantum"
       ],
       "verified_on": "2026-11-06"
+    },
+    {
+      "id": "tang-boundary-scattering",
+      "title": "Measurement of the complex scattering matrix in a nanoscale cavity array for boundary scattering tomography",
+      "journal_id": "physical-review-applied",
+      "year": 2026,
+      "published_on": "2026-11-04",
+      "url": "https://doi.org/10.1103/3ctw-4c89",
+      "source": "https://journals.aps.org/prapplied/abstract/10.1103/3ctw-4c89",
+      "topic": "Measured silicon cavity-array edge scattering; prerequisite for quantum-simulator tomography",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-07"
     }
   ]
 }
