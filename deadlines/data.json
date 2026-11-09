@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-07",
+  "updated_on": "2026-11-09",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2444,7 +2444,8 @@
         "congia-integrated-quantum-frequency-processor",
         "kawahara-slowlight-eo-equalizer",
         "metuh-vdw-waveguide-single-photon-source",
-        "lefaucher-silicon-w-center-cavity-source"
+        "lefaucher-silicon-w-center-cavity-source",
+        "zhou-unified-coherent-links"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2578,7 +2579,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "lightin",
-        "ngan-self-aligned-quantum"
+        "ngan-self-aligned-quantum",
+        "pontula-shared-idler-quantum-combs"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -5092,6 +5094,37 @@
         "quantum"
       ],
       "verified_on": "2026-11-07"
+    },
+    {
+      "id": "zhou-unified-coherent-links",
+      "title": "Silicon photonics provides a unified solution for all-distance optical communications",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-11-05",
+      "url": "https://doi.org/10.1038/s41467-026-79026-2",
+      "source": "https://www.nature.com/articles/s41467-026-79026-2",
+      "topic": "SiN external-cavity laser and silicon-photonic coherent transceivers for short- and long-reach links",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-09"
+    },
+    {
+      "id": "pontula-shared-idler-quantum-combs",
+      "title": "Long-range spectral entanglement and quantum correlations in highly nondegenerate multi-comb and ultrafast systems",
+      "journal_id": "light",
+      "year": 2026,
+      "published_on": "2026-11-05",
+      "url": "https://doi.org/10.1038/s41377-026-02491-3",
+      "source": "https://www.nature.com/articles/s41377-026-02491-3",
+      "topic": "Theoretical shared-idler quantum-comb model; free-space cavity, integrated realization prospective",
+      "topics": [
+        "photonics",
+        "quantum",
+        "modeling-simulation"
+      ],
+      "verified_on": "2026-11-09"
     }
   ]
 }
