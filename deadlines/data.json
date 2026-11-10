@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-09",
+  "updated_on": "2026-11-10",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2276,7 +2276,8 @@
         "daudlin-3d",
         "nakajima-unitary-sdm",
         "st-arnault-circulator",
-        "reichler-endless-locking"
+        "reichler-endless-locking",
+        "gao-all-optical-tfln-memristor"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -5125,6 +5126,20 @@
         "modeling-simulation"
       ],
       "verified_on": "2026-11-09"
+    },
+    {
+      "id": "gao-all-optical-tfln-memristor",
+      "title": "All-optical thin-film lithium niobate memristor",
+      "journal_id": "nature-photonics",
+      "year": 2026,
+      "published_on": "2026-11-06",
+      "url": "https://doi.org/10.1038/s41566-026-02048-1",
+      "source": "https://www.nature.com/articles/s41566-026-02048-1",
+      "topic": "Oxygen-implanted TFLN optical memory / nonvolatile microring device; photonic computing platform",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-10"
     }
   ]
 }
