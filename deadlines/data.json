@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-10",
+  "updated_on": "2026-11-12",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1973,29 +1973,37 @@
       "topics": [
         "photonics"
       ],
-      "website": "https://www.degruyterbrill.com/journal/key/nanoph/html",
+      "website": "https://onlinelibrary.wiley.com/journal/21928614",
       "submission_mode": "rolling",
-      "format": [],
-      "format_source": "https://www.degruyterbrill.com/journal/key/nanoph/html",
+      "format": [
+        "Research Articles report original, peer-reviewed research; unsolicited submissions are accepted.",
+        "Free-format initial submission: Word or a single PDF generated from LaTeX; consistent reference style.",
+        "A typical Research Article is 3,000-8,000 words; longer manuscripts may be justified by scientific content."
+      ],
+      "format_source": "https://onlinelibrary.wiley.com/page/journal/21928614/homepage/author-guidelines",
       "note": "",
       "fit": "Integrated nanophotonic devices, fabrication platforms, variability and device-to-link modeling.",
-      "verified_on": "2026-09-25",
+      "verified_on": "2026-11-12",
       "paper_ids": [
-        "parsons-wafer"
+        "parsons-wafer",
+        "garcia-coleto-visible-sin-library"
       ],
       "target_group": "devices",
       "target_topic": null,
       "journal_id": null,
-      "article_format": null,
+      "article_format": {
+        "label": "Research Article; free-format initial submission",
+        "source": "https://onlinelibrary.wiley.com/page/journal/21928614/homepage/author-guidelines"
+      },
       "deadlines": [],
       "links": [
         {
           "label": "Journal / latest articles",
-          "url": "https://www.degruyterbrill.com/journal/key/nanoph/html"
+          "url": "https://onlinelibrary.wiley.com/journal/21928614"
         },
         {
           "label": "Author information",
-          "url": "https://www.degruyterbrill.com/journal/key/nanoph/html"
+          "url": "https://onlinelibrary.wiley.com/page/journal/21928614/homepage/author-guidelines"
         }
       ],
       "recurrence": null,
@@ -2581,7 +2589,8 @@
       "paper_ids": [
         "lightin",
         "ngan-self-aligned-quantum",
-        "pontula-shared-idler-quantum-combs"
+        "pontula-shared-idler-quantum-combs",
+        "ammendola-free-space-quantum-processor"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -5140,6 +5149,35 @@
         "photonics"
       ],
       "verified_on": "2026-11-10"
+    },
+    {
+      "id": "garcia-coleto-visible-sin-library",
+      "title": "AIM-Photonics Visible-to-Near-Infrared Silicon-Nitride-Based Silicon-Photonics Platform and Component Library",
+      "journal_id": "nanophotonics",
+      "year": 2026,
+      "published_on": "2026-11-07",
+      "url": "https://doi.org/10.1002/nap2.70350",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13744099/",
+      "topic": "Measured 450-1000 nm TE/TM component library on a two-layer SiN foundry platform; integrated sources and detectors remain future work",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-12"
+    },
+    {
+      "id": "ammendola-free-space-quantum-processor",
+      "title": "Compact and programmable large-scale optical processor in free space",
+      "journal_id": "light",
+      "year": 2026,
+      "published_on": "2026-03-19",
+      "url": "https://doi.org/10.1038/s41377-026-02236-2",
+      "source": "https://www.nature.com/articles/s41377-026-02236-2",
+      "topic": "Three-layer programmable free-space processor for translation-invariant quantum walks; heralded-single-photon experiments",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-12"
     }
   ]
 }
