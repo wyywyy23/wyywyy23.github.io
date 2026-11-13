@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-12",
+  "updated_on": "2026-11-13",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2037,7 +2037,8 @@
         "shen-topological-tflt-modulator",
         "yue-michelson-acousto-optic",
         "zheng-cross-scale-integrated-photonic-convolver",
-        "peng-lithography-aligned-qd-sin-integration"
+        "peng-lithography-aligned-qd-sin-integration",
+        "wang-phase-programmed-metalens"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -5178,6 +5179,20 @@
         "quantum"
       ],
       "verified_on": "2026-11-12"
+    },
+    {
+      "id": "wang-phase-programmed-metalens",
+      "title": "Reconfigurable Optical Image Processor Unit via Phase-Programmed On-Chip Metalens",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-05",
+      "url": "https://doi.org/10.1002/lpor.72187",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72187",
+      "topic": "Phase-programmed passive on-chip metalens; grayscale image operations reconstructed from measured multi-port responses",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-13"
     }
   ]
 }
