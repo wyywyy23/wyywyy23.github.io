@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-13",
+  "updated_on": "2026-11-14",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2455,7 +2455,9 @@
         "kawahara-slowlight-eo-equalizer",
         "metuh-vdw-waveguide-single-photon-source",
         "lefaucher-silicon-w-center-cavity-source",
-        "zhou-unified-coherent-links"
+        "zhou-unified-coherent-links",
+        "patel-nanowire-quantum-dot-reflection",
+        "tang-tfln-wse2-pin-photodiode"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -5193,6 +5195,36 @@
         "photonics"
       ],
       "verified_on": "2026-11-13"
+    },
+    {
+      "id": "patel-nanowire-quantum-dot-reflection",
+      "title": "Single photon reflection from a quantum dot in a waveguide",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-11-11",
+      "url": "https://doi.org/10.1038/s41467-026-78984-x",
+      "source": "https://www.nature.com/articles/s41467-026-78984-x",
+      "topic": "Vertical nanowire quantum-dot interface for coherent single-photon reflection; tapered-waveguide mode matching and stray-field rejection",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-14"
+    },
+    {
+      "id": "tang-tfln-wse2-pin-photodiode",
+      "title": "Thin-film lithium niobate waveguide-integrated p-i-n Tungsten selenide photodiodes with 10Gbit/s data reception",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-11-12",
+      "url": "https://doi.org/10.1038/s41467-026-79595-2",
+      "source": "https://www.nature.com/articles/s41467-026-79595-2",
+      "topic": "Waveguide-integrated WSe2 p-i-n photodiode on TFLN; visible-light 10 Gbit/s reception with measured 1.12 GHz bandwidth",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-14"
     }
   ]
 }
