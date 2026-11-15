@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-14",
+  "updated_on": "2026-11-15",
   "entries": [
     {
       "id": "ofc-2027",
@@ -2038,7 +2038,9 @@
         "yue-michelson-acousto-optic",
         "zheng-cross-scale-integrated-photonic-convolver",
         "peng-lithography-aligned-qd-sin-integration",
-        "wang-phase-programmed-metalens"
+        "wang-phase-programmed-metalens",
+        "wu-sin-laser-lightweight-coherent-links",
+        "wang-photonic-spectral-reconstruction"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -2457,7 +2459,8 @@
         "lefaucher-silicon-w-center-cavity-source",
         "zhou-unified-coherent-links",
         "patel-nanowire-quantum-dot-reflection",
-        "tang-tfln-wse2-pin-photodiode"
+        "tang-tfln-wse2-pin-photodiode",
+        "wyborski-mote2-quantum-emitters"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -3039,7 +3042,8 @@
       "fit": "Quantum optics, integrated quantum circuits and optical quantum-information physics.",
       "verified_on": "2026-11-06",
       "paper_ids": [
-        "lima-pic-contextuality"
+        "lima-pic-contextuality",
+        "mengler-locked-quantum-pair-source"
       ],
       "target_group": "specialist",
       "target_topic": "quantum",
@@ -3368,7 +3372,8 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "li-automated-quantum-dot-nanocavity",
-        "tang-boundary-scattering"
+        "tang-boundary-scattering",
+        "qodratipour-time-bin-phase-lock"
       ],
       "target_group": "specialist",
       "target_topic": "applied",
@@ -5225,6 +5230,82 @@
         "optical-communications"
       ],
       "verified_on": "2026-11-14"
+    },
+    {
+      "id": "mengler-locked-quantum-pair-source",
+      "title": "Fully integrated entangled photon-pair source on a photonic chip for a wavelength-multiplexed multiparty quantum key distribution network",
+      "journal_id": "physical-review-a",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1103/n4rw-wgx1",
+      "source": "https://journals.aps.org/pra/abstract/10.1103/n4rw-wgx1",
+      "topic": "SiN photon-pair source with on-chip filtering and pulsed PDH locking; pump laser and demultiplexing remain external",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-15"
+    },
+    {
+      "id": "qodratipour-time-bin-phase-lock",
+      "title": "Low-noise millisecond-scale active stabilization of unbalanced Mach–Zehnder interferometers for generation and verification of photonic time-bin entangled states",
+      "journal_id": "physical-review-applied",
+      "year": 2026,
+      "published_on": "2026-11-12",
+      "url": "https://doi.org/10.1103/ftlp-j83g",
+      "source": "https://journals.aps.org/prapplied/abstract/10.1103/ftlp-j83g",
+      "topic": "Reference-pulse dither locking of fiber interferometers for time-bin entanglement; 24-hour continuous phase locking",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-15"
+    },
+    {
+      "id": "wyborski-mote2-quantum-emitters",
+      "title": "Toward triggered generation of indistinguishable single photons from MoTe2 quantum emitters",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-11-11",
+      "url": "https://doi.org/10.1038/s41467-026-78808-y",
+      "source": "https://www.nature.com/articles/s41467-026-78808-y",
+      "topic": "Bilayer MoTe2 single-photon emitters at 1090–1200 nm; HOM visibility ~7.1%, up to ~60% with post-selection",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-15"
+    },
+    {
+      "id": "wu-sin-laser-lightweight-coherent-links",
+      "title": "Silicon‐Nitride‐Based Laser Directly Driving Computationally Lightweight 600 Gbps/λ Optical Transmission",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-10",
+      "url": "https://doi.org/10.1002/lpor.72163",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72163",
+      "topic": "SiN external-cavity laser with SOA for 600 Gbps/λ coherent transmission; narrow-linewidth optical source",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-15"
+    },
+    {
+      "id": "wang-photonic-spectral-reconstruction",
+      "title": "Photonic Integrated Circuits for End‐to‐End Spectral Analysis: Computational Sampling With Neural Network Reconstruction",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-08",
+      "url": "https://doi.org/10.1002/lpor.72169",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72169",
+      "topic": "64-channel PIC spectral sampling and 32 × 32 photonic neural reconstruction for spectral analysis",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-15"
     }
   ]
 }
