@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-15",
+  "updated_on": "2026-11-16",
   "entries": [
     {
       "id": "ofc-2027",
@@ -769,9 +769,9 @@
         "Title must begin with \"Late Breaking Results: \"."
       ],
       "format_source": "https://www.date-conference.com/call-for-papers#Submission-Instructions-Late-Breaking-Results",
-      "note": "Separate peer-reviewed Late Breaking Results extended-abstract call; not an extension of regular research-paper submission. Submission link not yet available on the official site as of 3 October 2026.",
+      "note": "Separate peer-reviewed Late Breaking Results extended-abstract call; not an extension of regular research-paper submission.",
       "fit": "Design Methods and Tools, on-chip communication and emerging technologies. Fit requires a design/automation contribution; a dedicated photonics track is not confirmed.",
-      "verified_on": "2026-10-03",
+      "verified_on": "2026-11-16",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -794,6 +794,10 @@
         {
           "label": "Format / templates",
           "url": "https://www.date-conference.com/call-for-papers#Submission-Instructions-Late-Breaking-Results"
+        },
+        {
+          "label": "LBR submission",
+          "url": "https://softconf.com/date27/LBR/"
         }
       ],
       "recurrence": null,
@@ -1387,7 +1391,9 @@
         "amorim-asi-photon-pair",
         "tao-etch-lag-grating-coupler",
         "singh-optilookup-photonic-rom",
-        "fu-vertical-multicore-psgc-array"
+        "fu-vertical-multicore-psgc-array",
+        "yang-si-inp-compact-pcsel",
+        "mahim-snv-overcoupled-readout-model"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2834,7 +2840,9 @@
       "note": "",
       "fit": "Major quantum-information results; integrated quantum hardware is relevant.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "zecchetto-topological-pair-source"
+      ],
       "target_group": "specialist",
       "target_topic": "quantum",
       "journal_id": null,
@@ -5306,6 +5314,52 @@
         "photonics"
       ],
       "verified_on": "2026-11-15"
+    },
+    {
+      "id": "yang-si-inp-compact-pcsel",
+      "title": "Continuous-wave operation of a compact 1550-nm Si/InP heterogeneously integrated photonic-crystal surface-emitting laser",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1364/oe.615542",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-23-45188",
+      "topic": "Electrically pumped Si/InP PCSEL with lateral bandgap confinement; CW lasing and 10 Gbps NRZ-OOK demonstration",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "id": "mahim-snv-overcoupled-readout-model",
+      "title": "Fast single-shot readout of tin-vacancy spins with an overcoupled diamond nanocavity on thin-film lithium niobate",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1364/oe.618386",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-23-45209",
+      "topic": "Simulated diamond–TFLN cavity interface and strained-SnV readout model; predicted 98.8% fidelity in 0.1 μs",
+      "topics": [
+        "photonics",
+        "quantum",
+        "modeling-simulation"
+      ],
+      "verified_on": "2026-11-16"
+    },
+    {
+      "id": "zecchetto-topological-pair-source",
+      "title": "Spectrally Robust Photon-Pair Generation in Topological Waveguide Arrays",
+      "journal_id": "prx-quantum",
+      "year": 2026,
+      "published_on": "2026-11-12",
+      "url": "https://doi.org/10.1103/kszt-p63d",
+      "source": "https://journals.aps.org/prxquantum/abstract/10.1103/kszt-p63d",
+      "topic": "AlGaAs SSH arrays with measured SPDC resonance robustness; multi-source interference and entanglement remain simulated",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-16"
     }
   ]
 }
