@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-16",
+  "updated_on": "2026-11-17",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1393,7 +1393,10 @@
         "singh-optilookup-photonic-rom",
         "fu-vertical-multicore-psgc-array",
         "yang-si-inp-compact-pcsel",
-        "mahim-snv-overcoupled-readout-model"
+        "mahim-snv-overcoupled-readout-model",
+        "liao-sin-gaussian-correlations",
+        "ni-modal-balanced-mo-isolator",
+        "anchordoquy-automated-fiber-mode-excitation"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2841,7 +2844,8 @@
       "fit": "Major quantum-information results; integrated quantum hardware is relevant.",
       "verified_on": "2026-09-25",
       "paper_ids": [
-        "zecchetto-topological-pair-source"
+        "zecchetto-topological-pair-source",
+        "henke-directional-waveguide-molecule"
       ],
       "target_group": "specialist",
       "target_topic": "quantum",
@@ -3999,6 +4003,57 @@
         "venue": "Venue to be announced",
         "source": "https://www.microarch.org/micro59/"
       },
+      "announced_next": null,
+      "eligibility": null
+    },
+    {
+      "id": "jlt-microwave-photonics-2026",
+      "title": "Microwave Photonics (MWP 2026)",
+      "short_name": "JLT",
+      "kind": "special-issue",
+      "category": "special",
+      "track": "special",
+      "cycle": "September/October 2027",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "website": "https://opg.optica.org/jlt/home.cfm",
+      "submission_mode": "fixed",
+      "format": [
+        "Use JLT author instructions; select manuscript type “MWP 2026”.",
+        "Original contributions beyond 8 pages incur mandatory overlength charges; this is not a hard page limit."
+      ],
+      "format_source": "https://ieeephotonics.org/wp-content/uploads/2026/11/JLT-Microwave-Photonics-call-for-papers-2026_final.pdf",
+      "note": "Also accepts work not presented at MWP 2026. Planned issue: September/October 2027.",
+      "fit": "Integrated microwave photonics, LNOI devices, high-speed optoelectronics, RF/THz signal processing and systems.",
+      "verified_on": "2026-11-17",
+      "paper_ids": [],
+      "target_group": null,
+      "target_topic": null,
+      "journal_id": "jlt",
+      "article_format": null,
+      "deadlines": [
+        {
+          "label": "Manuscript",
+          "date": "2027-03-01",
+          "at": null,
+          "timezone": null,
+          "source": "https://ieeephotonics.org/wp-content/uploads/2026/11/JLT-Microwave-Photonics-call-for-papers-2026_final.pdf"
+        }
+      ],
+      "links": [
+        {
+          "label": "CFP PDF",
+          "url": "https://ieeephotonics.org/wp-content/uploads/2026/11/JLT-Microwave-Photonics-call-for-papers-2026_final.pdf"
+        },
+        {
+          "label": "Submission portal",
+          "url": "https://ieee.atyponrex.com/journal/ieee-jlt"
+        }
+      ],
+      "recurrence": null,
+      "event": null,
       "announced_next": null,
       "eligibility": null
     }
@@ -5360,6 +5415,69 @@
         "quantum"
       ],
       "verified_on": "2026-11-16"
+    },
+    {
+      "id": "henke-directional-waveguide-molecule",
+      "title": "Directional and Correlated Optical Emission from a Waveguide-Engineered Molecule with Local Control",
+      "journal_id": "prx-quantum",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1103/v1r7-lr89",
+      "source": "https://journals.aps.org/prxquantum/abstract/10.1103/v1r7-lr89",
+      "topic": "Waveguide-coupled quantum-dot pair with electrical tuning and free-space phase control of directional emission",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-17"
+    },
+    {
+      "id": "liao-sin-gaussian-correlations",
+      "title": "On-chip reconfigurable two-mode Gaussian correlations in a Si3N4 photonic circuit",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/oe.616756",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45394",
+      "topic": "SiN two-mode squeezed-state circuit with programmable quadrature correlations; ~4 dB inferred on-chip squeezing",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-17"
+    },
+    {
+      "id": "ni-modal-balanced-mo-isolator",
+      "title": "High-isolation magneto-optical waveguide isolator and circulator with a partial mode converter for modal-amplitude balancing",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/oe.615599",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45381",
+      "topic": "Partial mode conversion balances modal loss in a measured magneto-optical waveguide isolator/circulator",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-17"
+    },
+    {
+      "id": "anchordoquy-automated-fiber-mode-excitation",
+      "title": "Automated high-purity mode selective excitation in three-mode fiber using numerical mode decomposition",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/oe.611839",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45280",
+      "topic": "Automated beam-steering alignment and mode-selective excitation of a three-mode polarization-maintaining fiber",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "system-control"
+      ],
+      "verified_on": "2026-11-17"
     }
   ]
 }
