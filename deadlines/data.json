@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-17",
+  "updated_on": "2026-11-18",
   "entries": [
     {
       "id": "ofc-2027",
@@ -338,13 +338,13 @@
       "eligibility": null
     },
     {
-      "id": "oip-2026",
-      "title": "OIP 2026",
+      "id": "oip-2027",
+      "title": "OIP 2027",
       "short_name": "OIP",
       "kind": "conference",
       "category": "core",
       "track": "regular",
-      "cycle": "2026",
+      "cycle": "2027",
       "topics": [
         "photonics",
         "optical-communications"
@@ -352,13 +352,14 @@
       "website": "https://oip-conference.org/",
       "submission_mode": "fixed",
       "format": [
-        "2-page IEEE paper including authors and figures.",
-        "Abstract of at most 45 words."
+        "2-page original, unpublished paper including author names, affiliations, charts, illustrations and figures; use the IEEE paper template.",
+        "Abstract of at most 45 words, used in the online program.",
+        "Only accepted papers presented at the conference are included in the IEEE Xplore proceedings."
       ],
       "format_source": "https://oip-conference.org/paper-submission-1",
-      "note": "2027 meeting moves from June to April; the previous April submission month is only a weak planning estimate. Start checking earlier.",
-      "fit": "Optical Interconnects and Packaging: CPO, chiplets, photonic devices and design.",
-      "verified_on": "2026-09-29",
+      "note": "Closing time and timezone are not announced. Acceptance notification: March 15, 2027.",
+      "fit": "Official tracks include co-packaging, optical integration, light sources, photonic devices, inverse/AI-assisted design, chiplet/disaggregated systems, 2.5D/3D integration and electronics for photonics.",
+      "verified_on": "2026-11-18",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -366,8 +367,8 @@
       "article_format": null,
       "deadlines": [
         {
-          "label": "Paper + abstract (extended)",
-          "date": "2026-04-10",
+          "label": "Regular paper + abstract",
+          "date": "2027-01-19",
           "at": null,
           "timezone": null,
           "source": "https://oip-conference.org/paper-submission-1"
@@ -375,38 +376,28 @@
       ],
       "links": [
         {
-          "label": "CFP / dates",
+          "label": "CFP / submission requirements",
           "url": "https://oip-conference.org/paper-submission-1"
         },
         {
-          "label": "Format",
-          "url": "https://oip-conference.org/paper-submission-1"
+          "label": "Meeting dates / venue",
+          "url": "https://oip-conference.org/"
         }
       ],
       "recurrence": {
         "frequency": "annual",
-        "basis_date": "2026-04-10",
+        "basis_date": "2027-01-19",
         "basis_url": "https://oip-conference.org/paper-submission-1",
-        "basis_cycle": 2026
+        "basis_cycle": 2027
       },
       "event": {
-        "start": "2026-06-15",
-        "end": "2026-06-17",
-        "city": "Fort Collins, Colorado, USA",
-        "venue": "Venue not retained",
-        "source": "https://www.optica.org/events/global_calendar/events/optical_interconnects_and_packaging_%28oip%29_conference/"
+        "start": "2027-04-26",
+        "end": "2027-04-28",
+        "city": "Santa Barbara, California, USA",
+        "venue": "Hilton Santa Barbara Beachfront Resort",
+        "source": "https://oip-conference.org/"
       },
-      "announced_next": {
-        "cycle": "2027",
-        "source": "https://oip-conference.org/",
-        "event": {
-          "start": "2027-04-26",
-          "end": "2027-04-28",
-          "city": "Santa Barbara, California, USA",
-          "venue": "Hilton Santa Barbara Beachfront Resort",
-          "source": "https://oip-conference.org/"
-        }
-      },
+      "announced_next": null,
       "eligibility": null
     },
     {
@@ -1396,7 +1387,9 @@
         "mahim-snv-overcoupled-readout-model",
         "liao-sin-gaussian-correlations",
         "ni-modal-balanced-mo-isolator",
-        "anchordoquy-automated-fiber-mode-excitation"
+        "anchordoquy-automated-fiber-mode-excitation",
+        "yao-ising-cross-instance-reuse",
+        "cutrona-set-forget-periodic-microcombs"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1446,7 +1439,8 @@
         "wang-twisted-photon-hom",
         "imran-tunable-silicon-oeo",
         "chawlani-modulation-free-integrated-laser-stabilization",
-        "zhao-850nm-multiport-edge-coupler"
+        "zhao-850nm-multiport-edge-coupler",
+        "lian-programmable-opa-beam-shaping"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1686,7 +1680,9 @@
       "paper_ids": [
         "wang-ramzi",
         "liu-agf-folded-thermo-optic-phase-shifter",
-        "zhang-euler-ln-microresonator"
+        "zhang-euler-ln-microresonator",
+        "billiet-transfer-printed-icl",
+        "luo-polarization-insensitive-sin-cwdm"
       ],
       "target_group": "letters",
       "target_topic": null,
@@ -2845,7 +2841,9 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "zecchetto-topological-pair-source",
-        "henke-directional-waveguide-molecule"
+        "henke-directional-waveguide-molecule",
+        "stefszky-hybrid-sampling-benchmark",
+        "stuart-er-spin-state-telecom-memory"
       ],
       "target_group": "specialist",
       "target_topic": "quantum",
@@ -5478,6 +5476,110 @@
         "system-control"
       ],
       "verified_on": "2026-11-17"
+    },
+    {
+      "id": "stefszky-hybrid-sampling-benchmark",
+      "title": "Benchmarking Gaussian and Non-Gaussian Input States with a Hybrid Sampling Platform",
+      "journal_id": "prx-quantum",
+      "year": 2026,
+      "published_on": "2026-11-17",
+      "url": "https://doi.org/10.1103/kqyv-lvvy",
+      "source": "https://journals.aps.org/prxquantum/abstract/10.1103/kqyv-lvvy",
+      "topic": "Hybrid boson sampler with eight configurable inputs and a 12-mode integrated interferometer; nonclassicality benchmarking",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "yao-ising-cross-instance-reuse",
+      "title": "Warm-start state reuse across changing Ising instances in an optoelectronic oscillator Ising machine",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-17",
+      "url": "https://doi.org/10.1364/oe.612457",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45532",
+      "topic": "Reloading measured states across changed Ising instances; physical 40-spin tests with field and coupling changes",
+      "topics": [
+        "photonics",
+        "system-control"
+      ],
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "cutrona-set-forget-periodic-microcombs",
+      "title": "Set-and-forget synthesis of periodic microcombs in a microresonator-filtered semiconductor laser",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-17",
+      "url": "https://doi.org/10.1364/oe.615105",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45546",
+      "topic": "Repeatable periodic microcomb startup in a SiN-microring/SOA fiber cavity without active frequency or delay locking",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "stuart-er-spin-state-telecom-memory",
+      "title": "High-Performance Spin-State Memory for Telecom Quantum Information Applications",
+      "journal_id": "prx-quantum",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1103/bgbx-ph24",
+      "source": "https://journals.aps.org/prxquantum/abstract/10.1103/bgbx-ph24",
+      "topic": "Free-space Er:YSO quantum memory with 25 microsecond spin storage and 70 temporal modes; up to 81% efficiency in the classical regime",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "lian-programmable-opa-beam-shaping",
+      "title": "Programmable optical phased array enabling two-dimensional arbitrary beam shaping",
+      "journal_id": "photonics-research",
+      "year": 2026,
+      "published_on": "2026-11-09",
+      "url": "https://doi.org/10.1364/prj.613184",
+      "source": "https://opg.optica.org/prj/upcoming_pdf.cfm?id=613184",
+      "topic": "64-channel optical phased array with independent amplitude/phase control and two-step calibration; accepted early posting",
+      "topics": [
+        "photonics",
+        "system-control"
+      ],
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "billiet-transfer-printed-icl",
+      "title": "Micro Transfer-Printed Interband Cascade Laser",
+      "journal_id": "optics-letters",
+      "year": 2026,
+      "published_on": "2026-11-09",
+      "url": "https://doi.org/10.1364/ol.608690",
+      "source": "https://opg.optica.org/ol/upcoming.cfm",
+      "topic": "Transfer-printed GaSb interband cascade laser on a silicon-compatible platform; 3.7 micrometer pulsed lasing retained after transfer",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-18"
+    },
+    {
+      "id": "luo-polarization-insensitive-sin-cwdm",
+      "title": "Topologically-optimized polarization-insensitive 4-channel CWDM demultiplexer on silicon nitride platform",
+      "journal_id": "optics-letters",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/ol.615704",
+      "source": "https://opg.optica.org/ol/upcoming_pdf.cfm?id=615704",
+      "topic": "Density-projected topology optimization with a harmonic-mean objective for a measured polarization-insensitive SiN CWDM demultiplexer",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "design-automation"
+      ],
+      "verified_on": "2026-11-18"
     }
   ]
 }
