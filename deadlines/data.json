@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-18",
+  "updated_on": "2026-11-19",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1389,7 +1389,9 @@
         "ni-modal-balanced-mo-isolator",
         "anchordoquy-automated-fiber-mode-excitation",
         "yao-ising-cross-instance-reuse",
-        "cutrona-set-forget-periodic-microcombs"
+        "cutrona-set-forget-periodic-microcombs",
+        "tian-sparse-alignment-inference",
+        "chai-simulated-composite-cavity-comb"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1491,7 +1493,9 @@
       "note": "",
       "fit": "PICs, optical computing and quantum photonics with a major advance of broad interest.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "yuan-dual-band-twin-field-qkd"
+      ],
       "target_group": "core",
       "target_topic": null,
       "journal_id": null,
@@ -2045,7 +2049,9 @@
         "peng-lithography-aligned-qd-sin-integration",
         "wang-phase-programmed-metalens",
         "wu-sin-laser-lightweight-coherent-links",
-        "wang-photonic-spectral-reconstruction"
+        "wang-photonic-spectral-reconstruction",
+        "hu-mxene-derived-tio2-polarizers",
+        "bu-qd-comb-dwdm-thermal-lock"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -2843,7 +2849,8 @@
         "zecchetto-topological-pair-source",
         "henke-directional-waveguide-molecule",
         "stefszky-hybrid-sampling-benchmark",
-        "stuart-er-spin-state-telecom-memory"
+        "stuart-er-spin-state-telecom-memory",
+        "roux-80km-chip-entanglement"
       ],
       "target_group": "specialist",
       "target_topic": "quantum",
@@ -5580,6 +5587,96 @@
         "design-automation"
       ],
       "verified_on": "2026-11-18"
+    },
+    {
+      "id": "roux-80km-chip-entanglement",
+      "title": "Chip-to-Chip Entanglement Distribution Over an 80-km Multicore Fiber Link",
+      "journal_id": "prx-quantum",
+      "year": 2026,
+      "published_on": "2026-11-19",
+      "url": "https://doi.org/10.1103/594z-74r2",
+      "source": "https://journals.aps.org/prxquantum/abstract/10.1103/594z-74r2",
+      "topic": "Silicon-chip path entanglement over an actively stabilized 80 km dual-core fiber link; BBM92 key rate in the infinite-key regime",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-19"
+    },
+    {
+      "id": "yuan-dual-band-twin-field-qkd",
+      "title": "Twin-field quantum key distribution with dual-band integrated photonic chips",
+      "journal_id": "optica",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/optica.606247",
+      "source": "https://opg.optica.org/optica/abstract.cfm?uri=optica-13-12-2430",
+      "topic": "Dual-band TFLN transmitter chips integrate EO-comb phase references and quantum encoding for 508 km twin-field QKD",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-19"
+    },
+    {
+      "id": "tian-sparse-alignment-inference",
+      "title": "Physics-informed sparse observations enable spatial-state inference for intelligent photonic alignment",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-18",
+      "url": "https://doi.org/10.1364/oe.605008",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45612",
+      "topic": "Physics-informed 3D fiber-to-chip coupling-state inference from fewer than ten power observations; validated on measured data",
+      "topics": [
+        "photonics",
+        "modeling-simulation"
+      ],
+      "verified_on": "2026-11-19"
+    },
+    {
+      "id": "chai-simulated-composite-cavity-comb",
+      "title": "On-chip high-repetition-rate passively mode-locked frequency comb source based on a microring composite cavity",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/oe.618071",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45427",
+      "topic": "Simulated microring/Fabry–Pérot composite-cavity laser with saturable absorber; predicted 200 GHz passive mode locking",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-19"
+    },
+    {
+      "id": "hu-mxene-derived-tio2-polarizers",
+      "title": "High‐Performance 2D MXene‐Derived TiO 2 Integrated Optical Polarizers",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1002/lpor.72167",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72167",
+      "topic": "In-situ conversion of MXene coatings into 2D TiO2 enables silicon-waveguide polarizers with improved power tolerance",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-19"
+    },
+    {
+      "id": "bu-qd-comb-dwdm-thermal-lock",
+      "title": "An 8 × 224 Gbps Thermally Stabilized Quantum‐Dot Mode‐Locked Laser Driven DWDM Microring Transmitter for Co‐Packaged Optics and Optical I/O Applications",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1002/lpor.72243",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72243",
+      "topic": "Classical QD-comb-driven silicon DWDM transmitter with parallel thermal locking; measured 8 × 224 Gbps PAM4 transmission",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "system-control"
+      ],
+      "verified_on": "2026-11-19"
     }
   ]
 }
