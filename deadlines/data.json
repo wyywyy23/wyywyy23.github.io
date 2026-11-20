@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-19",
+  "updated_on": "2026-11-20",
   "entries": [
     {
       "id": "ofc-2027",
@@ -825,9 +825,9 @@
         "Abstract registration is required before manuscript upload."
       ],
       "format_source": "https://dac.com/2027/program/research-manuscript-submissions",
-      "note": "Full-paper date conflict: the research submission page and FAQ say Nov 18, 2026 (17:00 PST), while the separate official event listing still says Nov 17. Verify the submission portal; the mandatory abstract deadline is Nov 11.",
+      "note": "The earlier Nov 17/18 full-paper conflict was resolved on recheck: the research page, timeline and event detail now agree on Nov 18, 2026 at 17:00 PST. Mandatory abstract registration closed Nov 11; the later full-paper deadline does not permit new submissions.",
       "fit": "EDA6.6: design automation for photonic interconnects and circuits; EDA7.5: layout optimization for optical interconnects. Chiplet and electronic–photonic co-design also fit matching research categories.",
-      "verified_on": "2026-09-26",
+      "verified_on": "2026-11-20",
       "paper_ids": [],
       "target_group": null,
       "target_topic": null,
@@ -838,6 +838,13 @@
           "label": "Abstract registration",
           "date": "2026-11-11",
           "at": "2026-11-11T17:00:00-08:00",
+          "timezone": "America/Los_Angeles",
+          "source": "https://dac.com/2027/program/research-manuscript-submissions"
+        },
+        {
+          "label": "Full paper",
+          "date": "2026-11-18",
+          "at": "2026-11-18T17:00:00-08:00",
           "timezone": "America/Los_Angeles",
           "source": "https://dac.com/2027/program/research-manuscript-submissions"
         }
@@ -852,7 +859,7 @@
           "url": "https://dac.com/2027/program/research-manuscript-submissions"
         },
         {
-          "label": "Conflicting event timeline",
+          "label": "Official event timeline",
           "url": "https://dac.com/2027/event-type/research-manuscripts"
         }
       ],
@@ -1391,7 +1398,9 @@
         "yao-ising-cross-instance-reuse",
         "cutrona-set-forget-periodic-microcombs",
         "tian-sparse-alignment-inference",
-        "chai-simulated-composite-cavity-comb"
+        "chai-simulated-composite-cavity-comb",
+        "yang-rf-pilot-thz-linewidth-tolerance",
+        "itoh-broadband-coherent-receiver-cmrr"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -2051,7 +2060,9 @@
         "wu-sin-laser-lightweight-coherent-links",
         "wang-photonic-spectral-reconstruction",
         "hu-mxene-derived-tio2-polarizers",
-        "bu-qd-comb-dwdm-thermal-lock"
+        "bu-qd-comb-dwdm-thermal-lock",
+        "yuan-au-gaas-bidirectional-transceiver",
+        "zhao-spatial-entanglement-tomography"
       ],
       "target_group": "devices",
       "target_topic": null,
@@ -2299,7 +2310,8 @@
         "nakajima-unitary-sdm",
         "st-arnault-circulator",
         "reichler-endless-locking",
-        "gao-all-optical-tfln-memristor"
+        "gao-all-optical-tfln-memristor",
+        "caruccio-quantum-digital-phase-estimation"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -5677,6 +5689,82 @@
         "system-control"
       ],
       "verified_on": "2026-11-19"
+    },
+    {
+      "id": "caruccio-quantum-digital-phase-estimation",
+      "title": "Quantum analogue-to-digital converter for phase estimation",
+      "journal_id": "nature-photonics",
+      "year": 2026,
+      "published_on": "2026-11-20",
+      "url": "https://doi.org/10.1038/s41566-026-02050-7",
+      "source": "https://www.nature.com/articles/s41566-026-02050-7",
+      "topic": "Experimental quantum phase-to-bit conversion using a reconfigurable photonic circuit and QD photons; advantage assessed per successfully collected resource",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-20"
+    },
+    {
+      "id": "yuan-au-gaas-bidirectional-transceiver",
+      "title": "Au‐Enabled Multi‐Physics Co‐Design of a Self‐Compatible GaAs Transceiver for Bidirectional Optical Interconnects",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-19",
+      "url": "https://doi.org/10.1002/lpor.72241",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72241",
+      "topic": "Au-backed GaAs emitter-detector device combines cavity spectral matching and vertical carrier transport; measured free-space and coplanar bidirectional links",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-20"
+    },
+    {
+      "id": "yang-rf-pilot-thz-linewidth-tolerance",
+      "title": "RF pilot-aided photonics-assisted THz wireless transmission with enhanced laser linewidth tolerance",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-19",
+      "url": "https://doi.org/10.1364/oe.614242",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45841",
+      "topic": "RF-pilot phase-noise compensation for 300 GHz photonics-assisted wireless links using MHz-linewidth lasers; short laboratory link with offline DSP",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "system-control"
+      ],
+      "verified_on": "2026-11-20"
+    },
+    {
+      "id": "itoh-broadband-coherent-receiver-cmrr",
+      "title": "Method of evaluating common mode rejection ratio in digital coherent receiver using broadband light source",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-19",
+      "url": "https://doi.org/10.1364/oe.615246",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45866",
+      "topic": "Broadband-light measurement of coherent-receiver common-mode rejection, including differential-IC effects; simulation and experimental cross-checks",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-20"
+    },
+    {
+      "id": "zhao-spatial-entanglement-tomography",
+      "title": "High‐Efficiency Tomography of High‐Dimensional Spatial Mode Entanglement",
+      "journal_id": "laser-photonics-reviews",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1002/lpor.72170",
+      "source": "https://onlinelibrary.wiley.com/doi/10.1002/lpor.72170",
+      "topic": "Physics-informed neural reconstruction of high-dimensional spatial-mode entanglement from two projective measurements; free-space quantum characterization",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-20"
     }
   ]
 }
