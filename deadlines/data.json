@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-20",
+  "updated_on": "2026-11-21",
   "entries": [
     {
       "id": "ofc-2027",
@@ -1400,7 +1400,8 @@
         "tian-sparse-alignment-inference",
         "chai-simulated-composite-cavity-comb",
         "yang-rf-pilot-thz-linewidth-tolerance",
-        "itoh-broadband-coherent-receiver-cmrr"
+        "itoh-broadband-coherent-receiver-cmrr",
+        "wu-reliability-stokes-jones-tracking"
       ],
       "target_group": "core",
       "target_topic": null,
@@ -1605,7 +1606,9 @@
       "note": "",
       "fit": "Optical switching, data-center networks, routing and resource allocation with a networking contribution.",
       "verified_on": "2026-09-25",
-      "paper_ids": [],
+      "paper_ids": [
+        "zhang-soma-optical-memory-chiplets"
+      ],
       "target_group": "core",
       "target_topic": null,
       "journal_id": null,
@@ -2222,7 +2225,8 @@
       "paper_ids": [
         "zheng-qkd",
         "meng-nanomembranes",
-        "moille-self-aligned-microcomb"
+        "moille-self-aligned-microcomb",
+        "perovskite-active-polaritonic-circuits"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -2483,7 +2487,8 @@
         "zhou-unified-coherent-links",
         "patel-nanowire-quantum-dot-reflection",
         "tang-tfln-wse2-pin-photodiode",
-        "wyborski-mote2-quantum-emitters"
+        "wyborski-mote2-quantum-emitters",
+        "guan-wafer-pzt-wdm-transmitter"
       ],
       "target_group": "reach",
       "target_topic": null,
@@ -3402,7 +3407,9 @@
       "paper_ids": [
         "li-automated-quantum-dot-nanocavity",
         "tang-boundary-scattering",
-        "qodratipour-time-bin-phase-lock"
+        "qodratipour-time-bin-phase-lock",
+        "carstensen-encoder-decoder-error-calibration",
+        "morrison-autonomous-ion-photonic-clock"
       ],
       "target_group": "specialist",
       "target_topic": "applied",
@@ -5765,6 +5772,97 @@
         "quantum"
       ],
       "verified_on": "2026-11-20"
+    },
+    {
+      "id": "carstensen-encoder-decoder-error-calibration",
+      "title": "Photonic-computing error correction through optical encoder and decoder calibrations",
+      "journal_id": "physical-review-applied",
+      "year": 2026,
+      "published_on": "2026-11-20",
+      "url": "https://doi.org/10.1103/71gp-fpwf",
+      "source": "https://journals.aps.org/prapplied/abstract/10.1103/71gp-fpwf",
+      "topic": "Simulated photonic matrix-processor error mitigation through complex encoder/decoder calibration offsets, including unbalanced loss",
+      "topics": [
+        "photonics",
+        "system-control"
+      ],
+      "verified_on": "2026-11-21"
+    },
+    {
+      "id": "guan-wafer-pzt-wdm-transmitter",
+      "title": "Wafer-scale thin-film PZT photonic integrated circuits enabling multi-terabit optical transmission",
+      "journal_id": "nature-communications",
+      "year": 2026,
+      "published_on": "2026-11-20",
+      "url": "https://doi.org/10.1038/s41467-026-79721-0",
+      "source": "https://www.nature.com/articles/s41467-026-79721-0",
+      "topic": "8-inch thin-film PZT photonics platform with domain-engineered modulators and a measured 16-channel 3.2-Tbps-class WDM transmitter; accepted early publication",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-21"
+    },
+    {
+      "id": "perovskite-active-polaritonic-circuits",
+      "title": "Fully integrated perovskite active polaritonic circuits",
+      "journal_id": "nature",
+      "year": 2026,
+      "published_on": "2026-11-18",
+      "url": "https://doi.org/10.1038/s41586-026-11299-5",
+      "source": "https://www.nature.com/articles/s41586-026-11299-5",
+      "topic": "Room-temperature optically pumped perovskite polariton circuits combine guided lasing, amplification and nonlinear interferometric phase modulation",
+      "topics": [
+        "photonics"
+      ],
+      "verified_on": "2026-11-21"
+    },
+    {
+      "id": "wu-reliability-stokes-jones-tracking",
+      "title": "Fast reliability-weighted Stokes–Jones tracking for sparse-pilot DP-16QAM demultiplexing",
+      "journal_id": "optics-express",
+      "year": 2026,
+      "published_on": "2026-11-20",
+      "url": "https://doi.org/10.1364/oe.610683",
+      "source": "https://opg.optica.org/oe/abstract.cfm?uri=oe-34-24-45937",
+      "topic": "Sparse-pilot polarization demultiplexing with reliability-weighted Stokes updates; laboratory coherent link plus controlled MATLAB impairment sweeps",
+      "topics": [
+        "photonics",
+        "optical-communications",
+        "system-control"
+      ],
+      "verified_on": "2026-11-21"
+    },
+    {
+      "id": "morrison-autonomous-ion-photonic-clock",
+      "title": "Autonomous multi-ion optical clock with on-chip integrated photonic light delivery",
+      "journal_id": "physical-review-applied",
+      "year": 2026,
+      "published_on": "2026-11-13",
+      "url": "https://doi.org/10.1103/6tt6-vpf2",
+      "source": "https://journals.aps.org/prapplied/abstract/10.1103/6tt6-vpf2",
+      "topic": "Four-ion room-temperature optical clock uses on-chip waveguide light delivery and autonomous shuttling/reloading to recover from ion loss",
+      "topics": [
+        "photonics",
+        "quantum",
+        "system-control"
+      ],
+      "verified_on": "2026-11-21"
+    },
+    {
+      "id": "zhang-soma-optical-memory-chiplets",
+      "title": "SOMA: a scalable optical memory access architecture for multi-chiplet systems",
+      "journal_id": "jocn",
+      "year": 2026,
+      "published_on": "2026-11-17",
+      "url": "https://doi.org/10.1364/jocn.605525",
+      "source": "https://opg.optica.org/jocn/abstract.cfm?uri=jocn-18-12-1409",
+      "topic": "Simulated multi-chiplet optical memory-access architecture with paired wavelength-routed networks and reduced microring resource overhead",
+      "topics": [
+        "photonics",
+        "optical-communications"
+      ],
+      "verified_on": "2026-11-21"
     }
   ]
 }
