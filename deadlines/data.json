@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "updated_on": "2026-11-21",
+  "updated_on": "2026-11-22",
   "entries": [
     {
       "id": "ofc-2027",
@@ -3030,7 +3030,9 @@
       "verified_on": "2026-09-25",
       "paper_ids": [
         "yama-gap-diamond-spin-photon-interface",
-        "namdar-tfln-nongaussian-design"
+        "namdar-tfln-nongaussian-design",
+        "boras-vazquez-time-encoded-qpnn",
+        "chen-quantumness-entanglement-monitoring"
       ],
       "target_group": "specialist",
       "target_topic": "quantum",
@@ -5863,6 +5865,37 @@
         "optical-communications"
       ],
       "verified_on": "2026-11-21"
+    },
+    {
+      "id": "boras-vazquez-time-encoded-qpnn",
+      "title": "Quantum photonic neural networks in time",
+      "journal_id": "optica-quantum",
+      "year": 2026,
+      "published_on": "2026-11-16",
+      "url": "https://doi.org/10.1364/opticaq.603710",
+      "source": "https://opg.optica.org/opticaq/abstract.cfm?uri=opticaq-4-6-535",
+      "topic": "Theoretical time-bin quantum photonic neural-network architecture and timing protocol, with loss/distinguishability modeling and a waveguide-coupled quantum-dot nonlinearity; no integrated experiment demonstrated",
+      "topics": [
+        "photonics",
+        "quantum",
+        "modeling-simulation"
+      ],
+      "verified_on": "2026-11-22"
+    },
+    {
+      "id": "chen-quantumness-entanglement-monitoring",
+      "title": "Monitoring beam splitter-assisted entanglement using quantumness",
+      "journal_id": "optica-quantum",
+      "year": 2026,
+      "published_on": "2026-11-18",
+      "url": "https://doi.org/10.1364/opticaq.610225",
+      "source": "https://opg.optica.org/opticaq/abstract.cfm?uri=opticaq-4-6-543",
+      "topic": "Squeezed-vacuum beam-splitter experiment benchmarks continuous-variable entanglement preparation using quantumness before and after mixing; no on-chip implementation established",
+      "topics": [
+        "photonics",
+        "quantum"
+      ],
+      "verified_on": "2026-11-22"
     }
   ]
 }
